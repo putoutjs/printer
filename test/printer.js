@@ -15,8 +15,10 @@ const test = extend({
         const ast = parse(fixture);
         const [error, source] = tryCatch(print, ast);
         
-        if (error)
-            return fail(error.message);
+        if (error) {
+            console.error(error.stack);
+            return fail(error);
+        }
         
         return equal(source, fixture);
     },
@@ -55,6 +57,21 @@ test('putout: printer: if', (t) => {
 
 test('putout: printer: ObjectExpression', (t) => {
     t.print(fixture.objectExpression);
+    t.end();
+});
+
+test.only('putout: printer: destructuring', (t) => {
+    t.print(fixture.destructuring);
+    t.end();
+});
+
+test('putout: printer: template', (t) => {
+    t.print(fixture.template);
+    t.end();
+});
+
+test('putout: printer: ObjectPattern', (t) => {
+    t.print(fixture.objectPattern);
     t.end();
 });
 
