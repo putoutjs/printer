@@ -22,15 +22,7 @@ const test = extend({
     },
 });
 
-const fixture = readFixtures([
-    'arrow',
-    'arrow-fix',
-    'arrow-block-return',
-    'arrow-block-return-fix',
-    'if',
-    'string',
-    'unknown',
-]);
+const fixture = readFixtures();
 
 test('putout: printer: arrow', (t) => {
     const ast = parse(fixture.arrow);
@@ -61,6 +53,11 @@ test('putout: printer: if', (t) => {
     t.end();
 });
 
+test('putout: printer: ObjectExpression', (t) => {
+    t.print(fixture.objectExpression);
+    t.end();
+});
+
 test('putout: printer: unknown', (t) => {
     const ast = parse(fixture.unknown, {
         isTS: true,
@@ -68,10 +65,10 @@ test('putout: printer: unknown', (t) => {
     const [error] = tryCatch(print, ast);
     
     const expected = montag`
-        Node type 'ObjectExpression' is not supported yet: '{
-          name,
-          password
-        }'
+        Node type 'TSTypeAliasDeclaration' is not supported yet: 'type User = {
+          name: string;
+          password: string;
+        };'
     `;
     
     t.equal(error.message, expected);

@@ -4,7 +4,7 @@ const {join} = require('path');
 const {readFileSync} = require('fs');
 
 const tryCatch = require('try-catch');
-const camelCase = require('just-camel-case');
+const kebabCase = require('just-kebab-case');
 
 const dirFixture = join(__dirname, 'fixture');
 const readFixture = (name) => {
@@ -18,23 +18,13 @@ const readFixture = (name) => {
     return readFileSync(`${longName}.js`, 'utf8');
 };
 
-module.exports.readFixtures = (names) => {
-    const result = {};
-    
-    for (const name of names) {
-        const prop = camelCase(name);
-        result[prop] = readFixture(name);
-    }
-    
-    return new Proxy(result, handler);
+module.exports.readFixtures = () => {
+    return new Proxy({}, handler);
 };
 
 const handler = {
     get(obj, prop) {
-        if (obj[prop] === undefined)
-            throw Error(`"${prop}" not found!`);
-        
-        return obj[prop];
+        return readFixture(kebabCase(prop));
     },
 };
 

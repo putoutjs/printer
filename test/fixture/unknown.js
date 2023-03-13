@@ -1,4 +1,4 @@
-const user: User = {
-    name,
-    password,
+type User = {
+    name: string,
+    password: string,
 }
