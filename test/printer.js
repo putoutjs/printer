@@ -43,10 +43,7 @@ test('putout: printer: arrow-block-return', (t) => {
 });
 
 test('putout: printer: string', (t) => {
-    const ast = parse(fixture.string);
-    const source = print(ast);
-    
-    t.equal(source, fixture.string);
+    t.print(fixture.string);
     t.end();
 });
 
@@ -60,13 +57,18 @@ test('putout: printer: ObjectExpression', (t) => {
     t.end();
 });
 
-test.only('putout: printer: destructuring', (t) => {
+test('putout: printer: destructuring', (t) => {
     t.print(fixture.destructuring);
     t.end();
 });
 
 test('putout: printer: template', (t) => {
     t.print(fixture.template);
+    t.end();
+});
+
+test('putout: printer: call-expression', (t) => {
+    t.print(fixture.callExpression);
     t.end();
 });
 
@@ -91,4 +93,3 @@ test('putout: printer: unknown', (t) => {
     t.equal(error.message, expected);
     t.end();
 });
-

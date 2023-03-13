@@ -4,3 +4,4 @@ const {
 } = require('putout');
 
 const {remove} = operator;
+const {a: b} = c;
