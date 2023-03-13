@@ -1,0 +1,65 @@
+{
+  "name": "@putout/engine-printer",
+  "version": "1.0.0",
+  "type": "commonjs",
+  "author": "coderaiser <mnemonic.enemy@gmail.com> (https://github.com/coderaiser)",
+  "description": "🐊Putout Printer",
+  "homepage": "https://github.com/coderaiser/putout/tree/master/packages/engine-printer#readme",
+  "main": "./lib/printer.js",
+  "release": false,
+  "tag": false,
+  "changelog": false,
+  "exports": {
+    ".": "./lib/printer.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/coderaiser/putout.git"
+  },
+  "scripts": {
+    "test": "madrun test",
+    "watch:test": "madrun watch:test",
+    "lint": "madrun lint",
+    "fresh:lint": "madrun fresh:lint",
+    "lint:fresh": "madrun lint:fresh",
+    "fix:lint": "madrun fix:lint",
+    "coverage": "madrun coverage",
+    "report": "madrun report"
+  },
+  "dependencies": {
+    "@babel/generator": "^7.19.0",
+    "@babel/parser": "^7.19.0",
+    "@babel/template": "^7.18.10",
+    "@babel/types": "^7.19.0",
+    "@putout/recast": "^1.12.1",
+    "estree-to-babel": "^5.0.0",
+    "nano-memoize": "^2.0.0",
+    "once": "^1.4.0",
+    "try-catch": "^3.0.0"
+  },
+  "keywords": [
+    "putout",
+    "putout-engine"
+  ],
+  "devDependencies": {
+    "c8": "^7.5.0",
+    "eslint": "^8.0.1",
+    "eslint-plugin-n": "^15.2.4",
+    "eslint-plugin-putout": "^17.0.0",
+    "just-camel-case": "^4.0.2",
+    "lerna": "^6.0.1",
+    "madrun": "^9.0.0",
+    "mock-require": "^3.0.3",
+    "montag": "^1.0.0",
+    "nodemon": "^2.0.1",
+    "putout": "*",
+    "supertape": "^8.0.0"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=16"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
