@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "type": "commonjs",
   "author": "coderaiser <mnemonic.enemy@gmail.com> (https://github.com/coderaiser)",
-  "description": "🐊Putout Printer",
+  "description": "Easiest possible opiniated Babel AST printer made with ❤️  to use in 🐊Putout",
   "homepage": "https://github.com/putoutjs/easyprint#readme",
   "main": "./lib/printer.js",
   "release": false,
