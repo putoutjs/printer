@@ -47,18 +47,13 @@ test('putout: printer: assignment-expression', (t) => {
     t.end();
 });
 
-test('putout: printer: string', (t) => {
-    t.print(fixture.string);
-    t.end();
-});
-
-test('putout: printer: if', (t) => {
-    t.print(fixture.if);
-    t.end();
-});
-
 test('putout: printer: computed', (t) => {
     t.print(fixture.computed);
+    t.end();
+});
+
+test('putout: printer: call-expression', (t) => {
+    t.print(fixture.callExpression);
     t.end();
 });
 
@@ -92,6 +87,16 @@ test('putout: printer: function-declaration', (t) => {
     t.end();
 });
 
+test('putout: printer: if', (t) => {
+    t.print(fixture.if);
+    t.end();
+});
+
+test('putout: printer: new', (t) => {
+    t.print(fixture.new);
+    t.end();
+});
+
 test('putout: printer: variableDeclaration', (t) => {
     t.print(fixture.variableDeclaration);
     t.end();
@@ -107,6 +112,11 @@ test('putout: printer: ObjectExpression', (t) => {
     t.end();
 });
 
+test('putout: printer: string', (t) => {
+    t.print(fixture.string);
+    t.end();
+});
+
 test('putout: printer: unary-expression', (t) => {
     t.print(fixture.unaryExpression);
     t.end();
@@ -119,11 +129,6 @@ test('putout: printer: var-couple-lines', (t) => {
 
 test('putout: printer: template', (t) => {
     t.print(fixture.template);
-    t.end();
-});
-
-test('putout: printer: call-expression', (t) => {
-    t.print(fixture.callExpression);
     t.end();
 });
 

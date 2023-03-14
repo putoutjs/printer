@@ -1,6 +1,5 @@
 'use strict';
 
 module.exports.traverse = ({push}) => ({
-    VariableDeclarator(path, hello) {
-    },
+    VariableDeclarator(path, hello) {},
 });
