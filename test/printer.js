@@ -67,6 +67,16 @@ test('putout: printer: computed', (t) => {
     t.end();
 });
 
+test('putout: printer: object-method', (t) => {
+    t.print(fixture.objectMethod);
+    t.end();
+});
+
+test('putout: printer: unary-expression', (t) => {
+    t.print(fixture.unaryExpression);
+    t.end();
+});
+
 test('putout: printer: var-couple-lines', (t) => {
     t.print(fixture.varCoupleLines);
     t.end();
