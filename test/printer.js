@@ -62,6 +62,16 @@ test('putout: printer: destructuring', (t) => {
     t.end();
 });
 
+test('putout: printer: computed', (t) => {
+    t.print(fixture.computed);
+    t.end();
+});
+
+test('putout: printer: var-couple-lines', (t) => {
+    t.print(fixture.varCoupleLines);
+    t.end();
+});
+
 test('putout: printer: template', (t) => {
     t.print(fixture.template);
     t.end();
