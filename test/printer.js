@@ -42,6 +42,11 @@ test('putout: printer: arrow-block-return', (t) => {
     t.end();
 });
 
+test('putout: printer: assignment-expression', (t) => {
+    t.print(fixture.assignmentExpression);
+    t.end();
+});
+
 test('putout: printer: string', (t) => {
     t.print(fixture.string);
     t.end();
@@ -57,6 +62,11 @@ test('putout: printer: computed', (t) => {
     t.end();
 });
 
+test('putout: printer: continue', (t) => {
+    t.print(fixture.continue);
+    t.end();
+});
+
 test('putout: printer: destructuring', (t) => {
     t.print(fixture.destructuring);
     t.end();
@@ -69,6 +79,11 @@ test('putout: printer: for-of', (t) => {
 
 test('putout: printer: for-of: one', (t) => {
     t.print(fixture.forOfOne);
+    t.end();
+});
+
+test('putout: printer: for-of-var-pattern', (t) => {
+    t.print(fixture.forOfVarPattern);
     t.end();
 });
 
