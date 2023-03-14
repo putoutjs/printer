@@ -1,10 +1,10 @@
 {
-  "name": "easyprint",
+  "name": "@putout/printer",
   "version": "1.0.0",
   "type": "commonjs",
   "author": "coderaiser <mnemonic.enemy@gmail.com> (https://github.com/coderaiser)",
-  "description": "Easiest possible opiniated Babel AST printer made with ❤️  to use in 🐊Putout",
-  "homepage": "https://github.com/putoutjs/easyprint#readme",
+  "description": "Easiest possible opinionated Babel AST printer made with ❤️  to use in 🐊Putout",
+  "homepage": "https://github.com/putoutjs/printer#readme",
   "main": "./lib/printer.js",
   "release": false,
   "tag": false,
@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/putoutjs/easyprint.git"
+    "url": "git://github.com/putoutjs/printer.git"
   },
   "scripts": {
     "test": "madrun test",
@@ -33,7 +33,12 @@
   },
   "keywords": [
     "putout",
-    "putout-engine"
+    "printer",
+    "AST",
+    "babel",
+    "api",
+    "traverse",
+    "generate"
   ],
   "devDependencies": {
     "c8": "^7.5.0",

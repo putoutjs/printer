@@ -1,7 +1,7 @@
-# EasyPrint [![NPM version][NPMIMGURL]][NPMURL]
+# Printer [![NPM version][NPMIMGURL]][NPMURL]
 
-[NPMIMGURL]: https://img.shields.io/npm/v/esengine.svg?style=flat&longCache=true
-[NPMURL]: https://npmjs.org/package/esengine "npm"
+[NPMIMGURL]: https://img.shields.io/npm/v/@putout/printer.svg?style=flat&longCache=true
+[NPMURL]: https://npmjs.org/package/@putout/printer "npm"
 
 **EasyPrint** prints [**Babel AST**](https://github.com/coderaiser/estree-to-babel) to readable **JavaScript**.
 - ☝️ Similar to **Recast**, but simpler and easier in maintenance, since it supports only **Babel**.
@@ -11,14 +11,14 @@
 ## Install
 
 ```
-npm i easyprint
+npm i @putout/printer
 ```
 
 ## API
 
 ```js
-const {print} = require('easyprint');
-const {parse} = require('@putout/engine-parser');
+const {print} = require('@putout/printer');
+const {parse} = require('@babel/parser');
 
 const ast = parse('const a = (b, c) => {const d = 5; return a;}');
 print(ast);
