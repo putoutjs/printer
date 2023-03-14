@@ -14,6 +14,8 @@
 npm i easyprint
 ```
 
+## API
+
 ```js
 const {print} = require('easyprint');
 const {parse} = require('@putout/engine-parser');
