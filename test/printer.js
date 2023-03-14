@@ -52,8 +52,8 @@ test('putout: printer: if', (t) => {
     t.end();
 });
 
-test('putout: printer: ObjectExpression', (t) => {
-    t.print(fixture.objectExpression);
+test('putout: printer: computed', (t) => {
+    t.print(fixture.computed);
     t.end();
 });
 
@@ -62,13 +62,33 @@ test('putout: printer: destructuring', (t) => {
     t.end();
 });
 
-test('putout: printer: computed', (t) => {
-    t.print(fixture.computed);
+test('putout: printer: for-of', (t) => {
+    t.print(fixture.forOf);
+    t.end();
+});
+
+test('putout: printer: for-of: one', (t) => {
+    t.print(fixture.forOfOne);
+    t.end();
+});
+
+test('putout: printer: function-declaration', (t) => {
+    t.print(fixture.functionDeclaration);
+    t.end();
+});
+
+test('putout: printer: variableDeclaration', (t) => {
+    t.print(fixture.variableDeclaration);
     t.end();
 });
 
 test('putout: printer: object-method', (t) => {
     t.print(fixture.objectMethod);
+    t.end();
+});
+
+test('putout: printer: ObjectExpression', (t) => {
+    t.print(fixture.objectExpression);
     t.end();
 });
 
