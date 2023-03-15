@@ -42,6 +42,11 @@ test('putout: printer: arrow-block-return', (t) => {
     t.end();
 });
 
+test('putout: printer: array-expression', (t) => {
+    t.print(fixture.arrayExpression);
+    t.end();
+});
+
 test('putout: printer: assignment-expression', (t) => {
     t.print(fixture.assignmentExpression);
     t.end();
