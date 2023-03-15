@@ -47,6 +47,11 @@ test('putout: printer: array-expression', (t) => {
     t.end();
 });
 
+test('putout: printer: array-pattern', (t) => {
+    t.print(fixture.arrayPattern);
+    t.end();
+});
+
 test('putout: printer: assignment-expression', (t) => {
     t.print(fixture.assignmentExpression);
     t.end();
@@ -79,6 +84,11 @@ test('putout: printer: for-of', (t) => {
 
 test('putout: printer: for-of: one', (t) => {
     t.print(fixture.forOfOne);
+    t.end();
+});
+
+test('putout: printer: for-of: entries', (t) => {
+    t.print(fixture.forOfEntries);
     t.end();
 });
 
