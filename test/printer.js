@@ -62,6 +62,11 @@ test('putout: printer: assignment-expression', (t) => {
     t.end();
 });
 
+test('putout: printer: block-statement', (t) => {
+    t.print(fixture.blockStatement);
+    t.end();
+});
+
 test('putout: printer: computed', (t) => {
     t.print(fixture.computed);
     t.end();
