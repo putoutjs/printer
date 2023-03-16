@@ -183,3 +183,8 @@ test('putout: printer: unknown', (t) => {
     t.equal(error.message, expected);
     t.end();
 });
+
+test('putout: printer: spread-element', (t) => {
+    t.print(fixture.spreadElement);
+    t.end();
+});
