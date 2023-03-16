@@ -5,3 +5,4 @@ const array = [
     [4, 5],
 ];
 
+for (const a of ['hello']) {}
