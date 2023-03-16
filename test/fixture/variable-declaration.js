@@ -9,4 +9,3 @@ const {
     isForStatement,
     variableDeclaration,
 } = types;
-
