@@ -8,3 +8,7 @@ const array = [
 for (const a of ['hello']) {}
 
 run(['a', 'b', 'c'], '--fix');
+
+const x = {
+    'prepublishOnly': () => run(['lint', 'test']),
+};
