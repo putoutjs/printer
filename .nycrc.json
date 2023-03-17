@@ -6,6 +6,7 @@
         "**/fixture",
         "test",
         "**/debug.js",
+        "**/coverage",
         ".*.*"
     ],
     "branches": 100,

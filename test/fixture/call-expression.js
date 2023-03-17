@@ -8,3 +8,9 @@ module.exports.traverse = ({push}) => ({
         });
     },
 });
+
+const sliced = [];
+
+mappings.forEach((mapping) => {
+    var sliced = [];
+});

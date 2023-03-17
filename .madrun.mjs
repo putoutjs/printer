@@ -9,5 +9,6 @@ export default {
     'lint:fresh': () => run('lint', '--fresh'),
     'fix:lint': () => run('lint', '--fix'),
     'coverage': async () => `c8 ${await run('test')}`,
+    'coverage:html': async () => `c8 --reporter=lcov ${await run('test')}`,
     'report': () => 'c8 report --reporter=lcov',
 };

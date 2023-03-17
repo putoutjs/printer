@@ -25,6 +25,7 @@
     "lint:fresh": "madrun lint:fresh",
     "fix:lint": "madrun fix:lint",
     "coverage": "madrun coverage",
+    "coverage:html": "madrun coverage:html",
     "report": "madrun report"
   },
   "dependencies": {
