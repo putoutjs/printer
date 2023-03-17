@@ -155,7 +155,7 @@ test('putout: printer: object-method', (t) => {
     t.end();
 });
 
-test('putout: printer: ObjectExpression', (t) => {
+test('putout: printer: object-expression', (t) => {
     t.print(fixture.objectExpression);
     t.end();
 });
