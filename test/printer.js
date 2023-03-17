@@ -132,6 +132,11 @@ test('putout: printer: new', (t) => {
     t.end();
 });
 
+test('putout: printer: numericLiteral', (t) => {
+    t.print(fixture.numericLiteral);
+    t.end();
+});
+
 test('putout: printer: variableDeclaration', (t) => {
     t.print(fixture.variableDeclaration);
     t.end();
