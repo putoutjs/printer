@@ -1,3 +1,14 @@
+2023.03.17, v1.4.1
+
+feature:
+- 1948ce5 @putout/printer: improve support of ObjectExpression
+- 09e1a5c @putout/printer: improve support of ObjectExpression
+- 2d13bc2 @putout/printer: ArrayExpression: newlines
+- 9fc6a00 @putout/printer: improve support of ArrayExpression
+- b91d908 @putout/printer: UnaryExpression: add support of delete
+- 337492b @putout/printer: improve support of NumericLiteral
+- 166085c @putout/printer: add support of hex numbers
+
 2023.03.17, v1.4.0
 
 feature:
