@@ -87,6 +87,11 @@ test('putout: printer: continue', (t) => {
     t.end();
 });
 
+test('putout: printer: comment', (t) => {
+    t.print(fixture.comment);
+    t.end();
+});
+
 test('putout: printer: destructuring', (t) => {
     t.print(fixture.destructuring);
     t.end();
