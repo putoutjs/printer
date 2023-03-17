@@ -2,3 +2,4 @@
 
 i++;
 typeof x;
+delete hello.world;
