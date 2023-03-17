@@ -6,9 +6,6 @@
   "description": "Easiest possible opinionated Babel AST printer made with ❤️  to use in 🐊Putout",
   "homepage": "https://github.com/putoutjs/printer#readme",
   "main": "./lib/printer.js",
-  "release": false,
-  "tag": false,
-  "changelog": false,
   "exports": {
     ".": "./lib/printer.js"
   },
