@@ -1,11 +1,10 @@
 'use strict';
 
 const montag = require('montag');
-
 const tryCatch = require('try-catch');
-
 const {extend} = require('supertape');
-const {parse} = require('putout');
+const {parse, template} = require('putout');
+const estreeToBabel = require('estree-to-babel');
 
 const {readFixtures} = require('./fixture');
 const {print} = require('..');
@@ -137,6 +136,15 @@ test('putout: printer: numericLiteral', (t) => {
     t.end();
 });
 
+test('putout: printer: numericLiteral: no raw', (t) => {
+    const ast = estreeToBabel(template.program.ast('a ** 0xfeff'));
+    delete ast.program.body[0].expression.right.raw;
+    const result = print(ast);
+    
+    t.equal(result, fixture.numericLiteral);
+    t.end();
+});
+
 test('putout: printer: variableDeclaration', (t) => {
     t.print(fixture.variableDeclaration);
     t.end();
@@ -198,3 +206,4 @@ test('putout: printer: spread-element', (t) => {
     t.print(fixture.spreadElement);
     t.end();
 });
+

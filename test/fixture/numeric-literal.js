@@ -1,1 +1,1 @@
-const a = 0xfeff;
+a ** 0xfeff;
