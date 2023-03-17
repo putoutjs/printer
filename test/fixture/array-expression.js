@@ -6,3 +6,5 @@ const array = [
 ];
 
 for (const a of ['hello']) {}
+
+run(['a', 'b', 'c'], '--fix');
