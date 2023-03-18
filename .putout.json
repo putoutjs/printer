@@ -2,6 +2,15 @@
     "match": {
         "test": {
             "remove-console": "off"
+        },
+        "lib/**/*.js": {
+            "tape/add-args": ["on", {
+                "args": {
+                    "maybe": ["{maybe}", "module.exports.__a = (path, __object) => __body"],
+                    "print": ["{print}", "module.exports.__a = (path, __object) => __body"],
+                    "indent": ["{indent}", "module.exports.__a = (path, __object) => __body"]
+                }
+            }]
         }
     }
 }
