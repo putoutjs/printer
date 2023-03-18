@@ -66,6 +66,11 @@ test('putout: printer: assignment-pattern', (t) => {
     t.end();
 });
 
+test('putout: printer: await-expression', (t) => {
+    t.print(fixture.awaitExpression);
+    t.end();
+});
+
 test('putout: printer: block-statement', (t) => {
     t.print(fixture.blockStatement);
     t.end();
