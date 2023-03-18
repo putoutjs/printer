@@ -1,1 +1,1 @@
-a ** 0xfeff;
+const b = a ** 2;

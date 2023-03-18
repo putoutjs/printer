@@ -3,8 +3,10 @@
 const montag = require('montag');
 const tryCatch = require('try-catch');
 const {extend} = require('supertape');
-const {parse, template} = require('putout');
-const estreeToBabel = require('estree-to-babel');
+const {
+    parse,
+    transform,
+} = require('putout');
 
 const {readFixtures} = require('./fixture');
 const {print} = require('..');
@@ -142,8 +144,14 @@ test('putout: printer: numericLiteral', (t) => {
 });
 
 test('putout: printer: numericLiteral: no raw', (t) => {
-    const ast = estreeToBabel(template.program.ast('a ** 0xfeff'));
-    delete ast.program.body[0].expression.right.raw;
+    const source = 'const b = a * a';
+    const ast = parse(source);
+    
+    transform(ast, source, {
+        plugins: [
+            'math',
+        ],
+    });
     const result = print(ast);
     
     t.equal(result, fixture.numericLiteral);
