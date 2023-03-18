@@ -1,3 +1,8 @@
+2023.03.18, v1.5.0
+
+feature:
+- db7c503 @putout/printer: add support of YieldExpression, SequenceExpressions, FunctionExpression + generator
+
 2023.03.18, v1.4.2
 
 feature:
