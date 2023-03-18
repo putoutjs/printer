@@ -1,3 +1,8 @@
+2023.03.18, v1.4.2
+
+feature:
+- fe8c410 @putout/printer: add support of AwaitExpression
+
 2023.03.17, v1.4.1
 
 feature:
