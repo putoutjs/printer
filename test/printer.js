@@ -220,3 +220,8 @@ test('putout: printer: spread-element', (t) => {
     t.end();
 });
 
+test('putout: printer: YieldExpression', (t) => {
+    t.print(fixture.yieldExpression);
+    t.end();
+});
+
