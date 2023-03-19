@@ -1,4 +1,7 @@
 {
+    "rules": {
+        "nodejs/declare": "off"
+    },
     "match": {
         "test": {
             "remove-console": "off"
@@ -6,9 +9,18 @@
         "lib/**/*.js": {
             "tape/add-args": ["on", {
                 "args": {
-                    "maybe": ["{maybe}", "module.exports.__a = (path, __object) => __body"],
-                    "print": ["{print}", "module.exports.__a = (path, __object) => __body"],
-                    "indent": ["{indent}", "module.exports.__a = (path, __object) => __body"]
+                    "maybe": ["{maybe}", [
+                        "module.exports.__a = (path, __object) => __body",
+                        "module.exports.__a = (path) => __body"
+                    ]],
+                    "print": ["{print}", [
+                        "module.exports.__a = (path, __object) => __body",
+                        "module.exports.__a = (path) => __body"
+                    ]],
+                    "indent": ["{indent}", [
+                        "module.exports.__a = (path, __object) => __body",
+                        "module.exports.__a = (path) => __body"
+                    ]]
                 }
             }]
         }

@@ -178,6 +178,11 @@ test('putout: printer: string', (t) => {
     t.end();
 });
 
+test('putout: printer: try-catch-statement', (t) => {
+    t.print(fixture.tryCatchStatement);
+    t.end();
+});
+
 test('putout: printer: unary-expression', (t) => {
     t.print(fixture.unaryExpression);
     t.end();
