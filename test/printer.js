@@ -1,5 +1,7 @@
 'use strict';
 
+const noop = () => {};
+
 const montag = require('montag');
 const tryCatch = require('try-catch');
 const {extend} = require('supertape');
@@ -149,7 +151,12 @@ test('putout: printer: numericLiteral: no raw', (t) => {
     
     transform(ast, source, {
         plugins: [
-            'math',
+            ['math', {
+                report: noop,
+                replace: () => ({
+                    '__a * __a': '__a ** 2',
+                }),
+            }],
         ],
     });
     const result = print(ast);
