@@ -21,6 +21,11 @@
                     "indent": ["{indent}", [
                         "module.exports.__a = (path, __object) => __body",
                         "module.exports.__a = (path) => __body"
+                    ]],
+                    "compute": ["{compute}", [
+                        "module.exports.__a = (path, __object) => __body",
+                        "module.exports.__a = (path) => __body",
+                        "function __() {}"
                     ]]
                 }
             }]

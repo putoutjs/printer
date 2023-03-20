@@ -32,6 +32,32 @@ const a = (b, c) => {
 `;
 ```
 
+## Overrides
+
+When you need to extend syntax of `@putout/printer` just pass a function which receives:
+
+- `path`, Babel Path
+- `print`, a function to output result of printing into token array;
+
+When `path` contains to dashes `__` and name, it is the same as: `print(path.get('right'))`, and this is
+actually `traverse(path.get('right'))` shortened to simplify read and process.
+
+Here is how you can override `AssignmentPattern`:
+
+```js
+const ast = parse('const {a = 5} = b');
+
+print(ast, {
+    AssignmentPattern(path, {print}) {
+        print(' /* [hello world] */= ');
+        print('__right');
+    },
+});
+
+// returns
+'const {a /* [hello world] */= 5} = b;\n';
+```
+
 ## License
 
 MIT
