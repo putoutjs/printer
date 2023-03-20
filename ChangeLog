@@ -1,3 +1,8 @@
+2023.03.20, v1.5.4
+
+feature:
+- 96d7056 @putout/printer: split linebreak(\s\n) and breakline(\n\s)
+
 2023.03.20, v1.5.3
 
 feature:
