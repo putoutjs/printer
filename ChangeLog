@@ -1,3 +1,8 @@
+2023.03.20, v1.6.1
+
+fix:
+- 7e8d47c @putout/printer: visitors
+
 2023.03.20, v1.6.0
 
 feature:

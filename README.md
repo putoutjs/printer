@@ -54,7 +54,7 @@ print(ast, {
             print(' /* [hello world] */= ');
             print('__right');
         },
-    }
+    },
 });
 
 // returns
