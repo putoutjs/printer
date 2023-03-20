@@ -1,3 +1,8 @@
+2023.03.20, v1.6.0
+
+feature:
+- f0ef762 @putout/printer: add ability to override syntax visitors
+
 2023.03.20, v1.5.4
 
 feature:
