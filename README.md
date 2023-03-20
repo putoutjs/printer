@@ -48,10 +48,13 @@ Here is how you can override `AssignmentPattern`:
 const ast = parse('const {a = 5} = b');
 
 print(ast, {
-    AssignmentPattern(path, {print}) {
-        print(' /* [hello world] */= ');
-        print('__right');
-    },
+    indent: '    ',
+    visitors: {
+        AssignmentPattern(path, {print}) {
+            print(' /* [hello world] */= ');
+            print('__right');
+        },
+    }
 });
 
 // returns
