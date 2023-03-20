@@ -1,3 +1,8 @@
+2023.03.20, v1.6.3
+
+feature:
+- 052b966 @putout/printer: write -> print
+
 2023.03.20, v1.6.2
 
 feature:
