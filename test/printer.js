@@ -105,6 +105,11 @@ test('putout: printer: destructuring', (t) => {
     t.end();
 });
 
+test('putout: printer: for-statement', (t) => {
+    t.print(fixture.forStatement);
+    t.end();
+});
+
 test('putout: printer: for-of', (t) => {
     t.print(fixture.forOf);
     t.end();
