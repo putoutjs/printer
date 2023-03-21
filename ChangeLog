@@ -1,3 +1,8 @@
+2023.03.21, v1.6.5
+
+feature:
+- 18dbd76 @putout/printer: improve intergration with recast: consistent newline befor EOF
+
 2023.03.21, v1.6.4
 
 feature:
