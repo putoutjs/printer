@@ -4,3 +4,4 @@ async function x() {
 const y = async () => {
     return await z();
 };
+

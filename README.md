@@ -60,7 +60,7 @@ print(ast, {
 });
 
 // returns
-'const {a /* [hello world] */= 5} = b;\n';
+'const {a /* [hello world] */= 5} = b;\n\n';
 ```
 
 ## License
