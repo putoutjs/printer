@@ -190,6 +190,16 @@ test('putout: printer: object-expression', (t) => {
     t.end();
 });
 
+test('putout: printer: optional-call-expression', (t) => {
+    t.print(fixture.optionalCallExpression);
+    t.end();
+});
+
+test('putout: printer: reg-exp-literal', (t) => {
+    t.print(fixture.RegExpLiteral);
+    t.end();
+});
+
 test('putout: printer: string', (t) => {
     t.print(fixture.string);
     t.end();

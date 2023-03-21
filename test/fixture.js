@@ -2,14 +2,11 @@
 
 const {join} = require('path');
 const {readFileSync} = require('fs');
-
 const tryCatch = require('try-catch');
 const kebabCase = require('just-kebab-case');
-
 const dirFixture = join(__dirname, 'fixture');
 const readFixture = (name) => {
     const longName = join(dirFixture, name);
-    
     const [e, data] = tryCatch(readFileSync, `${longName}.ts`, 'utf8');
     
     if (!e)
