@@ -195,6 +195,11 @@ test('putout: printer: string', (t) => {
     t.end();
 });
 
+test('putout: printer: string-literal', (t) => {
+    t.print(fixture.stringLiteral);
+    t.end();
+});
+
 test('putout: printer: try-catch-statement', (t) => {
     t.print(fixture.tryCatchStatement);
     t.end();
