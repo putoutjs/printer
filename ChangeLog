@@ -1,3 +1,8 @@
+2023.03.22, v1.6.13
+
+feature:
+- 3e3905a @putout/printer: AssignmentExpression: simplify
+
 2023.03.22, v1.6.12
 
 feature:
