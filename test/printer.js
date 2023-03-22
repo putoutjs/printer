@@ -1,10 +1,10 @@
 'use strict';
 
 const noop = () => {};
-
 const montag = require('montag');
 const tryCatch = require('try-catch');
 const {extend} = require('supertape');
+
 const {
     parse,
     transform,
@@ -47,6 +47,11 @@ test('putout: printer: arrow-block-return', (t) => {
 
 test('putout: printer: array-expression', (t) => {
     t.print(fixture.arrayExpression);
+    t.end();
+});
+
+test('putout: printer: array-expression: couple lines', (t) => {
+    t.print(fixture.arrayExpressionCoupleLines);
     t.end();
 });
 
@@ -174,6 +179,7 @@ test('putout: printer: numericLiteral: no raw', (t) => {
             }],
         ],
     });
+    
     const result = print(ast);
     
     t.equal(result, fixture.numericLiteral);
@@ -230,13 +236,18 @@ test('putout: printer: var-couple-lines', (t) => {
     t.end();
 });
 
-test('putout: printer: template', (t) => {
-    t.print(fixture.template);
+test('putout: printer: ObjectPattern', (t) => {
+    t.print(fixture.objectPattern);
     t.end();
 });
 
-test('putout: printer: ObjectPattern', (t) => {
-    t.print(fixture.objectPattern);
+test('putout: printer: tagged-template-expression', (t) => {
+    t.print(fixture.taggedTemplateExpression);
+    t.end();
+});
+
+test('putout: printer: template', (t) => {
+    t.print(fixture.template);
     t.end();
 });
 
@@ -244,6 +255,7 @@ test('putout: printer: unknown', (t) => {
     const ast = parse(fixture.unknown, {
         isTS: true,
     });
+    
     const [error] = tryCatch(print, ast);
     
     const expected = montag`
@@ -271,4 +283,3 @@ test('putout: printer: while-statement', (t) => {
     t.print(fixture.whileStatement);
     t.end();
 });
-

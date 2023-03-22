@@ -2,6 +2,7 @@
 
 const {operator} = require('putout');
 const {compare} = operator;
+
 const {
     entries,
     keys,
