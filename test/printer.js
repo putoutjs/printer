@@ -257,8 +257,13 @@ test('putout: printer: spread-element', (t) => {
     t.end();
 });
 
-test('putout: printer: YieldExpression', (t) => {
+test('putout: printer: yield-expression', (t) => {
     t.print(fixture.yieldExpression);
+    t.end();
+});
+
+test('putout: printer: while-statement', (t) => {
+    t.print(fixture.whileStatement);
     t.end();
 });
 

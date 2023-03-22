@@ -6,7 +6,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      NAME: '@putout/print'
+      NAME: "@putout/print"
     strategy:
       matrix:
         node-version:
