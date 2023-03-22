@@ -50,6 +50,11 @@ test('putout: printer: array-expression', (t) => {
     t.end();
 });
 
+test('putout: printer: array-expression-two', (t) => {
+    t.print(fixture.arrayExpressionTwo);
+    t.end();
+});
+
 test('putout: printer: array-pattern', (t) => {
     t.print(fixture.arrayPattern);
     t.end();
