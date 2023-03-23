@@ -41,6 +41,7 @@
     "generate"
   ],
   "devDependencies": {
+    "@putout/test": "^6.0.1",
     "c8": "^7.5.0",
     "eslint": "^8.0.1",
     "eslint-plugin-n": "^15.2.4",
