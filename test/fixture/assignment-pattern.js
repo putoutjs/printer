@@ -6,3 +6,5 @@ for (const currentProcessor of loadedProcessors) {
         process = stubProcess,
     } = currentProcessor;
 }
+
+module.exports.tokenize = (ast, overrides = {}) => {};
