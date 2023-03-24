@@ -55,7 +55,8 @@
     "nodemon": "^2.0.1",
     "putout": "*",
     "supertape": "^8.0.0",
-    "try-catch": "^3.0.0"
+    "try-catch": "^3.0.0",
+    "putout-plugin-apply-computed-print": "./rules/putout-plugin-apply-computed-print"
   },
   "license": "MIT",
   "engines": {

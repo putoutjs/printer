@@ -1,4 +1,7 @@
 {
+    "plugins": [
+        "apply-computed-print"
+    ],
     "rules": {
         "nodejs/declare": "off"
     },
