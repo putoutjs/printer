@@ -1,12 +1,9 @@
 {
-    "plugins": [
-        "apply-computed-print"
-    ],
     "rules": {
         "nodejs/declare": "off"
     },
     "match": {
-        "test": {
+        "{test,debug.js}": {
             "remove-console": "off"
         },
         "lib/**/*.js": {

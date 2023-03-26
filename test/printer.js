@@ -246,6 +246,11 @@ test('putout: printer: tagged-template-expression', (t) => {
     t.end();
 });
 
+test('putout: printer: switch-statement', (t) => {
+    t.print(fixture.switchStatement);
+    t.end();
+});
+
 test('putout: printer: template', (t) => {
     t.print(fixture.template);
     t.end();
