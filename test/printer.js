@@ -90,6 +90,11 @@ test('putout: printer: block-statement', (t) => {
     t.end();
 });
 
+test('putout: printer: conditionalExpression', (t) => {
+    t.print(fixture.conditionalExpression);
+    t.end();
+});
+
 test('putout: printer: computed', (t) => {
     t.print(fixture.computed);
     t.end();
