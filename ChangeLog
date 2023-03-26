@@ -1,3 +1,8 @@
+2023.03.26, v1.8.3
+
+feature:
+- fec7aee @putout/printer: improve support of ObjectExpression inside LogicalExpression inside SpreadElement property of ObjectExpression
+
 2023.03.26, v1.8.2
 
 feature:
