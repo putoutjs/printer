@@ -226,6 +226,11 @@ test('putout: printer: try-catch-statement', (t) => {
     t.end();
 });
 
+test('putout: printer: this-expression', (t) => {
+    t.print(fixture.thisExpression);
+    t.end();
+});
+
 test('putout: printer: unary-expression', (t) => {
     t.print(fixture.unaryExpression);
     t.end();
