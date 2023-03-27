@@ -141,6 +141,11 @@ test('putout: printer: exportDefaultDeclaration', (t) => {
     t.end();
 });
 
+test('putout: printer: exportDefaultFirst', (t) => {
+    t.print(fixture.exportDefaultFirst);
+    t.end();
+});
+
 test('putout: printer: for-statement', (t) => {
     t.print(fixture.forStatement);
     t.end();
