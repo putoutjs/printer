@@ -125,6 +125,11 @@ test('putout: printer: for-statement', (t) => {
     t.end();
 });
 
+test('putout: printer: for-in-statement', (t) => {
+    t.print(fixture.forInStatement);
+    t.end();
+});
+
 test('putout: printer: for-of', (t) => {
     t.print(fixture.forOf);
     t.end();
