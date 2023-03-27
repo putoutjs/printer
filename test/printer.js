@@ -136,6 +136,11 @@ test('putout: printer: destructuring', (t) => {
     t.end();
 });
 
+test('putout: printer: exportDefaultDeclaration', (t) => {
+    t.print(fixture.exportDefaultDeclaration);
+    t.end();
+});
+
 test('putout: printer: for-statement', (t) => {
     t.print(fixture.forStatement);
     t.end();
