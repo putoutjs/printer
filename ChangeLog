@@ -1,3 +1,9 @@
+2023.03.27, v1.8.5
+
+feature:
+- f44a060 @putout/printer: drop newlines at end of file
+- 524d6e1 @putout/printer: drop newline after BlockStatement when there is no next sibling
+
 2023.03.27, v1.8.4
 
 feature:
