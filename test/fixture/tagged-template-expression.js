@@ -6,4 +6,3 @@ const expected = montag`
       password: string;
     };'
 `;
-

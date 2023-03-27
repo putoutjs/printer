@@ -3,4 +3,3 @@ const a = {
         devtool: 'eval',
     }
 };
-

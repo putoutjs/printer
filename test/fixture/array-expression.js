@@ -13,4 +13,3 @@ run(['a', 'b', 'c'], '--fix');
 const x = {
     'prepublishOnly': () => run(['lint', 'test']),
 };
-

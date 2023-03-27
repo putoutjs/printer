@@ -5,4 +5,3 @@ const {
 
 const {remove} = operator;
 const {a: b} = c;
-
