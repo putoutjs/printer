@@ -1,3 +1,8 @@
+2023.03.27, v1.8.4
+
+feature:
+- c117645 @putout/printer: add support of ForInStatement
+
 2023.03.26, v1.8.3
 
 feature:
