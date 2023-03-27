@@ -1,3 +1,8 @@
+2023.03.27, v1.8.6
+
+feature:
+- 8fb7f0d @putout/printer: drop newline after CallExpression
+
 2023.03.27, v1.8.5
 
 feature:
