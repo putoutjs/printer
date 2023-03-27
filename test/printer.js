@@ -105,6 +105,22 @@ test('putout: printer: call-expression', (t) => {
     t.end();
 });
 
+test('putout: printer: call-expression + empty object', (t) => {
+    const source = fixture.callExpressionEmptyObject;
+    const ast = parse(source);
+    
+    transform(ast, source, {
+        plugins: [
+            'eslint',
+        ],
+    });
+    
+    const result = print(ast);
+    
+    t.equal(result, fixture.callExpressionEmptyObjectFix);
+    t.end();
+});
+
 test('putout: printer: continue', (t) => {
     t.print(fixture.continue);
     t.end();
