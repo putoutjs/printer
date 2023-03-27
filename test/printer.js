@@ -140,6 +140,11 @@ test('putout: printer: for-of: one', (t) => {
     t.end();
 });
 
+test('putout: printer: for-of: body', (t) => {
+    t.print(fixture.forOfBody);
+    t.end();
+});
+
 test('putout: printer: for-of: entries', (t) => {
     t.print(fixture.forOfEntries);
     t.end();
