@@ -5,4 +5,3 @@ const x = 5;
 
 for (const {hello} of [{hello: 'world'}])
     alert(hello);
-

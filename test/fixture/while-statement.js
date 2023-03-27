@@ -4,4 +4,3 @@ while (--i) {
 
 while (i !== null)
     result += indent;
-
