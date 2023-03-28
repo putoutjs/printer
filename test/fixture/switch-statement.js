@@ -6,6 +6,7 @@ case 'world':
 case 'hello': {
     const name = 'hello';
     log(name);
+    
     break;
 }
 }

@@ -201,6 +201,11 @@ test('putout: printer: logicalExpression', (t) => {
     t.end();
 });
 
+test('putout: printer: MetaProperty', (t) => {
+    t.print(fixture.metaProperty);
+    t.end();
+});
+
 test('putout: printer: new', (t) => {
     t.print(fixture.new);
     t.end();
