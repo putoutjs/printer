@@ -131,6 +131,11 @@ test('putout: printer: comment', (t) => {
     t.end();
 });
 
+test('putout: printer: comment-inside', (t) => {
+    t.print(fixture.commentInside);
+    t.end();
+});
+
 test('putout: printer: destructuring', (t) => {
     t.print(fixture.destructuring);
     t.end();
