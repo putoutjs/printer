@@ -305,13 +305,18 @@ test('putout: printer: ObjectPattern', (t) => {
     t.end();
 });
 
-test('putout: printer: tagged-template-expression', (t) => {
-    t.print(fixture.taggedTemplateExpression);
+test('putout: printer: shebang', (t) => {
+    t.print(fixture.shebang);
     t.end();
 });
 
 test('putout: printer: switch-statement', (t) => {
     t.print(fixture.switchStatement);
+    t.end();
+});
+
+test('putout: printer: tagged-template-expression', (t) => {
+    t.print(fixture.taggedTemplateExpression);
     t.end();
 });
 
