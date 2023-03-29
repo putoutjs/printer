@@ -1,3 +1,8 @@
+2023.03.29, v1.13.1
+
+feature:
+- d320519 @putout/printer: improve support of nested objects
+
 2023.03.29, v1.13.0
 
 feature:
