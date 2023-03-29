@@ -4,9 +4,9 @@ const {join} = require('path');
 const {readFileSync} = require('fs');
 const tryCatch = require('try-catch');
 const kebabCase = require('just-kebab-case');
-const dirFixture = join(__dirname, 'fixture');
 
-const readFixture = (name) => {
+const readFixture = (dir, name) => {
+    const dirFixture = join(dir, 'fixture');
     const longName = join(dirFixture, name);
     const [e, data] = tryCatch(readFileSync, `${longName}.ts`, 'utf8');
     
@@ -16,12 +16,14 @@ const readFixture = (name) => {
     return readFileSync(`${longName}.js`, 'utf8');
 };
 
-module.exports.readFixtures = () => {
-    return new Proxy({}, handler);
+module.exports.readFixtures = (dir) => {
+    return new Proxy({}, createHandler(dir));
 };
 
-const handler = {
-    get(obj, prop) {
-        return readFixture(kebabCase(prop));
-    },
-};
+function createHandler(dir) {
+    return {
+        get(obj, prop) {
+            return readFixture(dir, kebabCase(prop));
+        },
+    };
+}

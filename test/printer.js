@@ -13,23 +13,30 @@ const {
 const {readFixtures} = require('./fixture');
 const {print} = require('..');
 
+const printExtension = ({fail, equal}) => (fixture) => {
+    const ast = parse(fixture, {
+        isTS: true,
+    });
+    
+    const [error, source] = tryCatch(print, ast);
+    
+    if (error) {
+        console.error(error.stack);
+        return fail(error);
+    }
+    
+    const expected = `${fixture}\n`;
+    
+    return equal(source, expected);
+};
+
 const test = extend({
-    print: ({fail, equal}) => (fixture) => {
-        const ast = parse(fixture);
-        const [error, source] = tryCatch(print, ast);
-        
-        if (error) {
-            console.error(error.stack);
-            return fail(error);
-        }
-        
-        const expected = `${fixture}\n`;
-        
-        return equal(source, expected);
-    },
+    print: printExtension,
 });
 
-const fixture = readFixtures();
+module.exports.printExtension = printExtension;
+
+const fixture = readFixtures(__dirname);
 
 test('putout: printer: arrow', (t) => {
     const ast = parse(fixture.arrow);
