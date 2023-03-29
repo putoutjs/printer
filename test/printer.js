@@ -23,7 +23,9 @@ const test = extend({
             return fail(error);
         }
         
-        return equal(source, fixture);
+        const expected = `${fixture}\n`;
+        
+        return equal(source, expected);
     },
 });
 
@@ -237,8 +239,9 @@ test('putout: printer: numericLiteral: no raw', (t) => {
     });
     
     const result = print(ast);
+    const expected = fixture.numericLiteral + '\n';
     
-    t.equal(result, fixture.numericLiteral);
+    t.equal(result, expected);
     t.end();
 });
 
