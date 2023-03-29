@@ -1,3 +1,9 @@
+2023.03.29, v1.11.0
+
+feature:
+- a2250dd @putout/printer: add newline at eof
+- c1fb26f @putout/printer: use '__array.entries()' instead of 'entries(__array)'
+
 2023.03.28, v1.10.0
 
 feature:
