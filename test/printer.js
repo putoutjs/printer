@@ -200,6 +200,11 @@ test('putout: printer: function-declaration', (t) => {
     t.end();
 });
 
+test('putout: printer: getter', (t) => {
+    t.print(fixture.getter);
+    t.end();
+});
+
 test('putout: printer: import-declaration', (t) => {
     t.print(fixture.importDeclaration);
     t.end();

@@ -25,7 +25,6 @@ const ast = parse('const a = (b, c) => {const d = 5; return a;}');
 print(ast);
 
 // returns
-// returns
 `
 const a = (b, c) => {
     const d = 5;
@@ -62,7 +61,6 @@ print(ast, {
     },
 });
 
-// returns
 // returns
 'const {a /* [hello world] */= 5} = b;\n';
 
