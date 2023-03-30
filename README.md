@@ -31,7 +31,6 @@ const a = (b, c) => {
     return a;
 };
 `;
-
 ```
 
 ## Overrides
@@ -63,7 +62,6 @@ print(ast, {
 
 // returns
 'const {a /* [hello world] */= 5} = b;\n';
-
 ```
 
 ## License
