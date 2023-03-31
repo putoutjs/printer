@@ -1,3 +1,8 @@
+2023.03.31, v1.15.1
+
+feature:
+- 0fd6fd2 @putout/printer: ArrayExpression: add ability to avoid newline when inside of CallExpression inside of ForOfStatement
+
 2023.03.31, v1.15.0
 
 feature:
