@@ -1,3 +1,9 @@
+2023.03.31, v1.15.3
+
+feature:
+- d80165e @putout/printer: newline inside ArrayExpression inside ForOfStatement
+- 8b7737b @putout/printer: ImportDeclaration: add support of no specifiers
+
 2023.03.31, v1.15.2
 
 feature:
