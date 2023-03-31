@@ -129,9 +129,7 @@ test('putout: printer: call-expression + empty object', (t) => {
     const ast = parse(source);
     
     transform(ast, source, {
-        plugins: [
-            'eslint',
-        ],
+        plugins: ['eslint'],
     });
     
     const result = print(ast);
@@ -205,6 +203,11 @@ test('putout: printer: for-of-var-pattern', (t) => {
     t.end();
 });
 
+test('putout: printer: for-of-array', (t) => {
+    t.print(fixture.forOfArray);
+    t.end();
+});
+
 test('putout: printer: function-declaration', (t) => {
     t.print(fixture.functionDeclaration);
     t.end();
@@ -255,14 +258,12 @@ test('putout: printer: numericLiteral: no raw', (t) => {
     const ast = parse(source);
     
     transform(ast, source, {
-        plugins: [
-            ['math', {
-                report: noop,
-                replace: () => ({
-                    '__a * __a': '__a ** 2',
-                }),
-            }],
-        ],
+        plugins: [['math', {
+            report: noop,
+            replace: () => ({
+                '__a * __a': '__a ** 2',
+            }),
+        }]],
     });
     
     const result = print(ast);
