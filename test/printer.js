@@ -59,6 +59,11 @@ test('putout: printer: array-expression', (t) => {
     t.end();
 });
 
+test('putout: printer: array-expression-call', (t) => {
+    t.print(fixture.arrayExpressionCall);
+    t.end();
+});
+
 test('putout: printer: array-expression: couple lines', (t) => {
     t.print(fixture.arrayExpressionCoupleLines);
     t.end();
