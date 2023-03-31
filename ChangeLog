@@ -1,3 +1,9 @@
+2023.03.31, v1.15.0
+
+feature:
+- 67b6b53 @putout/printer: add support of nested Binary and Logical Expressions
+- 6bcba84 @putout/printer: improve support of last ExpressionStatement inside of BlockStatement
+
 2023.03.30, v1.14.3
 
 feature:
