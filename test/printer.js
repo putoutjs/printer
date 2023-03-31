@@ -99,6 +99,11 @@ test('putout: printer: block-statement', (t) => {
     t.end();
 });
 
+test('putout: printer: block-statement: expression', (t) => {
+    t.print(fixture.blockStatementExpression);
+    t.end();
+});
+
 test('putout: printer: conditionalExpression', (t) => {
     t.print(fixture.conditionalExpression);
     t.end();
