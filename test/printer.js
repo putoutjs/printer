@@ -225,6 +225,11 @@ test('putout: printer: logicalExpression', (t) => {
     t.end();
 });
 
+test('putout: printer: logicalExpression: nested', (t) => {
+    t.print(fixture.logicalExpressionNested);
+    t.end();
+});
+
 test('putout: printer: MetaProperty', (t) => {
     t.print(fixture.metaProperty);
     t.end();
