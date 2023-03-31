@@ -109,6 +109,11 @@ test('putout: printer: block-statement: expression', (t) => {
     t.end();
 });
 
+test('putout: printer: ClassExpression', (t) => {
+    t.print(fixture.classExpression);
+    t.end();
+});
+
 test('putout: printer: conditionalExpression', (t) => {
     t.print(fixture.conditionalExpression);
     t.end();
@@ -258,12 +263,14 @@ test('putout: printer: numericLiteral: no raw', (t) => {
     const ast = parse(source);
     
     transform(ast, source, {
-        plugins: [['math', {
-            report: noop,
-            replace: () => ({
-                '__a * __a': '__a ** 2',
-            }),
-        }]],
+        plugins: [
+            ['math', {
+                report: noop,
+                replace: () => ({
+                    '__a * __a': '__a ** 2',
+                }),
+            }],
+        ],
     });
     
     const result = print(ast);
