@@ -11,3 +11,11 @@ try {
 } catch {
     console.log('error');
 }
+
+list.map((a) => {
+    try {
+        return;
+    } finally {
+        return;
+    }
+});
