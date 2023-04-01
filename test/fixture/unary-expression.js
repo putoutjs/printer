@@ -7,3 +7,5 @@ delete hello.world;
 
 if (!(a !== b))
     fn();
+
+!(a && b);
