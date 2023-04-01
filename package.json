@@ -44,6 +44,7 @@
   ],
   "devDependencies": {
     "@putout/test": "^6.0.1",
+    "acorn": "^8.8.2",
     "c8": "^7.5.0",
     "eslint": "^8.0.1",
     "eslint-plugin-n": "^15.2.4",
@@ -55,9 +56,9 @@
     "montag": "^1.0.0",
     "nodemon": "^2.0.1",
     "putout": "*",
+    "putout-plugin-apply-computed-print": "./rules/putout-plugin-apply-computed-print",
     "supertape": "^8.0.0",
-    "try-catch": "^3.0.0",
-    "putout-plugin-apply-computed-print": "./rules/putout-plugin-apply-computed-print"
+    "try-catch": "^3.0.0"
   },
   "license": "MIT",
   "engines": {
