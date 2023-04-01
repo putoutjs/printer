@@ -1,3 +1,8 @@
+2023.04.01, v1.16.2
+
+feature:
+- 6da9571 @putout/printer: improve support of ObjectExpression used as argument of CallExpression
+
 2023.04.01, v1.16.1
 
 feature:
