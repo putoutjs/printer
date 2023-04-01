@@ -1,3 +1,9 @@
+2023.04.01, v1.17.0
+
+feature:
+- 1378835 @putout/printer: improve support of round brackets around LogicalExpressions
+- 3fc47f2 @putout/printer: improve support of BinaryExpression inside UnaryExpression
+
 2023.04.01, v1.16.2
 
 feature:
