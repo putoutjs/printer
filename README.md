@@ -64,6 +64,23 @@ print(ast, {
 'const {a /* [hello world] */= 5} = b;\n';
 ```
 
+## Maybe
+
+When you need some condition use `maybe`. For example, to add newline only when parent node is `CallExpression` you
+can use `maybe.print.newline(condition)`:
+
+```js
+print(ast, {
+    visitors: {
+        AssignmentPattern(path, {print, maybe}) {
+            maybe.print.newline(path.parentPath.isCallExpression());
+            print(' /* [hello world] */= ');
+            print('__right');
+        },
+    },
+});
+```
+
 ## License
 
 MIT
