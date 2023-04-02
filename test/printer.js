@@ -228,6 +228,11 @@ test('putout: printer: import-declaration', (t) => {
     t.end();
 });
 
+test('putout: printer: import-one', (t) => {
+    t.print(fixture.importOne);
+    t.end();
+});
+
 test('putout: printer: if', (t) => {
     t.print(fixture.if);
     t.end();
