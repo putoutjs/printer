@@ -1,3 +1,8 @@
+2023.04.02, v1.18.1
+
+feature:
+- 37db57c @putout/printer: drop usless newlines after ImportDeclaration
+
 2023.04.02, v1.18.0
 
 feature:
