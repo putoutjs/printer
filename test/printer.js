@@ -258,6 +258,11 @@ test('putout: printer: logicalExpression: nested', (t) => {
     t.end();
 });
 
+test('putout: printer: MemberExpression', (t) => {
+    t.print(fixture.memberExpression);
+    t.end();
+});
+
 test('putout: printer: MetaProperty', (t) => {
     t.print(fixture.metaProperty);
     t.end();
@@ -383,10 +388,10 @@ test('putout: printer: unknown', (t) => {
     const [error] = tryCatch(print, ast);
     
     const expected = montag`
-        Node type 'TSTypeAliasDeclaration' is not supported yet: 'type User = {
+        Node type 'TSTypeLiteral' is not supported yet: '{
           name: string;
           password: string;
-        };'
+        }'
     `;
     
     t.equal(error.message, expected);

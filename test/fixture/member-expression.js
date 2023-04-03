@@ -1,0 +1,1 @@
+module.exports.isFirst = (path) => path.node === path.parentPath.node.body?.[0];
