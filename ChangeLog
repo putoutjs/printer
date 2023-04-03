@@ -1,3 +1,8 @@
+2023.04.03, v1.20.0
+
+feature:
+- 069b266 @putout/printer: add support of TSPropertySignature
+
 2023.04.03, v1.19.0
 
 feature:
