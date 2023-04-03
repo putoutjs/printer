@@ -388,10 +388,7 @@ test('putout: printer: unknown', (t) => {
     const [error] = tryCatch(print, ast);
     
     const expected = montag`
-        Node type 'TSTypeLiteral' is not supported yet: '{
-          name: string;
-          password: string;
-        }'
+        Node type 'TSStringKeyword' is not supported yet: 'string'
     `;
     
     t.equal(error.message, expected);

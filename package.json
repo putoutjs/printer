@@ -56,7 +56,7 @@
     "montag": "^1.0.0",
     "nodemon": "^2.0.1",
     "putout": "*",
-    "putout-plugin-apply-computed-print": "./rules/putout-plugin-apply-computed-print",
+    "putout-plugin-printer": "./rules",
     "supertape": "^8.0.0",
     "try-catch": "^3.0.0"
   },

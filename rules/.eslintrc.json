@@ -1,0 +1,16 @@
+{
+    "extends": [
+        "plugin:n/recommended",
+        "plugin:putout/safe+align"
+    ],
+    "plugins": [
+        "putout",
+        "n"
+    ],
+    "ignorePatterns": ["**/fixture/*.*"],
+    "rules": {
+        "no-multiple-empty-lines": ["error", {
+            "max": 1
+        }]
+    }
+}
