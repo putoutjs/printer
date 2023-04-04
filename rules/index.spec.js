@@ -16,4 +16,3 @@ test('printer: apply-computed-print: transform', (t) => {
     t.transform('apply-computed-print');
     t.end();
 });
-
