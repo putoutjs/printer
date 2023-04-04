@@ -1,3 +1,9 @@
+2023.04.04, v1.22.0
+
+feature:
+- c8fc7b7 @putout/printer: improve support of tuples
+- 599bd93 @putout/printer: set @putout/printer as putout printer
+
 2023.04.04, v1.21.0
 
 feature:
