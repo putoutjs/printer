@@ -1,3 +1,9 @@
+2023.04.04, v1.21.0
+
+feature:
+- d5716be @putout/printer: ForOfStatement: convert
+- 5bd0fe5 @putout/printer: improve newlines formatting
+
 2023.04.03, v1.20.0
 
 feature:
