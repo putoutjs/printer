@@ -6,6 +6,11 @@ module.exports.replace = () => ({
     debugger: '',
 });
 
+({
+    code,
+    map,
+});
+
 __putout_processor_json({
     'jobs': {
         'build': {
