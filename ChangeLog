@@ -1,3 +1,10 @@
+2023.04.06, v1.25.1
+
+feature:
+- 3250fd6 @putout/printer: improve chaining
+- 8d302ba @putout/printer: improve format of ArrayExpression tuple
+- 4970dd9 @putout/printer: ForOfStatement: newline
+
 2023.04.06, v1.25.0
 
 feature:
