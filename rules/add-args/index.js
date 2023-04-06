@@ -19,5 +19,6 @@ module.exports = addArgs({
     indent: ['{indent}', parents],
     compute: ['{compute}', parents],
     traverse: ['{traverse}', parents],
+    store: ['{store}', parents],
 });
 

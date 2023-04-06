@@ -5,6 +5,7 @@ const getRule = (a) => ({
 });
 
 module.exports.rules = {
+    ...getRule('apply-breakline'),
     ...getRule('apply-computed-print'),
     ...getRule('add-args'),
 };

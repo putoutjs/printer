@@ -64,6 +64,14 @@ test('putout: printer: array-expression: tuple', (t) => {
     t.end();
 });
 
+test('putout: printer: array-expression: tuple: format', (t) => {
+    const ast = parse(fixture.arrayExpressionTupleFormat);
+    const source = print(ast);
+    
+    t.equal(source, fixture.arrayExpressionTupleFormatFix);
+    t.end();
+});
+
 test('putout: printer: array-expression-call', (t) => {
     t.print(fixture.arrayExpressionCall);
     t.end();

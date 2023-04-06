@@ -16,3 +16,9 @@ compile(source, {
         }],
     },
 });
+
+const test = createTest(__dirname, {
+    plugins: [
+        ['for-of/n', forN],
+    ],
+});

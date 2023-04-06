@@ -19,3 +19,8 @@ test('rule: add-args: transform: traverse', (t) => {
     t.transform('traverse');
     t.end();
 });
+
+test('rule: add-args: transform: store', (t) => {
+    t.transform('store');
+    t.end();
+});
