@@ -6,7 +6,7 @@ const plugin = require('.');
 const test = createTest(__dirname, {
     printer: 'putout',
     plugins: [
-        ['printer/apply-computed-print', plugin]
+        ['printer/apply-computed-print', plugin],
     ],
 });
 
