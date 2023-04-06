@@ -1,3 +1,8 @@
+2023.04.06, v1.26.0
+
+feature:
+- 3ad5aab @putout/printer: prevent indent infinite loop
+
 2023.04.06, v1.25.1
 
 feature:
