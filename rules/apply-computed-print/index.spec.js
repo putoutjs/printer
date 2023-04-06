@@ -4,7 +4,10 @@ const {createTest} = require('@putout/test');
 const plugin = require('.');
 
 const test = createTest(__dirname, {
-    'printer/apply-computed-print': plugin,
+    printer: 'putout',
+    plugins: [
+        ['printer/apply-computed-print', plugin]
+    ],
 });
 
 test('rule: apply-computed-print: report', (t) => {
