@@ -21,4 +21,3 @@ module.exports = addArgs({
     traverse: ['{traverse}', parents],
     store: ['{store}', parents],
 });
-

@@ -283,6 +283,13 @@ test('putout: printer: MemberExpression', (t) => {
 
 test('putout: printer: MemberExpression: no newline', (t) => {
     const ast = parse(fixture.memberExpressionNoNewline);
+    
+    transform(ast, fixture.memberExpressionNoNewline, {
+        plugins: [
+            'remove-debugger',
+        ],
+    });
+    
     const result = print(ast);
     
     t.equal(result, fixture.memberExpressionNoNewlineFix);
@@ -435,3 +442,4 @@ test('putout: printer: while-statement', (t) => {
     t.print(fixture.whileStatement);
     t.end();
 });
+

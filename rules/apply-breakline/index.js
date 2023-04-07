@@ -4,6 +4,7 @@ const {
     operator,
     template,
 } = require('putout');
+
 const {
     compare,
     replaceWith,
@@ -23,5 +24,6 @@ module.exports.filter = (path) => {
     return compare(next(path), 'print.indent()');
 };
 
-module.exports.include = () => ['print.newline()'];
-
+module.exports.include = () => [
+    'print.newline()',
+];
