@@ -1,3 +1,10 @@
+2023.04.07, v1.29.0
+
+feature:
+- b1dfcf3 @putout/printer: ObjectPattern: improve support of not ObjectProperty value !== Identifier
+- 53a44db @putout/printer: improve chaining support
+- a552062 @putout/printer: newlines
+
 2023.04.07, v1.28.0
 
 feature:
