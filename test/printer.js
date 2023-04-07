@@ -281,6 +281,14 @@ test('putout: printer: MemberExpression', (t) => {
     t.end();
 });
 
+test('putout: printer: MemberExpression: no newline', (t) => {
+    const ast = parse(fixture.memberExpressionNoNewline);
+    const result = print(ast);
+    
+    t.equal(result, fixture.memberExpressionNoNewlineFix);
+    t.end();
+});
+
 test('putout: printer: MetaProperty', (t) => {
     t.print(fixture.metaProperty);
     t.end();

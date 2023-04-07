@@ -20,3 +20,4 @@ const {stopAll} = createMockImport(import.meta.url);
 this._maxLength = a;
 
 const bLength = b.node.value.length;
+const isLogical = (path) => path.get('argument').isLogicalExpression();
