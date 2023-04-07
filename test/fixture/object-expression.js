@@ -34,3 +34,8 @@ __putout_processor_json({
         },
     },
 });
+
+test('should pass', (t) => {
+    t.pass('ok');
+    t.end();
+}, {checkAssertionsCount: false});
