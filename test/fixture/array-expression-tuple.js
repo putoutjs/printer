@@ -22,3 +22,9 @@ const test = createTest(__dirname, {
         ['for-of/n', forN],
     ],
 });
+
+t.transformWithOptions('create-test', {
+    add: [
+        ['printer', 'putout'],
+    ],
+});
