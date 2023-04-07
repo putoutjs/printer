@@ -1,3 +1,8 @@
+2023.04.07, v1.28.0
+
+feature:
+- dfa1863 @putout/printer: ObjectExpression: add support of object options passed as last argument of tests
+
 2023.04.07, v1.27.0
 
 feature:
