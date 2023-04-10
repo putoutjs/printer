@@ -1,3 +1,8 @@
+2023.04.10, v1.30.0
+
+feature:
+- 27b22b3 @putout/printer: add support of JSXElement
+
 2023.04.07, v1.29.0
 
 feature:
