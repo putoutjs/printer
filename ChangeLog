@@ -1,3 +1,8 @@
+2023.04.10, v1.33.0
+
+feature:
+- 2114f04 @putout/printer: improve support of ArrayExpression tuple: Identifier + Identifier
+
 2023.04.10, v1.32.0
 
 feature:
