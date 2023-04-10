@@ -1,3 +1,8 @@
+2023.04.10, v1.31.0
+
+feature:
+- f80319e @putout/printer: add support of JSXAttribute
+
 2023.04.10, v1.30.0
 
 feature:
