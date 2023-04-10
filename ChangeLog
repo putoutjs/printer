@@ -1,3 +1,8 @@
+2023.04.10, v1.34.0
+
+feature:
+- d783c21 @putout/printer: improve support of jsx assigned to variable
+
 2023.04.10, v1.33.0
 
 feature:
