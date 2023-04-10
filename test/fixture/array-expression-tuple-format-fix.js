@@ -9,3 +9,10 @@ const test1 = createTest(__dirname, {
         ['for-of/n', forN]
     ],
 });
+
+const test2 = createTest(__dirname, {
+    printer: 'putout',
+    plugins: [
+        [jest, jest]
+    ],
+});
