@@ -5,6 +5,7 @@ const {addArgs} = operator;
 
 const parents = [
     '__ = __',
+    'const __ = __',
     'module.exports.__a = (path, __object) => __body',
     'module.exports.__a = (path) => __body',
     'function __(path) {}',

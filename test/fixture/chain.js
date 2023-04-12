@@ -3,7 +3,7 @@ hello
     .set('how come');
 
 const hasDoubleQuote = (a) => createCheckRegExp('"').test(a);
-this.mappings.forEach(function (mapping, i) {});
+this.mappings.forEach(function(mapping, i) {});
 
 var sliced = mapping.slice(this, start, i);
 console.log(hello);

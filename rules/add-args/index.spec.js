@@ -24,3 +24,8 @@ test('rule: add-args: transform: store', (t) => {
     t.transform('store');
     t.end();
 });
+
+test('rule: add-args: transform: const', (t) => {
+    t.transform('const');
+    t.end();
+});
