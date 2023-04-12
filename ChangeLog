@@ -1,3 +1,8 @@
+2023.04.12, v1.38.0
+
+feature:
+- 9977169 @putout/printer: improve support of IIFE
+
 2023.04.11, v1.37.0
 
 feature:
