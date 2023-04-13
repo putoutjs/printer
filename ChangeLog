@@ -1,3 +1,8 @@
+2023.04.13, v1.41.0
+
+feature:
+- 99adbd5 @putout/printer: add support of TSArrayType
+
 2023.04.13, v1.40.2
 
 feature:
