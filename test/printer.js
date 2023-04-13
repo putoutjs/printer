@@ -358,6 +358,11 @@ test('putout: printer: reg-exp-literal', (t) => {
     t.end();
 });
 
+test('putout: printer: big-int-literal', (t) => {
+    t.print(fixture.bigIntLiteral);
+    t.end();
+});
+
 test('putout: printer: string', (t) => {
     t.print(fixture.string);
     t.end();
