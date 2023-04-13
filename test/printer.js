@@ -191,6 +191,11 @@ test('putout: printer: exportDefaultDeclaration', (t) => {
     t.end();
 });
 
+test('putout: printer: exportNamedDeclaration', (t) => {
+    t.print(fixture.exportNamedDeclaration);
+    t.end();
+});
+
 test('putout: printer: exportDefaultFirst', (t) => {
     t.print(fixture.exportDefaultFirst);
     t.end();
