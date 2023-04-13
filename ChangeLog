@@ -1,3 +1,8 @@
+2023.04.13, v1.43.0
+
+feature:
+- 2114032 @putout/printer: add support of BigIntLiteral
+
 2023.04.13, v1.42.0
 
 feature:
