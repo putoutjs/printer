@@ -1,3 +1,9 @@
+2023.04.13, v1.42.0
+
+feature:
+- 39aedd9 @putout/printer: add support of TSUnionType
+- 952b8b3 @putout/printer: CallExpression: add support of typeParameters
+
 2023.04.13, v1.41.0
 
 feature:

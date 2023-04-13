@@ -1,6 +1,6 @@
 {
   "name": "@putout/printer",
-  "version": "1.41.0",
+  "version": "1.42.0",
   "type": "commonjs",
   "author": "coderaiser <mnemonic.enemy@gmail.com> (https://github.com/coderaiser)",
   "description": "Easiest possible opinionated Babel AST printer made with ❤️  to use in 🐊Putout",
