@@ -415,16 +415,16 @@ test('putout: printer: template', (t) => {
 
 test('putout: printer: unknown', (t) => {
     const ast = parse(fixture.unknown, {
-        isTS: true,
+        isFlow: true,
     });
     
     const [error] = tryCatch(print, ast);
     
     const expected = montag`
-        Node type 'TSStringKeyword' is not supported yet: 'string'
+        Node type 'InterfaceDeclaration' is not supported yet: 'interface IInputHandlingTerminal {}'
     `;
     
-    t.equal(error.message, expected);
+    t.equal(error?.message, expected);
     t.end();
 });
 

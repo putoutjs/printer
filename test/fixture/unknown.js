@@ -1,4 +1,4 @@
-type User = {
-    name: string,
-    password: string,
+// @flow
+
+export interface IInputHandlingTerminal {
 }

@@ -32,7 +32,8 @@
     "@babel/types": "^7.21.3",
     "@putout/compare": "^9.13.0",
     "fullstore": "^3.0.0",
-    "just-snake-case": "^3.2.0"
+    "just-snake-case": "^3.2.0",
+    "rendy": "^3.1.1"
   },
   "keywords": [
     "putout",
