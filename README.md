@@ -64,7 +64,26 @@ print(ast, {
 'const {a /* [hello world] */= 5} = b;\n';
 ```
 
-## Maybe
+### `print`
+
+Used in previous example `print` can be used for a couple purposes:
+- to print `string`;
+- to print `node` when `object` passed;
+- to print `node` when `string` started with `__`;
+
+```js
+print(ast, {
+    visitors: {
+        AssignmentPattern(path, {print, maybe}) {
+            maybe.print.newline(path.parentPath.isCallExpression());
+            print(' /* [hello world] */= ');
+            print('__right');
+        },
+    },
+});
+```
+
+### `maybe`
 
 When you need some condition use `maybe`. For example, to add newline only when parent node is `CallExpression` you
 can use `maybe.print.newline(condition)`:
@@ -80,6 +99,57 @@ print(ast, {
     },
 });
 ```
+
+### `write`
+
+When are you going to output string you can use low-level function `write`:
+
+```js
+print(ast, {
+    visitors: {
+        BlockStatement(path, {write}) {
+            write('hello')
+        },
+    },
+});
+```
+
+
+### `indent`
+
+When you need to add indentation use `indent`, for example when you output body,
+you need to increment indentation, and then decrement it back:
+
+```js
+print(ast, {
+    visitors: {
+        BlockStatement(path, {write, indent}) {
+            write('{')
+            indent.inc();
+            indent();
+            write('some;')
+            indent.dec();
+            write('{');
+        },
+    },
+});
+```
+
+### `traverse`
+
+When are you needing to traverse node, you can use `traverse`:
+
+```js
+print(ast, {
+    visitors: {
+        AssignmentExpression(path, {traverse}) {
+            traverse(path.get('left'));
+        },
+    },
+});
+```
+
+This is the same as `print('__left')` but more low-level, and supports only objects.
 
 ## License
 
