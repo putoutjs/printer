@@ -1,3 +1,11 @@
+2023.04.14, v1.50.0
+
+fix:
+- 6203f72 @putout/printer: ArrayExpression: one element CallExpression
+
+feature:
+- 491126f @putout/printer: ArrayExpression: two elements ReturnStatement: no newline
+
 2023.04.14, v1.49.1
 
 fix:
