@@ -1,3 +1,8 @@
+2023.04.14, v1.47.0
+
+feature:
+- a102b07 @putout/printer: add support of TSTypeAssertion, TSAsExpression
+
 2023.04.14, v1.46.0
 
 feature:
