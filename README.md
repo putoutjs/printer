@@ -7,7 +7,8 @@ Prints [**Babel AST**](https://github.com/coderaiser/estree-to-babel) to readabl
 
 - ☝️ Similar to **Recast**, but simpler and easier in maintenance, since it supports only **Babel**.
 - ☝️ As opinionated as **Prettier**, but has more user-friendly output and works directly with **AST**.
-- ☝️ Like **ESLint** but without (almost) any configuration and plugins 🤷‍, also works directly with **Babel AST** only.
+- ☝️ Like **ESLint** but works directly with **Babel AST**.
+- ☝️ Easily extandable with help of [Overrides](h#overrides).
 
 ## Install
 
