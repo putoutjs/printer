@@ -1,0 +1,3 @@
+interface hello {
+    world: string;
+}

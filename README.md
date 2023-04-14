@@ -73,6 +73,7 @@ print(ast, {
 ### `print`
 
 Used in previous example `print` can be used for a couple purposes:
+
 - to print `string`;
 - to print `node` when `object` passed;
 - to print `node` when `string` started with `__`;
@@ -114,12 +115,11 @@ When are you going to output string you can use low-level function `write`:
 print(ast, {
     visitors: {
         BlockStatement(path, {write}) {
-            write('hello')
+            write('hello');
         },
     },
 });
 ```
-
 
 ### `indent`
 
@@ -130,10 +130,10 @@ you need to increment indentation, and then decrement it back:
 print(ast, {
     visitors: {
         BlockStatement(path, {write, indent}) {
-            write('{')
+            write('{');
             indent.inc();
             indent();
-            write('some;')
+            write('some;');
             indent.dec();
             write('{');
         },
