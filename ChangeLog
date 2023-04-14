@@ -1,3 +1,8 @@
+2023.04.14, v1.49.0
+
+fix:
+- b056bb5 @putout/printer: newline in ObjectExpression inside IfStatement
+
 2023.04.14, v1.48.0
 
 feature:
