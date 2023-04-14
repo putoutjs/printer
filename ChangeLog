@@ -1,3 +1,8 @@
+2023.04.14, v1.45.0
+
+feature:
+- 7a54443 @putout/printer: add support of TSMappedType
+
 2023.04.13, v1.44.0
 
 feature:
