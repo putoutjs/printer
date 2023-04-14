@@ -10,6 +10,11 @@ Prints [**Babel AST**](https://github.com/coderaiser/estree-to-babel) to readabl
 - ☝️ Like **ESLint** but works directly with **Babel AST**.
 - ☝️ Easily extandable with help of [Overrides](h#overrides).
 
+Supports:
+- ✅ **ES2023**;
+- ✅ **JSX**;
+- ✅ **TypeScript**;
+
 ## Install
 
 ```
