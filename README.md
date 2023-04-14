@@ -11,6 +11,7 @@ Prints [**Babel AST**](https://github.com/coderaiser/estree-to-babel) to readabl
 - ☝️ Easily extandable with help of [Overrides](h#overrides).
 
 Supports:
+
 - ✅ **ES2023**;
 - ✅ **JSX**;
 - ✅ **TypeScript**;
