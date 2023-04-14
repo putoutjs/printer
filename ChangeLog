@@ -1,3 +1,8 @@
+2023.04.14, v1.49.1
+
+fix:
+- 378734f @putout/printer: newline inside in ObjectPattern inside ForOfStatement
+
 2023.04.14, v1.49.0
 
 fix:
