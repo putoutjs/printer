@@ -1,3 +1,8 @@
+2023.04.17, v1.52.0
+
+feature:
+- bf2b9a3 @putout/printer: add support of afterSatisfy
+
 2023.04.17, v1.51.0
 
 feature:
