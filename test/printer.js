@@ -14,15 +14,20 @@ const {readFixtures} = require('./fixture');
 const {print} = require('..');
 
 const printExtension = ({fail, equal}) => (fixture) => {
-    const ast = parse(fixture, {
+    const [errorParse, ast] = tryCatch(parse, fixture, {
         isTS: true,
     });
     
-    const [error, source] = tryCatch(print, ast);
+    if (errorParse) {
+        console.error(errorParse.stack);
+        return fail(`☝️Looks like provided fixture cannot be parsed: '${fixture}'`);
+    }
     
-    if (error) {
-        console.error(error.stack);
-        return fail(error);
+    const [errorPrint, source] = tryCatch(print, ast);
+    
+    if (errorPrint) {
+        console.error(errorPrint.stack);
+        return fail(errorPrint);
     }
     
     const expected = `${fixture}\n`;
