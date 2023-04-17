@@ -1,3 +1,8 @@
+2023.04.17, v1.52.1
+
+feature:
+- cf83bcb @putout/printer: move out satisfy
+
 2023.04.17, v1.52.0
 
 feature:
