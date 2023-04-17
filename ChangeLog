@@ -1,3 +1,8 @@
+2023.04.17, v1.52.4
+
+fix:
+- cda4b9e @putout/printer: newline when VariableDeclaration inside of ExportDeclaration
+
 2023.04.17, v1.52.3
 
 fix:
