@@ -1,3 +1,10 @@
+2023.04.17, v1.51.0
+
+feature:
+- 0fc4fb0 @putout/printer: add ability to preserve newline between ExpressionStatements
+- 8073d64 @putout/printer: CallExpression: simplify
+- b94009b @putout/printer: add ability to preserve newline
+
 2023.04.14, v1.50.0
 
 fix:
