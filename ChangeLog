@@ -1,3 +1,9 @@
+2023.04.17, v1.52.2
+
+feature:
+- ef0ef15 @putout/printer: maybe
+- beb210c @putout/printer: ExpressionStatement: apply satisfy
+
 2023.04.17, v1.52.1
 
 feature:
