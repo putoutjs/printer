@@ -1,3 +1,9 @@
+2023.04.18, v1.54.1
+
+feature:
+- 7f6d7d4 @putout/printer: add support of Import used as object of MemberExpression
+- c2b2e4b @putout/printer: VariableDeclaration: drop useless newline
+
 2023.04.18, v1.54.0
 
 feature:
