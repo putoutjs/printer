@@ -1,3 +1,8 @@
+2023.04.18, v1.54.5
+
+feature:
+- 06bf3c0 @putout/printer: improve one element ArrayExpression newline support
+
 2023.04.18, v1.54.4
 
 fix:
