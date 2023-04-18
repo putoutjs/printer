@@ -26,7 +26,6 @@ const printExtension = ({fail, equal}) => (fixture) => {
     const [errorPrint, source] = tryCatch(print, ast);
     
     if (errorPrint) {
-        console.error(errorPrint.stack);
         return fail(errorPrint);
     }
     
@@ -253,6 +252,11 @@ test('putout: printer: function-declaration', (t) => {
 
 test('putout: printer: getter', (t) => {
     t.print(fixture.getter);
+    t.end();
+});
+
+test('putout: printer: import', (t) => {
+    t.print(fixture.import);
     t.end();
 });
 
