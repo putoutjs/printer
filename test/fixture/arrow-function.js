@@ -11,3 +11,5 @@ module.exports.isSupported = (name) => {
     
     return false;
 };
+
+const fn = f || (() => {});
