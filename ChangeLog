@@ -1,3 +1,8 @@
+2023.04.18, v1.54.3
+
+feature:
+- b5acf3e @putout/printer: improve support of newlines between elements of ArrayExpression
+
 2023.04.18, v1.54.2
 
 feature:
