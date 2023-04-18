@@ -9,3 +9,11 @@ for (const {hello} of [{hello: 'world'}])
 for (const a of []) {
     console.log('hello world');
 }
+
+const satisfy = () => {
+    for (const condition of conditions)
+        if (condition(path))
+            return true;
+    
+    return false;
+};
