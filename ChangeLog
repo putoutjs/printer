@@ -1,3 +1,11 @@
+2023.04.18, v1.55.0
+
+fix:
+- 85dbbd1 @putout/printer: get back satisfy
+
+feature:
+- c540dcb @putout/printer: ForOfStatement: add support of Statement inside of body
+
 2023.04.18, v1.54.5
 
 feature:
