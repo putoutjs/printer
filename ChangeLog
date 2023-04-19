@@ -1,3 +1,8 @@
+2023.04.19, v1.57.0
+
+feature:
+- 8f4ddc4 @putout/printer: add support of JSXMemberExpression
+
 2023.04.19, v1.56.0
 
 feature:
