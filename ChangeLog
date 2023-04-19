@@ -1,3 +1,8 @@
+2023.04.19, v1.58.0
+
+feature:
+- da02030 @putout/printer: improve support of comments inside JSX
+
 2023.04.19, v1.57.0
 
 feature:
