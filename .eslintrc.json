@@ -7,10 +7,5 @@
         "putout",
         "n"
     ],
-    "ignorePatterns": ["**/fixture/*.*"],
-    "rules": {
-        "no-multiple-empty-lines": ["error", {
-            "max": 1
-        }]
-    }
+    "ignorePatterns": ["**/fixture/*.*"]
 }
