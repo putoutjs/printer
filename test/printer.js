@@ -131,6 +131,11 @@ test('putout: printer: ClassExpression', (t) => {
     t.end();
 });
 
+test('putout: printer: ClassProperty', (t) => {
+    t.print(fixture.classProperty);
+    t.end();
+});
+
 test('putout: printer: conditionalExpression', (t) => {
     t.print(fixture.conditionalExpression);
     t.end();
