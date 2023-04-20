@@ -11,6 +11,7 @@ class b {
     get maxLength() {
         return this._maxLength;
     }
+    
     set maxLength(a) {
         return this._maxLength;
     }
