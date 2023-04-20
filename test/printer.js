@@ -387,6 +387,11 @@ test('putout: printer: string-literal', (t) => {
     t.end();
 });
 
+test('putout: printer: super', (t) => {
+    t.print(fixture.super);
+    t.end();
+});
+
 test('putout: printer: try-catch-statement', (t) => {
     t.print(fixture.tryCatchStatement);
     t.end();
