@@ -1,3 +1,8 @@
+2023.04.20, v1.62.0
+
+feature:
+- 7cebd86 @putout/printer: improve support of JSXText
+
 2023.04.20, v1.61.1
 
 feature:
