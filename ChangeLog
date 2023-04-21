@@ -1,3 +1,8 @@
+2023.04.21, v1.63.0
+
+feature:
+- cceed23 @putout/printer: improve support of AssignmentPattern inside of ObjectProperty
+
 2023.04.20, v1.62.0
 
 feature:
