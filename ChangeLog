@@ -1,3 +1,8 @@
+2023.04.21, v1.66.0
+
+feature:
+- 31a3e52 @putout/printer: add support for const type parameters
+
 2023.04.21, v1.65.0
 
 feature:
