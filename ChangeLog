@@ -1,3 +1,8 @@
+2023.04.21, v1.64.0
+
+feature:
+- 3ffb203 @putout/printer: add support of optional variance annotation
+
 2023.04.21, v1.63.1
 
 feature:
