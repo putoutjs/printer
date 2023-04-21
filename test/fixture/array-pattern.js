@@ -12,3 +12,5 @@ const [
     e,
     f,
 ] = abc();
+
+const {versions: nodeVersions = defaultVersions} = options;
