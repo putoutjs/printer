@@ -1,0 +1,1 @@
+export type * as vehicles from "./vehicles";
