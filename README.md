@@ -179,7 +179,7 @@ print(ast, {
 
 This is the same as `print('__left')` but more low-level, and supports only objects.
 
-## Speed Comparsion
+## Speed Comparison
 
 About speed, for file `speed.js`:
 
