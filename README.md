@@ -196,7 +196,7 @@ speed('putout');
 
 function speed(printer) {
     console.time(printer);
-
+    
     for (let i = 0; i < 1000; i++) {
         putout(code, {
             printer,
@@ -205,7 +205,7 @@ function speed(printer) {
             ],
         });
     }
-
+    
     console.timeEnd(printer);
 }
 ```
