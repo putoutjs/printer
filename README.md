@@ -5,7 +5,7 @@
 
 Prints [**Babel AST**](https://github.com/coderaiser/estree-to-babel) to readable **JavaScript**.
 
-- ☝️ Similar to **Recast**, but simpler and easier in maintenance, since it supports only **Babel**.
+- ☝️ Similar to **Recast**, but [twice faster](#speed-comparison), also simpler and easier in maintenance, since it supports only **Babel**.
 - ☝️ As opinionated as **Prettier**, but has more user-friendly output and works directly with **AST**.
 - ☝️ Like **ESLint** but works directly with **Babel AST**.
 - ☝️ Easily extandable with help of [Overrides](h#overrides).
@@ -178,6 +178,41 @@ print(ast, {
 ```
 
 This is the same as `print('__left')` but more low-level, and supports only objects.
+
+## Speed Comparsion
+
+About speed, for file `speed.js`:
+
+```js
+const putout = require('putout');
+const {readFileSync} = require('fs');
+const parser = require('@babel/parser');
+
+const code = readFileSync('./lib/tokenize/tokenize.js', 'utf8');
+const ast = parser.parse(code);
+
+speed('recast');
+speed('putout');
+
+function speed(printer) {
+    console.time(printer);
+
+    for (let i = 0; i < 1000; i++) {
+        putout(code, {
+            printer,
+            plugins: [
+                'remove-unused-variables',
+            ],
+        });
+    }
+
+    console.timeEnd(printer);
+}
+```
+
+With contents of [`tokenize.js`](https://github.com/putoutjs/printer/blob/v1.69.1/lib/tokenize/tokenize.js), we have:
+
+![image](https://user-images.githubusercontent.com/1573141/234004942-8f890da3-a145-425f-9040-25924dcfba7b.png)
 
 ## License
 
