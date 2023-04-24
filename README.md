@@ -22,6 +22,27 @@ Supports:
 npm i @putout/printer
 ```
 
+## 🐊 Support of Printer
+
+**Printer** has first class support from 🐊**Putout** with help of [`@putout/plugin-printer`](https://github.com/coderaiser/putout/tree/master/packages/plugin-printer#putoutplugin-printer-). So install:
+
+```sh
+npm i @putout/plugin-printer -aD
+```
+
+And update `.putout.json`:
+
+```json
+{
+  "printer": "putout",
+  "plugins": [
+    "printer"
+  ]
+}
+```
+
+To benefit from it.
+
 ## API
 
 ```js

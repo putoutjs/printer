@@ -3,7 +3,7 @@
   "version": "1.69.1",
   "type": "commonjs",
   "author": "coderaiser <mnemonic.enemy@gmail.com> (https://github.com/coderaiser)",
-  "description": "Easiest possible opinionated Babel AST printer made with ❤️  to use in 🐊Putout",
+  "description": "Simplest possible opinionated Babel AST printer fro 🐊Putout",
   "homepage": "https://github.com/putoutjs/printer#readme",
   "main": "./lib/printer.js",
   "exports": {
@@ -45,6 +45,7 @@
     "generate"
   ],
   "devDependencies": {
+    "@putout/plugin-printer": "^1.0.0",
     "@putout/plugin-react-hooks": "^5.0.0",
     "@putout/test": "^6.0.1",
     "acorn": "^8.8.2",
@@ -58,8 +59,7 @@
     "mock-require": "^3.0.3",
     "montag": "^1.0.0",
     "nodemon": "^2.0.1",
-    "putout": "*",
-    "putout-plugin-printer": "./rules",
+    "putout": "29",
     "supertape": "^8.0.0",
     "try-catch": "^3.0.0"
   },

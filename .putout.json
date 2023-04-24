@@ -9,13 +9,6 @@
     "match": {
         "{test,debug.js}": {
             "remove-console": "off"
-        },
-        "rules": {
-            "putout/add-args": ["on", {
-                "add": [
-                    ["printer", "putout"]
-                ]
-            }]
         }
     }
 }
