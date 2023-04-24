@@ -34,10 +34,10 @@ And update `.putout.json`:
 
 ```json
 {
-  "printer": "putout",
-  "plugins": [
-    "printer"
-  ]
+    "printer": "putout",
+    "plugins": [
+        "printer"
+    ]
 }
 ```
 
