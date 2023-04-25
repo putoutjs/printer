@@ -1,3 +1,8 @@
+2023.04.25, v1.70.2
+
+fix:
+- 42813b5 @putout/printer: ExportDeclaration: newline
+
 2023.04.25, v1.70.1
 
 feature:
