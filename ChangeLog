@@ -1,3 +1,8 @@
+2023.04.25, v1.71.2
+
+feature:
+- 9922208 @putout/printer: improve support of ForStatements newline
+
 2023.04.25, v1.71.1
 
 feature:
