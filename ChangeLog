@@ -1,3 +1,8 @@
+2023.04.25, v1.71.0
+
+feature:
+- b56cdb1 @putout/printer: ImportDeclaration: improve support of ImportSpecifier
+
 2023.04.25, v1.70.4
 
 feature:
