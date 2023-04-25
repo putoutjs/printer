@@ -1,3 +1,8 @@
+2023.04.25, v1.70.4
+
+feature:
+- b59320e @putout/printer: improve printing of comments after ObjectProperty
+
 2023.04.25, v1.70.3
 
 feature:
