@@ -1,3 +1,9 @@
+2023.04.25, v1.70.0
+
+feature:
+- 054212f @putout/printer: improve handling of SpreadElement newline in ObjectExpression
+- b61a9e9 package: @putout/plugin-printer v1.0.0
+
 2023.04.24, v1.69.1
 
 fix:
