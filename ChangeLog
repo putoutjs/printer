@@ -1,3 +1,8 @@
+2023.04.26, v1.72.6
+
+feature:
+- 65023d8 @putout/printer: improve support of CallExpression inside of MemberExpression
+
 2023.04.26, v1.72.5
 
 feature:
