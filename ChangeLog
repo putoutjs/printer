@@ -1,3 +1,9 @@
+2023.04.26, v1.72.0
+
+feature:
+- e1ca06a @putout/printer: improve support of SwitchCase
+- 82b3293 @putout/printer: improve ability to determine linebreak in ObjectMethod
+
 2023.04.25, v1.71.2
 
 feature:
