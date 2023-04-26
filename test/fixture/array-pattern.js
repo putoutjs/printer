@@ -14,3 +14,10 @@ const [
 ] = abc();
 
 const {versions: nodeVersions = defaultVersions} = options;
+
+function transform([name, value]) {
+    return {
+        name,
+        ...value,
+    };
+}
