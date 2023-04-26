@@ -1,3 +1,8 @@
+2023.04.26, v1.73.1
+
+feature:
+- 5b48ac8 @putout/printer: improve support of ArrayExpression
+
 2023.04.26, v1.73.0
 
 feature:
