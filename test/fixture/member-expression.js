@@ -1,3 +1,7 @@
+const lines = text
+    .split('\n')
+    .slice(1);
+
 const currentSource = list.shift().trim();
 const line = rawSource.split('\n')[startLine];
 
