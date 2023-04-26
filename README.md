@@ -51,7 +51,6 @@ const {parse} = require('@babel/parser');
 const ast = parse('const a = (b, c) => {const d = 5; return a;}');
 
 print(ast);
-
 // returns
 `
 const a = (b, c) => {
@@ -87,7 +86,6 @@ print(ast, {
         },
     },
 });
-
 // returns
 'const {a /* [hello world] */= 5} = b;\n';
 ```
