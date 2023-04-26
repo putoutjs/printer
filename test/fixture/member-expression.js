@@ -1,3 +1,5 @@
+const line = rawSource.split('\n')[startLine];
+
 module.exports.isFirst = (path) => path.node === path.parentPath.node.body?.[0];
 
 const isBodyOfArrow = (path) => path.parentPath.node.body === path.node;
