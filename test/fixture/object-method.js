@@ -10,3 +10,11 @@ parse({
         convertNodeComments(node);
     },
 });
+
+const {code} = await svelte.preprocess(rawSource, {
+    async style({content}) {
+        style({
+            content,
+        });
+    },
+});
