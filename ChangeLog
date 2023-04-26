@@ -1,3 +1,8 @@
+2023.04.26, v1.72.4
+
+feature:
+- 8fabd6e @putout/printer: avoid adding newline in MemberExpression when no args
+
 2023.04.26, v1.72.3
 
 feature:
