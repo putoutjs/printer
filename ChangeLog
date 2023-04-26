@@ -1,3 +1,8 @@
+2023.04.26, v1.72.2
+
+feature:
+- deec1c9 @putout/printer: ObjectMethod: add support of async
+
 2023.04.26, v1.72.1
 
 feature:
