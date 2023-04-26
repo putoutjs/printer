@@ -1,3 +1,8 @@
+2023.04.26, v1.72.5
+
+feature:
+- a8fa20b @putout/printer: chaining newline
+
 2023.04.26, v1.72.4
 
 feature:
