@@ -1,3 +1,7 @@
+lines
+    .map(cutSpaces(spacesCount))
+    .join('\n');
+
 module.exports.traverse = ({push}) => ({
     VariableDeclarator() {
         push({
