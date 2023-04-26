@@ -1,3 +1,8 @@
+2023.04.26, v1.74.0
+
+feature:
+- 9ef7aaa @putout/printer: add support of empty value in JSXAttribute
+
 2023.04.26, v1.73.2
 
 feature:
