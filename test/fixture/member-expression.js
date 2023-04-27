@@ -2,7 +2,10 @@ const lines = text
     .split('\n')
     .slice(1);
 
-const currentSource = list.shift().trim();
+const currentSource = list
+    .shift()
+    .trim();
+
 const line = rawSource.split('\n')[startLine];
 
 module.exports.isFirst = (path) => path.node === path.parentPath.node.body?.[0];
