@@ -1,3 +1,8 @@
+2023.04.27, v1.75.0
+
+feature:
+- 0560c33 @putout/printer: MemberExpression: simplify chain
+
 2023.04.26, v1.74.0
 
 feature:
