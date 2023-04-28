@@ -1,3 +1,8 @@
+2023.04.28, v1.76.0
+
+feature:
+- a515fbc @putout/printer: improve support of newlines in with comments
+
 2023.04.27, v1.75.0
 
 feature:
