@@ -81,13 +81,13 @@ print(ast, {
     },
     visitors: {
         AssignmentPattern(path, {print}) {
-            print(' /* [hello world] */= ');
+            print('/* [hello world] */= ');
             print('__right');
         },
     },
 });
 // returns
-'const {a /* [hello world] */= 5} = b;\n';
+'const {/* [hello world] */= 5} = b;\n';
 ```
 
 ### `print`
@@ -103,7 +103,7 @@ print(ast, {
     visitors: {
         AssignmentPattern(path, {print, maybe}) {
             maybe.print.newline(path.parentPath.isCallExpression());
-            print(' /* [hello world] */= ');
+            print('/* [hello world] */= ');
             print('__right');
         },
     },
