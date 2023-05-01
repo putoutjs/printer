@@ -1,3 +1,8 @@
+2023.05.01, v1.78.0
+
+feature:
+- ebd6259 @putout/printer: improve support of AssignmentPattern
+
 2023.05.01, v1.77.0
 
 feature:
