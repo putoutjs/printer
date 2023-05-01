@@ -1,3 +1,8 @@
+2023.05.01, v1.76.1
+
+feature:
+- 042d621 @putout/printer: member-expression: mv to dir
+
 2023.04.28, v1.76.0
 
 feature:
