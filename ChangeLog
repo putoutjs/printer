@@ -1,3 +1,8 @@
+2023.05.02, v1.79.1
+
+fix:
+- 1d1af3a @putout/printer: chaining
+
 2023.05.02, v1.79.0
 
 feature:
