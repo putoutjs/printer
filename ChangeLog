@@ -1,3 +1,8 @@
+2023.05.03, v1.80.2
+
+feature:
+- 07be461 @putout/printer: BreakStatement: apply afterSatisfy
+
 2023.05.03, v1.80.1
 
 feature:
