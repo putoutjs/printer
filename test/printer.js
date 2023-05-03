@@ -126,6 +126,11 @@ test('putout: printer: block-statement: expression', (t) => {
     t.end();
 });
 
+test('putout: printer: big-int-literal', (t) => {
+    t.print(fixture.bigIntLiteral);
+    t.end();
+});
+
 test('putout: printer: ClassExpression', (t) => {
     t.print(fixture.classExpression);
     t.end();
@@ -377,8 +382,8 @@ test('putout: printer: reg-exp-literal', (t) => {
     t.end();
 });
 
-test('putout: printer: big-int-literal', (t) => {
-    t.print(fixture.bigIntLiteral);
+test('putout: printer: sequence-expression', (t) => {
+    t.print(fixture.sequenceExpression);
     t.end();
 });
 
