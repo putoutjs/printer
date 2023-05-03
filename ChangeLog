@@ -1,3 +1,9 @@
+2023.05.03, v1.80.1
+
+feature:
+- 9060489 @putout/printer: improve support of ForStatement
+- 94fce17 @putout/printer: SequenceExpression inside ExportDeclaration
+
 2023.05.03, v1.80.0
 
 feature:
