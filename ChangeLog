@@ -1,3 +1,8 @@
+2023.05.03, v1.80.0
+
+feature:
+- e6111ae @putout/printer: improve support of NumericLiteral, SequenceExpression
+
 2023.05.02, v1.79.1
 
 fix:
