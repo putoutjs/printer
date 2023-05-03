@@ -1,3 +1,8 @@
+2023.05.03, v1.80.4
+
+fix:
+- 568300c @putout/printer: ImportDeclaration with 2 specifiers
+
 2023.05.03, v1.80.3
 
 feature:
