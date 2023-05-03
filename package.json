@@ -50,7 +50,7 @@
     "@putout/test": "^6.0.1",
     "acorn": "^8.8.2",
     "c8": "^7.5.0",
-    "escover": "^2.5.3",
+    "escover": "^3.0.0",
     "eslint": "^8.0.1",
     "eslint-plugin-n": "^15.2.4",
     "eslint-plugin-putout": "^17.0.0",
