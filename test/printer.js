@@ -447,6 +447,11 @@ test('putout: printer: template', (t) => {
     t.end();
 });
 
+test('putout: printer: throw-statement', (t) => {
+    t.print(fixture.throwStatement);
+    t.end();
+});
+
 test('putout: printer: unknown', (t) => {
     const ast = parse(fixture.unknown, {
         isFlow: true,
