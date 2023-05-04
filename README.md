@@ -78,6 +78,9 @@ const ast = parse('const {a = 5} = b');
 print(ast, {
     format: {
         indent: '    ',
+        newline: '\n',
+        space: ' ',
+        comments: true,
     },
     visitors: {
         AssignmentPattern(path, {print}) {
