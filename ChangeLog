@@ -1,3 +1,8 @@
+2023.05.04, v1.81.3
+
+feature:
+- ae2c615 @putout/printer: improve support of SequenceExpressions
+
 2023.05.04, v1.81.2
 
 feature:
