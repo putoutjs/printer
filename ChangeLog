@@ -1,3 +1,8 @@
+2023.05.04, v1.81.4
+
+feature:
+- a6bd038 @putout/printer: improve support of comments inside ObjectProperty
+
 2023.05.04, v1.81.3
 
 feature:
