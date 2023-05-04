@@ -90,7 +90,7 @@ print(ast, {
     },
 });
 // returns
-'const {/* [hello world] */= 5} = b;\n';
+'const {a/* [hello world] */= 5} = b;\n';
 ```
 
 ### `print`
