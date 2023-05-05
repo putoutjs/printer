@@ -1,3 +1,8 @@
+2023.05.05, v1.81.5
+
+feature:
+- b8367bc @putout/printer: improve support of newline in FunctionDeclaration inside of ExportDeclaration
+
 2023.05.04, v1.81.4
 
 feature:
