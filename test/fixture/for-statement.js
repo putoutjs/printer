@@ -14,3 +14,7 @@ for (;;) {
     __c4['🧨'](7, 4);
     continue;
 }
+
+for (let i = 0; a < n; a++) {
+    const element = elements[a];
+}
