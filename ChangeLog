@@ -1,3 +1,8 @@
+2023.05.08, v1.85.0
+
+feature:
+- 12c3ae4 @putout/printer: add support of void
+
 2023.05.08, v1.84.1
 
 feature:
