@@ -1,3 +1,8 @@
+2023.05.08, v1.83.0
+
+feature:
+- 395584d @putout/printer: ArrayExpressions: newline
+
 2023.05.07, v1.82.2
 
 feature:
