@@ -1,3 +1,11 @@
+2023.05.09, v1.89.0
+
+fix:
+- 17bae21 @putout/printer: rm useless condition
+
+feature:
+- bf25bda @putout/printer: ForOfStatement: newline
+
 2023.05.09, v1.88.0
 
 feature:
