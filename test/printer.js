@@ -13,7 +13,18 @@ const {
 const {readFixtures} = require('./fixture');
 const {print} = require('..');
 
+const maybeApplyIndent = (a, options) => {
+    const indent = options?.format?.indent;
+    
+    if (!indent)
+        return a;
+    
+    return a.replaceAll('    ', indent);
+};
+
 const printExtension = ({fail, equal}) => (fixture, options) => {
+    fixture = fixture.replaceAll('....', '    ');
+    
     const [errorParse, ast] = tryCatch(parse, fixture, {
         isTS: true,
     });
@@ -29,7 +40,7 @@ const printExtension = ({fail, equal}) => (fixture, options) => {
         return fail(errorPrint);
     }
     
-    const expected = `${fixture}\n`;
+    const expected = `${maybeApplyIndent(fixture, options)}\n`;
     
     return equal(source, expected);
 };
@@ -433,7 +444,11 @@ test('putout: printer: shebang', (t) => {
 });
 
 test('putout: printer: switch-statement', (t) => {
-    t.print(fixture.switchStatement);
+    t.print(fixture.switchStatement, {
+        format: {
+            indent: '....',
+        },
+    });
     t.end();
 });
 
