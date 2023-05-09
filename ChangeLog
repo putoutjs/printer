@@ -1,3 +1,9 @@
+2023.05.09, v1.87.0
+
+feature:
+- 092bb3c @putout/printer: add support of StaticBlock
+- 353a550 @putout/printer: improve support of SwitchStatement
+
 2023.05.09, v1.86.0
 
 feature:
