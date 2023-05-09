@@ -1,3 +1,8 @@
+2023.05.09, v1.88.0
+
+feature:
+- 64aa4a3 @putout/printer: add support of TSModuleDeclaration
+
 2023.05.09, v1.87.0
 
 feature:
