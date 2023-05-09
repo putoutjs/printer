@@ -487,6 +487,11 @@ test('putout: printer: spread-element', (t) => {
     t.end();
 });
 
+test('putout: printer: static-block', (t) => {
+    t.print(fixture.staticBlock);
+    t.end();
+});
+
 test('putout: printer: yield-expression', (t) => {
     t.print(fixture.yieldExpression);
     t.end();
