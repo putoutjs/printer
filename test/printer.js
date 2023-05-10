@@ -301,6 +301,11 @@ test('putout: printer: if-else', (t) => {
     t.end();
 });
 
+test('putout: printer: labeled-statement', (t) => {
+    t.print(fixture.labeledStatement);
+    t.end();
+});
+
 test('putout: printer: logicalExpression', (t) => {
     t.print(fixture.logicalExpression);
     t.end();
