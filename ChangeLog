@@ -1,3 +1,8 @@
+2023.05.10, v1.91.0
+
+feature:
+- 01a13b9 @putout/printer: add support of LabeledStatement
+
 2023.05.10, v1.90.1
 
 feature:
