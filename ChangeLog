@@ -1,3 +1,8 @@
+2023.05.10, v1.90.1
+
+feature:
+- 9a90b34 @putout/printer: add support of innerComments
+
 2023.05.10, v1.90.0
 
 feature:
