@@ -1,3 +1,8 @@
+2023.05.10, v1.90.0
+
+feature:
+- 5cd1dcc @putout/printer: add support of comments inside BlockStatement
+
 2023.05.09, v1.89.0
 
 fix:
