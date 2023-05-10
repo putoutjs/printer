@@ -1,3 +1,8 @@
+2023.05.10, v1.92.2
+
+feature:
+- e2f6ca0 @putout/printer: VariableDeclaration: couple VariableDeclarators without init
+
 2023.05.10, v1.92.1
 
 feature:
