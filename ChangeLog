@@ -1,3 +1,8 @@
+2023.05.10, v1.92.0
+
+feature:
+- 2d623d5 @putout/printer: ExportNamespaceDeclaration: improve support
+
 2023.05.10, v1.91.0
 
 feature:
