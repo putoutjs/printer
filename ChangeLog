@@ -1,3 +1,8 @@
+2023.05.11, v1.93.0
+
+feature:
+- 9822d55 @putout/printer: improve support computed property of ObjectPattern
+
 2023.05.11, v1.92.4
 
 feature:
