@@ -1,3 +1,8 @@
+2023.05.11, v1.96.0
+
+feature:
+- 9b7297f @putout/printer: improve support of LogicalExpression inside AwaitExpression
+
 2023.05.11, v1.95.0
 
 feature:
