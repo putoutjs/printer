@@ -1,3 +1,8 @@
+2023.05.11, v1.92.3
+
+feature:
+- 4518b45 @putout/printer: statements: SwitchStatement: add support of fall
+
 2023.05.10, v1.92.2
 
 feature:
