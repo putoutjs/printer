@@ -1,3 +1,8 @@
+2023.05.11, v1.97.0
+
+feature:
+- b0aa0ff @putout/printer: TSAsExpression inside MemberExpression: improve support
+
 2023.05.11, v1.96.0
 
 feature:
