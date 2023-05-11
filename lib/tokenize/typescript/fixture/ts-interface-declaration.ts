@@ -8,3 +8,7 @@ interface Dialog {
 
 const dialogProps: Dialog[] = [];
 const [firstDialog] = dialogProps;
+
+interface Dialog {
+    type: string;
+}
