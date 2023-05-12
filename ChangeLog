@@ -1,3 +1,8 @@
+2023.05.12, v1.97.2
+
+feature:
+- 420a677 @putout/printer: TSModuleDeclaration: improve newline support
+
 2023.05.11, v1.97.1
 
 feature:
