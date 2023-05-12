@@ -2,10 +2,7 @@
 
 const isUndefined = (a) => typeof a === 'undefined';
 
-const formatFromList = [
-    maybeApplyFromIndent,
-    maybeApplyFromSpace,
-];
+const formatFromList = [maybeApplyFromIndent, maybeApplyFromSpace];
 
 module.exports.maybeApplyFromFormat = (source, options) => {
     for (const format of formatFromList)
