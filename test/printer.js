@@ -12,38 +12,7 @@ const {
 
 const {readFixtures} = require('./fixture');
 const {print} = require('..');
-
-const maybeApplyIndent = (a, options) => {
-    const indent = options?.format?.indent;
-    
-    if (!indent)
-        return a;
-    
-    return a.replaceAll('    ', indent);
-};
-
-const printExtension = ({fail, equal}) => (fixture, options) => {
-    fixture = fixture.replaceAll('....', '    ');
-    
-    const [errorParse, ast] = tryCatch(parse, fixture, {
-        isTS: true,
-    });
-    
-    if (errorParse) {
-        console.error(errorParse.stack);
-        return fail(`☝️Looks like provided fixture cannot be parsed: '${fixture}'`);
-    }
-    
-    const [errorPrint, source] = tryCatch(print, ast, options);
-    
-    if (errorPrint) {
-        return fail(errorPrint);
-    }
-    
-    const expected = `${maybeApplyIndent(fixture, options)}\n`;
-    
-    return equal(source, expected);
-};
+const {printExtension} = require('./print-extension/print-extension');
 
 const test = extend({
     print: printExtension,
