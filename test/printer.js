@@ -436,6 +436,11 @@ test('putout: printer: template', (t) => {
     t.end();
 });
 
+test('putout: printer: template-element', (t) => {
+    t.print(fixture.templateElement);
+    t.end();
+});
+
 test('putout: printer: throw-statement', (t) => {
     t.print(fixture.throwStatement);
     t.end();
