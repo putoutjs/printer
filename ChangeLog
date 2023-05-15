@@ -1,3 +1,8 @@
+2023.05.15, v1.98.1
+
+fix:
+- b7ef03f @putout/printer: FunctionExpression: space
+
 2023.05.12, v1.98.0
 
 feature:
