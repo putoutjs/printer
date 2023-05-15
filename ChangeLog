@@ -1,3 +1,8 @@
+2023.05.15, v1.98.3
+
+feature:
+- aa0ab89 @putout/printer: ForOfStatement: space
+
 2023.05.15, v1.98.2
 
 fix:
