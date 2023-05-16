@@ -1,3 +1,8 @@
+2023.05.16, v1.99.0
+
+feature:
+- a7f4de3 @putout/printer: BinaryExpression: parens (coderaiser/putout#146)
+
 2023.05.15, v1.98.3
 
 feature:
