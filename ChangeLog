@@ -1,3 +1,8 @@
+2023.05.18, v1.101.4
+
+fix:
+- c40bec7 @putout/printer: AssignmentExpression: space
+
 2023.05.18, v1.101.3
 
 fix:
