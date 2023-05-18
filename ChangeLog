@@ -1,3 +1,8 @@
+2023.05.18, v1.102.0
+
+feature:
+- 4d53e86 @putout/printer: ObjectMethod: space
+
 2023.05.18, v1.101.4
 
 fix:
