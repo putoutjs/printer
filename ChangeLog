@@ -1,3 +1,8 @@
+2023.05.18, v1.101.2
+
+fix:
+- 3a35005 @putout/printer: SequenceExpression: space
+
 2023.05.18, v1.101.1
 
 fix:
