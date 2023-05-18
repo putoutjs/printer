@@ -1,3 +1,8 @@
+2023.05.18, v1.103.0
+
+feature:
+- b326ef8 @putout/printer: add support of ClassPrivateProperty (putoutjs/minify#2)
+
 2023.05.18, v1.102.0
 
 feature:
