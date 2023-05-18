@@ -461,6 +461,11 @@ test('putout: printer: unknown', (t) => {
     t.end();
 });
 
+test('putout: printer: private-name', (t) => {
+    t.print(fixture.privateName);
+    t.end();
+});
+
 test('putout: printer: spread-element', (t) => {
     t.print(fixture.spreadElement);
     t.end();
