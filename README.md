@@ -95,6 +95,57 @@ print(ast, {
 'const {a/* [hello world] */= 5} = b;\n';
 ```
 
+### `format`
+
+With help of `format` you can override next options:
+
+```js
+const overrides = {
+    format: {
+        indent: '    ',
+        newline: '\n',
+        space: ' ',
+        comments: true,
+        splitter: '\n',
+    },
+};
+```
+
+- `indent` - use two spaces, tabs, or anything you want;
+- `newline` - symbol for used for line separation;
+- `space` - default symbol used for space character;
+- `comments` - produce comments in output or skip them;
+- `splitter` - mandatory symbol that used inside of statements like this:
+
+Default options produce:
+
+```js
+if (a > 3)
+    console.log('ok');else
+    console.log('not ok');
+```
+
+But you can override them with:
+
+```js
+const overrides = {
+    format: {
+        indent: '',
+        newline: '',
+        space: '',
+        splitter: ' ',
+    },
+};
+```
+
+And have minified code:
+
+```js
+if (a > 3)
+    console.log('ok');else
+    console.log('not ok');
+```
+
 ### `print`
 
 Used in previous example `print` can be used for a couple purposes:

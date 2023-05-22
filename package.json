@@ -46,6 +46,7 @@
     "generate"
   ],
   "devDependencies": {
+    "@putout/plugin-minify": "^1.8.0",
     "@putout/plugin-printer": "^1.0.0",
     "@putout/plugin-react-hooks": "^5.0.0",
     "@putout/test": "^6.0.1",
