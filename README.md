@@ -81,6 +81,7 @@ print(ast, {
         newline: '\n',
         space: ' ',
         comments: true,
+        splitter: '\n',
     },
     visitors: {
         AssignmentPattern(path, {print}) {
