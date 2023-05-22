@@ -1,3 +1,8 @@
+2023.05.22, v1.106.0
+
+feature:
+- f859c20 @putout/printer: AssignmentExpression inside LogicalExpression (coderaiser/minify#100)
+
 2023.05.22, v1.105.0
 
 feature:
