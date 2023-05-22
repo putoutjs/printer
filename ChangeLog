@@ -1,3 +1,8 @@
+2023.05.22, v1.105.0
+
+feature:
+- 44fa04d @putout/printer: ClassPrivateMethod: add support (putoutjs/minify#3)
+
 2023.05.22, v1.104.0
 
 feature:
