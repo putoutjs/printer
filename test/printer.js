@@ -466,6 +466,11 @@ test('putout: printer: private-name', (t) => {
     t.end();
 });
 
+test('putout: printer: class-private-method', (t) => {
+    t.print(fixture.classPrivateMethod);
+    t.end();
+});
+
 test('putout: printer: spread-element', (t) => {
     t.print(fixture.spreadElement);
     t.end();
