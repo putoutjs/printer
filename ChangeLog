@@ -1,3 +1,8 @@
+2023.05.22, v1.106.1
+
+feature:
+- ee28ef7 @putout/printer: IfStatement: improve support
+
 2023.05.22, v1.106.0
 
 feature:
