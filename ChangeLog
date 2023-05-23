@@ -1,3 +1,8 @@
+2023.05.23, v1.108.0
+
+feature:
+- 4aa1199 @putout/printer: CallExpression: space
+
 2023.05.23, v1.107.0
 
 feature:
