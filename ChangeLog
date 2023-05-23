@@ -1,3 +1,8 @@
+2023.05.23, v1.107.0
+
+feature:
+- 2ee5b24 @putout/printer: BinaryExpression: instanceOf: spaces (putoutjs/minify#4)
+
 2023.05.22, v1.106.2
 
 fix:
