@@ -1,3 +1,8 @@
+2023.05.23, v1.109.0
+
+feature:
+- 2fcdc57 @putout/printer: ExportDeclaration: space
+
 2023.05.23, v1.108.0
 
 feature:
