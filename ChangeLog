@@ -1,3 +1,8 @@
+2023.05.23, v1.110.0
+
+feature:
+- 347e957 @putout/printer: ForStatement: spaces
+
 2023.05.23, v1.109.1
 
 feature:
