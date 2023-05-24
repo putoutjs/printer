@@ -1,3 +1,8 @@
+2023.05.24, v1.115.0
+
+feature:
+- 3d00402 @putout/printer: shebang: newlines
+
 2023.05.24, v1.114.0
 
 feature:
