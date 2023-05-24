@@ -1,3 +1,8 @@
+2023.05.24, v1.111.0
+
+feature:
+- c806c40 @putout/printer: ExpressionStatement inside IfStatement consequent when alternate exists: add "\n"
+
 2023.05.23, v1.110.0
 
 feature:
