@@ -3,8 +3,7 @@ import {
     cutEnv,
 } from 'madrun';
 
-const env = {
-};
+const env = {};
 
 export default {
     'wisdom': () => run(['lint', 'coverage']),

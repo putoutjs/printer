@@ -121,7 +121,8 @@ Default options produce:
 
 ```js
 if (a > 3)
-    console.log('ok');else
+    console.log('ok');
+else
     console.log('not ok');
 ```
 
@@ -142,7 +143,8 @@ And have minified code:
 
 ```js
 if (a > 3)
-    console.log('ok');else
+    console.log('ok');
+else
     console.log('not ok');
 ```
 
