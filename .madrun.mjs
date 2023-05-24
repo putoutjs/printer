@@ -4,7 +4,6 @@ import {
 } from 'madrun';
 
 const env = {
-    PUTOUT_PRINTER: 'putout',
 };
 
 export default {
