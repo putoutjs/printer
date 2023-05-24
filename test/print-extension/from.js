@@ -2,7 +2,11 @@
 
 const isUndefined = (a) => typeof a === 'undefined';
 
-const formatFromList = [maybeApplyFromIndent, maybeApplyFromSpace];
+const formatFromList = [
+    maybeApplyFromIndent,
+    maybeApplyFromSpace,
+    maybeApplyFromNewline,
+];
 
 module.exports.maybeApplyFromFormat = (source, options) => {
     for (const format of formatFromList)
@@ -23,8 +27,17 @@ function maybeApplyFromIndent(a, options) {
 function maybeApplyFromSpace(a, options) {
     const space = options?.format?.space;
     
-    if (isUndefined(space))
+    if (!space)
         return a;
     
     return a.replaceAll(space, ' ');
+}
+
+function maybeApplyFromNewline(a, options) {
+    const newline = options?.format?.newline;
+    
+    if (isUndefined(newline))
+        return a;
+    
+    return a.replaceAll(newline, '\n');
 }
