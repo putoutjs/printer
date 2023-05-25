@@ -1,3 +1,8 @@
+2023.05.25, v1.116.0
+
+feature:
+- f7890b6 @putout/printer: ObjectPattern: space
+
 2023.05.25, v1.115.2
 
 feature:
