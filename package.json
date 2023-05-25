@@ -54,7 +54,7 @@
     "c8": "^7.5.0",
     "escover": "^3.0.0",
     "eslint": "^8.0.1",
-    "eslint-plugin-n": "^15.2.4",
+    "eslint-plugin-n": "^16.0.0",
     "eslint-plugin-putout": "^17.0.0",
     "estree-to-babel": "^5.0.1",
     "just-kebab-case": "^4.2.0",
