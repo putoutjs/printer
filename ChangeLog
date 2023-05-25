@@ -1,3 +1,8 @@
+2023.05.25, v1.115.1
+
+fix:
+- a1c17a9 @putout/printer: ObjectProperty inside ObjectPattern after path.scope.rename() (babel/babel#15648)
+
 2023.05.24, v1.115.0
 
 feature:
