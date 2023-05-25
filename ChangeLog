@@ -1062,7 +1062,7 @@ feature:
 2023.03.23, v1.7.1
 
 feature:
-- f1db3bd @putout/printer: print: path.get(__a) => __a
+- f1db3bd @putout/printer: write: path.get(__a) => __a
 
 2023.03.23, v1.7.0
 
@@ -1122,7 +1122,7 @@ feature:
 2023.03.20, v1.6.3
 
 feature:
-- 052b966 @putout/printer: write -> print
+- 052b966 @putout/printer: write -> write
 
 2023.03.20, v1.6.2
 
@@ -1157,7 +1157,7 @@ feature:
 2023.03.18, v1.5.1
 
 feature:
-- a79e4f6 @putout/printer: print, indent, maybe
+- a79e4f6 @putout/printer: write, indent, maybe
 
 2023.03.18, v1.5.0
 
