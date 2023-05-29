@@ -1,3 +1,8 @@
+2023.05.29, v1.119.0
+
+feature:
+- 971dad5 @putout/printer: improve support of RestSpread inside ObjectPattern
+
 2023.05.25, v1.118.0
 
 feature:
