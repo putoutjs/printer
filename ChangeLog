@@ -1,3 +1,9 @@
+2023.05.29, v1.120.0
+
+feature:
+- da33669 @putout/printer: ObjectProperty: improve support when one line inside LogicalExpression
+- db06c37 @putout/printer: ObjectPattern: improve RestElement support
+
 2023.05.29, v1.119.0
 
 feature:
