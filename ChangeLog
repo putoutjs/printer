@@ -1,3 +1,8 @@
+2023.06.01, v1.126.0
+
+feature:
+- a1bfb5d @putout/printer: ReturnStatement: UnaryExpression
+
 2023.06.01, v1.125.0
 
 feature:
