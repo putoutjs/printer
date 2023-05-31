@@ -1,3 +1,8 @@
+2023.05.31, v1.123.0
+
+feature:
+- 16b7fbc @putout/printer: ReturnStatement: space: ArrowFunctionExpression
+
 2023.05.30, v1.122.0
 
 feature:
