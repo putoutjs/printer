@@ -1,3 +1,8 @@
+2023.06.01, v1.125.0
+
+feature:
+- 06ffae2 @putout/printer: ArrayExpression: space
+
 2023.06.01, v1.124.0
 
 feature:
