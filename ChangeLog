@@ -1,3 +1,8 @@
+2023.06.01, v1.128.0
+
+feature:
+- 118671c @putout/printer: ArrowFunctionExpression: add ability to drop braces
+
 2023.06.01, v1.127.0
 
 feature:
