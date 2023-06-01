@@ -82,6 +82,8 @@ write(ast, {
         space: ' ',
         comments: true,
         splitter: '\n',
+        roundBraceOpen: '(',
+        roundBraceClose: ')',
     },
     visitors: {
         AssignmentPattern(path, {write}) {
