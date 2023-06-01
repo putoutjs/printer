@@ -43,6 +43,11 @@ test('putout: printer: array-expression', (t) => {
     t.end();
 });
 
+test('putout: printer: do-while-statement', (t) => {
+    t.print(fixture.doWhileStatement);
+    t.end();
+});
+
 test('putout: printer: array-expression: tuple', (t) => {
     t.print(fixture.arrayExpressionTuple);
     t.end();
