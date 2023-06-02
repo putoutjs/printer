@@ -1,3 +1,8 @@
+2023.06.02, v1.129.0
+
+feature:
+- 13e4315 @putout/printer: add support of ImportAttributes (https://babeljs.io/blog/2023/05/26/7.22.0#import-attributes-15536-15620)
+
 2023.06.01, v1.128.1
 
 feature:
