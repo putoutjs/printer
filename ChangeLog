@@ -1,3 +1,9 @@
+2023.06.03, v1.131.0
+
+feature:
+- 2647101 @putout/printer: ArrayExpression: new line when ObjectExpression
+- 9af0bd8 @putout/printer: ImportAttributes: all cases
+
 2023.06.03, v1.130.2
 
 feature:
