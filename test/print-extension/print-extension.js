@@ -9,6 +9,7 @@ module.exports.printExtension = ({fail, equal}) => (fixture, options) => {
     const cleanFixture = maybeApplyFromFormat(fixture, options);
     
     const [errorParse, ast] = tryCatch(parse, cleanFixture, {
+        printer: 'putout',
         isTS: true,
     });
     
