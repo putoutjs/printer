@@ -1,3 +1,8 @@
+2023.06.05, v1.137.1
+
+feature:
+- c640dfb @putout/printer: NewExpression: drop useless indent
+
 2023.06.05, v1.137.0
 
 feature:
