@@ -1,3 +1,8 @@
+2023.06.05, v1.137.0
+
+feature:
+- 34d20b1 @putout/printer: NewExpression: add support of typeParameters
+
 2023.06.05, v1.136.0
 
 feature:
