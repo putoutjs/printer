@@ -1,3 +1,8 @@
+2023.06.05, v1.133.1
+
+fix:
+- b159c9a @putout/printer: ImportAttribute: no assertions
+
 2023.06.05, v1.133.0
 
 feature:
