@@ -1,3 +1,8 @@
+2023.06.05, v1.134.0
+
+feature:
+- c8a3dc3 @putout/printer: ArrayExpression: tuple
+
 2023.06.05, v1.133.1
 
 fix:
