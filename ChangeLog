@@ -1,3 +1,8 @@
+2023.06.05, v1.133.0
+
+feature:
+- 2f33c34 @putout/printer: ObjectExpression inside ArrayExpression
+
 2023.06.04, v1.132.0
 
 feature:
