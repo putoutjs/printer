@@ -30,7 +30,7 @@
     "@babel/parser": "^7.19.0",
     "@babel/traverse": "^7.21.2",
     "@babel/types": "^7.21.3",
-    "@putout/compare": "^9.13.0",
+    "@putout/compare": "^10.0.0",
     "@putout/operate": "^8.11.0",
     "fullstore": "^3.0.0",
     "just-snake-case": "^3.2.0",
