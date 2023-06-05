@@ -1,3 +1,8 @@
+2023.06.05, v1.135.0
+
+feature:
+- 34c703e @putout/printer: ArrayExpression: Tuple: Identifier and Object
+
 2023.06.05, v1.134.1
 
 feature:
