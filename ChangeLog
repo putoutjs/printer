@@ -1,3 +1,8 @@
+2023.06.06, v1.140.0
+
+feature:
+- e0db54f @putout/printer: TSSymbolKeyword: add support
+
 2023.06.06, v1.139.0
 
 feature:
