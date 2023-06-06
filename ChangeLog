@@ -1,3 +1,8 @@
+2023.06.06, v1.139.0
+
+feature:
+- 3ceb2f9 @putout/printer: TSNullKeyword: add support
+
 2023.06.06, v1.138.0
 
 feature:
