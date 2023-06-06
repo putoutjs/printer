@@ -1,0 +1,1 @@
+const x: bigint = 5n;
