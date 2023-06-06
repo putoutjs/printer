@@ -12,3 +12,8 @@ list.map((a) => {
     alert('hello');
     return 5;
 });
+
+{
+    const hi = require('./hi');
+    const {world: world} = require('./hi');
+}
