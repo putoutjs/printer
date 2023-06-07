@@ -1,3 +1,9 @@
+2023.06.07, v1.144.0
+
+feature:
+- 1a0881b @putout/printer: semantics: add
+- 21298d2 @putout/printer: add ability to configurate semantics
+
 2023.06.07, v1.143.0
 
 feature:
