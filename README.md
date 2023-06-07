@@ -85,6 +85,10 @@ write(ast, {
         roundBraceOpen: '(',
         roundBraceClose: ')',
     },
+    semantics: {
+        maxSpecifiersInOneLine: 2,
+        maxElementsInOneLine: 3,
+    },
     visitors: {
         AssignmentPattern(path, {write}) {
             write('/* [hello world] */= ');
