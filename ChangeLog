@@ -1,3 +1,8 @@
+2023.06.08, v1.145.0
+
+feature:
+- 9d33542 @putout/printer: ArrayExpression: tuple: Identifier and StringLiteral
+
 2023.06.07, v1.144.0
 
 feature:
