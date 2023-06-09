@@ -1,3 +1,8 @@
+2023.06.09, v1.149.0
+
+feature:
+- 35ec229 @putout/printer: ArrayExpression: plugins: couple lines
+
 2023.06.08, v1.148.1
 
 feature:
