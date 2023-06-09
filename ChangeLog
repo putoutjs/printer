@@ -1,3 +1,8 @@
+2023.06.09, v1.150.0
+
+feature:
+- c5b6238 @putout/printer: ArrayExpression: Tuple: two strings used as argument
+
 2023.06.09, v1.149.0
 
 feature:
