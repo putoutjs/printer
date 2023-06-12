@@ -1,3 +1,8 @@
+2023.06.12, v2.5.0
+
+feature:
+- 1810515 @putout/printer: WhileStatement: maybe
+
 2023.06.12, v2.4.0
 
 feature:
