@@ -1,3 +1,8 @@
+2023.06.12, v2.4.0
+
+feature:
+- 1aa1e9e @putout/printer: ObjectExpression: improve support of using as not last argument of CallExpression
+
 2023.06.12, v2.3.0
 
 feature:
