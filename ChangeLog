@@ -1,3 +1,8 @@
+2023.06.12, v2.0.2
+
+feature:
+- 56c4cdd @putout/printer: improve handling of comments
+
 2023.06.12, v2.0.1
 
 fix:
