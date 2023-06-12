@@ -104,7 +104,8 @@ write(ast, {
 
 ### `format`
 
-With help of `format` you can override next options:
+Options related to visuals and not related to logic of output can be changed with help of `format`,
+you can override next options:
 
 ```js
 const overrides = {
@@ -112,8 +113,9 @@ const overrides = {
         indent: '    ',
         newline: '\n',
         space: ' ',
-        comments: true,
         splitter: '\n',
+        roundBraceOpen: '(',
+        roundBraceClose: ')',
     },
 };
 ```
@@ -121,8 +123,8 @@ const overrides = {
 - `indent` - use two spaces, tabs, or anything you want;
 - `newline` - symbol for used for line separation;
 - `space` - default symbol used for space character;
-- `comments` - produce comments in output or skip them;
 - `splitter` - mandatory symbol that used inside of statements like this:
+- `roundBraceOpen` and `roundBraceClose` symbols to to output braces in a  single argument arrow function expressions: `(a) => {}`.
 
 Default options produce:
 
@@ -148,11 +150,15 @@ const overrides = {
 
 And have minified code:
 
+```
+if(a>3)console.log('ok');else console.log('not ok');
+```
+
+### Semantics
+
+Options used to configure logic of output, similar to ESLint rules:
+
 ```js
-if (a > 3)
-    console.log('ok');
-else
-    console.log('not ok');
 ```
 
 ### `write`
