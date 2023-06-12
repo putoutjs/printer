@@ -1,3 +1,8 @@
+2023.06.12, v2.0.1
+
+fix:
+- 693c0fc @putout/printer: VariableDeclarator: required space
+
 2023.06.12, v2.0.0
 
 feature:
