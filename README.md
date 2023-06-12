@@ -158,10 +158,7 @@ if(a>3)console.log('ok');else console.log('not ok');
 
 Options used to configure logic of output, similar to ESLint rules:
 
-```js
-
-
-```
+- `maxElementsInOneLine` - count of `ArrayExpression` and `ArrayPattern` elements placed in one line.
 
 ### `write`
 
