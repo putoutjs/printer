@@ -159,6 +159,8 @@ if(a>3)console.log('ok');else console.log('not ok');
 Options used to configure logic of output, similar to ESLint rules:
 
 ```js
+
+
 ```
 
 ### `write`
