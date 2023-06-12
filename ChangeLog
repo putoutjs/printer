@@ -1,3 +1,8 @@
+2023.06.12, v2.3.0
+
+feature:
+- 75353e2 @putout/printer: ArrayExpression: maxElementsInOneLine
+
 2023.06.12, v2.2.0
 
 feature:
