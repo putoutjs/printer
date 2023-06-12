@@ -80,12 +80,12 @@ write(ast, {
         indent: '    ',
         newline: '\n',
         space: ' ',
-        comments: true,
         splitter: '\n',
         roundBraceOpen: '(',
         roundBraceClose: ')',
     },
     semantics: {
+        comments: true,
         maxSpecifiersInOneLine: 2,
         maxElementsInOneLine: 3,
     },
