@@ -88,6 +88,7 @@ write(ast, {
         comments: true,
         maxSpecifiersInOneLine: 2,
         maxElementsInOneLine: 3,
+        maxVariablesInOneLine: 4,
     },
     visitors: {
         AssignmentPattern(path, {write}) {
