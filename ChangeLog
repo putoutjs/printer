@@ -1,3 +1,8 @@
+2023.06.12, v2.1.0
+
+feature:
+- 2a0f610 @putout/printer: add maxVariablesInOneLine
+
 2023.06.12, v2.0.2
 
 feature:
