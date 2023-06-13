@@ -1,3 +1,9 @@
+2023.06.13, v2.7.0
+
+feature:
+- 7f3fd61 @putout/printer: ObjectPattern: couple levels deep
+- 7922ba6 @putout/printer: ObjectPattern: move out
+
 2023.06.13, v2.6.0
 
 fix:
