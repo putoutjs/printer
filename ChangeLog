@@ -1,3 +1,8 @@
+2023.06.13, v2.9.0
+
+feature:
+- edfd3fa @putout/printer: literals: add support of braces round Identifier
+
 2023.06.13, v2.8.0
 
 feature:
