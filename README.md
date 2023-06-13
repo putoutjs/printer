@@ -35,9 +35,7 @@ And update `.putout.json`:
 ```json
 {
     "printer": "putout",
-    "plugins": [
-        "printer"
-    ]
+    "plugins": ["printer"]
 }
 ```
 
@@ -268,9 +266,7 @@ function speed(printer) {
     for (let i = 0; i < 1000; i++) {
         putout(code, {
             printer,
-            plugins: [
-                'remove-unused-variables',
-            ],
+            plugins: ['remove-unused-variables'],
         });
     }
     
