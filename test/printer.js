@@ -299,9 +299,7 @@ test('putout: printer: MemberExpression: no newline', (t) => {
     const ast = parse(fixture.memberExpressionNoNewline);
     
     transform(ast, fixture.memberExpressionNoNewline, {
-        plugins: [
-            'remove-debugger',
-        ],
+        plugins: ['remove-debugger'],
     });
     
     const result = print(ast);
