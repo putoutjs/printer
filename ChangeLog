@@ -1,3 +1,8 @@
+2023.06.13, v2.10.0
+
+feature:
+- b7dbe6c @putout/printer: improve support of nested IfStatement
+
 2023.06.13, v2.9.0
 
 feature:
