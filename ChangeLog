@@ -1,3 +1,8 @@
+2023.06.13, v2.6.0
+
+fix:
+- 30e2aa1 @putout/printer: ObjectExpression: used as argument call
+
 2023.06.12, v2.5.0
 
 feature:
