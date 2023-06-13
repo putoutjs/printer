@@ -1,3 +1,8 @@
+2023.06.13, v2.13.0
+
+feature:
+- 1e77dca @putout/printer: ArrayExpression: one string literal
+
 2023.06.13, v2.12.0
 
 feature:
