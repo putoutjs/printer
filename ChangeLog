@@ -1,3 +1,8 @@
+2023.06.15, v2.18.0
+
+feature:
+- ad883dc @putout/printer: VariableDeclaration: no newline when previous has
+
 2023.06.15, v2.17.0
 
 feature:
