@@ -1,3 +1,8 @@
+2023.06.16, v2.24.0
+
+feature:
+- 32d4852 @putout/printer: VariableDeclaration: newline
+
 2023.06.16, v2.23.0
 
 feature:
