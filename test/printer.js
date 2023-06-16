@@ -5,10 +5,7 @@ const montag = require('montag');
 const tryCatch = require('try-catch');
 const {extend} = require('supertape');
 
-const {
-    parse,
-    transform,
-} = require('putout');
+const {parse, transform} = require('putout');
 
 const {readFixtures} = require('./fixture');
 const {print} = require('..');
