@@ -1,3 +1,8 @@
+2023.06.16, v2.22.0
+
+feature:
+- f092cf8 @putout/printer: ObjectPattern: add maxPropertiesInOneLine
+
 2023.06.16, v2.21.0
 
 feature:
