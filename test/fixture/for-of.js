@@ -43,9 +43,7 @@ function getVarNodes({kind, declarations}) {
     const result = [];
     
     for (const declaration of declarations) {
-        const declarations = [
-            declaration,
-        ];
+        const declarations = [declaration];
         
         result.push(variableDeclaration(
             kind,
