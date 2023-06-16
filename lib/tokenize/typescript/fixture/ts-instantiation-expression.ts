@@ -1,6 +1,3 @@
-const {
-    register,
-    handleSubmit,
-} = useForm<{}>;
+const {register, handleSubmit} = useForm<{}>;
 
 const {clearErrors} = useForm<{FormInputs}>;

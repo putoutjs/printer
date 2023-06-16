@@ -87,6 +87,7 @@ write(ast, {
         maxSpecifiersInOneLine: 2,
         maxElementsInOneLine: 3,
         maxVariablesInOneLine: 4,
+        maxPropertiesInOneLine: 2,
     },
     visitors: {
         AssignmentPattern(path, {write}) {

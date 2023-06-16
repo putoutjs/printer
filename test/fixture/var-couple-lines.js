@@ -6,10 +6,7 @@ const {
     template,
 } = require('putout');
 
-const {
-    compare,
-    getTemplateValues,
-} = operator;
+const {compare, getTemplateValues} = operator;
 
 const {isBlockStatement} = types;
 

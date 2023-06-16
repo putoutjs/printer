@@ -1,12 +1,9 @@
 'use strict';
 
 const {operator} = require('putout');
-const {compare} = operator;
 
-const {
-    entries,
-    keys,
-} = Object;
+const {compare} = operator;
+const {entries, keys} = Object;
 
 module.exports.report = () => 'Avoid duplicate functions';
 
