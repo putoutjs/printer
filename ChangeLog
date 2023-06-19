@@ -1,3 +1,8 @@
+2023.06.19, v2.28.0
+
+feature:
+- 10230c2 @putout/printer: ObjectExpression inside ArrayExpression: newline
+
 2023.06.19, v2.27.0
 
 feature:
