@@ -1,3 +1,8 @@
+2023.06.19, v2.32.0
+
+feature:
+- 1e478d1 @putout/printer: VariableDeclarator: useless newline
+
 2023.06.19, v2.31.0
 
 feature:
