@@ -1,3 +1,8 @@
+2023.06.19, v2.27.0
+
+feature:
+- 9fedd57 @putout/printer: ClassMethod: computed (coderaiser/minify#106)
+
 2023.06.19, v2.26.1
 
 fix:
