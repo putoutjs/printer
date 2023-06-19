@@ -1,3 +1,8 @@
+2023.06.19, v2.26.0
+
+feature:
+- ce43d46 @putout/printer: ObjectPattern: RestElement: newline
+
 2023.06.19, v2.25.0
 
 feature:
