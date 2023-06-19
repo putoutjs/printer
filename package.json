@@ -49,6 +49,7 @@
   "devDependencies": {
     "@putout/plugin-minify": "^1.8.0",
     "@putout/plugin-printer": "^1.0.0",
+    "@putout/plugin-react-hook-form": "^3.4.1",
     "@putout/plugin-react-hooks": "^5.0.0",
     "@putout/test": "^6.0.1",
     "acorn": "^8.8.2",
