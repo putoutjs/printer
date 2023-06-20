@@ -1,3 +1,8 @@
+2023.06.20, v2.33.0
+
+feature:
+- d3487ee @putout/printer: WhileStatement: indent
+
 2023.06.19, v2.32.0
 
 feature:
