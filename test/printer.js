@@ -35,6 +35,11 @@ test('putout: printer: arrow-block-return', (t) => {
     t.end();
 });
 
+test('putout: printer: decorator', (t) => {
+    t.print(fixture.decorator);
+    t.end();
+});
+
 test('putout: printer: array-expression', (t) => {
     t.print(fixture.arrayExpression);
     t.end();
