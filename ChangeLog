@@ -1,3 +1,8 @@
+2023.06.22, v2.36.0
+
+feature:
+- 57649ed @putout/printer: AssignmentPattern: improve support of TSParameterProperty
+
 2023.06.22, v2.35.0
 
 feature:
