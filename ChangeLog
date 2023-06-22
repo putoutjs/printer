@@ -1,3 +1,8 @@
+2023.06.22, v2.35.0
+
+feature:
+- 7de32c3 @putout/printer: TSLiteralType: add support
+
 2023.06.20, v2.34.0
 
 feature:
