@@ -1,3 +1,10 @@
+2023.07.03, v2.43.0
+
+feature:
+- 3362977 @putout/printer: tryStatement: newline
+- 81004a0 @putout/printer: ClassDeclaration: spaces
+- 869323a @putout/printer: ClassDeclaration: spaces
+
 2023.07.03, v2.42.1
 
 feature:
