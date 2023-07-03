@@ -1,3 +1,8 @@
+2023.07.03, v2.44.0
+
+feature:
+- f02ef14 @putout/printer: DebuggerStatement: newline
+
 2023.07.03, v2.43.0
 
 feature:
