@@ -1,2 +1,1 @@
-export class CircularList<T> implements CircularList<T> {
-}
+export class CircularList<T> implements CircularList<T> {}

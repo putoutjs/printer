@@ -4,8 +4,7 @@ compile(source, {
         function id(Parser) {
             const {keywordTypes} = Parser.acorn;
             
-            return class extends Parser {
-            };
+            return class extends Parser {};
         },
     ],
     rules: {
