@@ -1,3 +1,8 @@
+2023.07.03, v2.42.1
+
+feature:
+- cd274b2 @putout/printer: BinaryExpression: spaces: in (coderaiser/minify#109)
+
 2023.06.22, v2.42.0
 
 feature:
