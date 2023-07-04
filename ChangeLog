@@ -1,3 +1,9 @@
+2023.07.04, v2.46.0
+
+feature:
+- c131fac @putout/printer: Directives
+- 70baffb @putout/printer: add support of directives
+
 2023.07.04, v2.45.0
 
 feature:
