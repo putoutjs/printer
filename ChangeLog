@@ -1,3 +1,8 @@
+2023.07.04, v2.45.0
+
+feature:
+- d30c1cd @putout/printer: ObjectExpression: spread
+
 2023.07.03, v2.44.0
 
 feature:
