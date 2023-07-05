@@ -1,3 +1,8 @@
+2023.07.05, v2.49.0
+
+feature:
+- 1120884 @putout/printer: ImportDeclaration: newline
+
 2023.07.05, v2.48.0
 
 feature:
