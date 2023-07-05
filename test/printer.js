@@ -495,4 +495,3 @@ test('putout: printer: while-statement', (t) => {
     t.print(fixture.whileStatement);
     t.end();
 });
-
