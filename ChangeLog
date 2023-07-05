@@ -1,3 +1,8 @@
+2023.07.05, v2.47.0
+
+feature:
+- dc0ba73 @putout/printer: Program: improve support of inner comments
+
 2023.07.04, v2.46.0
 
 feature:
