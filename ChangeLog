@@ -1,3 +1,11 @@
+2023.07.05, v2.50.0
+
+feature:
+- f77a990 @putout/printer: BlockStatement: newlines
+- 483494a package: c8 v8.0.0
+- dabddf7 package: @putout/plugin-promises v11.0.0
+- bf8f478 package: putout v30.0.0
+
 2023.07.05, v2.49.0
 
 feature:
