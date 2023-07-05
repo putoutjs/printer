@@ -1,3 +1,8 @@
+2023.07.05, v2.51.0
+
+feature:
+- f24b8f3 @putout/printer: add support of RecordExpression
+
 2023.07.05, v2.50.0
 
 feature:
