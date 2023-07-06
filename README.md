@@ -44,7 +44,7 @@ To benefit from it.
 ## API
 
 ```js
-const {write} = require('@putout/printer');
+const {print} = require('@putout/printer');
 const {parse} = require('@babel/parser');
 const ast = parse('const a = (b, c) => {const d = 5; return a;}');
 
@@ -73,7 +73,7 @@ Here is how you can override `AssignmentPattern`:
 ```js
 const ast = parse('const {a = 5} = b');
 
-write(ast, {
+print(ast, {
     format: {
         indent: '    ',
         newline: '\n',
@@ -168,7 +168,7 @@ Used in previous example `write` can be used for a couple purposes:
 - to write `node` when `string` started with `__`;
 
 ```js
-write(ast, {
+print(ast, {
     visitors: {
         AssignmentPattern(path, {write, maybe}) {
             maybe.write.newline(path.parentPath.isCallExpression());
@@ -185,7 +185,7 @@ When you need some condition use `maybe`. For example, to add newline only when 
 can use `maybe.write.newline(condition)`:
 
 ```js
-write(ast, {
+print(ast, {
     visitors: {
         AssignmentPattern(path, {write, maybe}) {
             maybe.write.newline(path.parentPath.isCallExpression());
@@ -201,7 +201,7 @@ write(ast, {
 When are you going to output string you can use low-level function `write`:
 
 ```js
-write(ast, {
+print(ast, {
     visitors: {
         BlockStatement(path, {write}) {
             write('hello');
@@ -216,7 +216,7 @@ When you need to add indentation use `indent`, for example when you output body,
 you need to increment indentation, and then decrement it back:
 
 ```js
-write(ast, {
+print(ast, {
     visitors: {
         BlockStatement(path, {write, indent}) {
             write('{');
@@ -235,7 +235,7 @@ write(ast, {
 When are you needing to traverse node, you can use `traverse`:
 
 ```js
-write(ast, {
+print(ast, {
     visitors: {
         AssignmentExpression(path, {traverse}) {
             traverse(path.get('left'));
