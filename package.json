@@ -59,7 +59,7 @@
     "escover": "^3.0.0",
     "eslint": "^8.0.1",
     "eslint-plugin-n": "^16.0.0",
-    "eslint-plugin-putout": "^17.0.0",
+    "eslint-plugin-putout": "^18.0.0",
     "estree-to-babel": "^5.0.1",
     "just-kebab-case": "^4.2.0",
     "madrun": "^9.0.0",
