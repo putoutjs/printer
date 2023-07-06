@@ -1,3 +1,10 @@
+2023.07.06, v2.52.0
+
+feature:
+- fd9bcf3 @putout/printer: JSXEmptyExpression: add
+- 29bdc0b package: eslint-plugin-putout v18.0.0
+- 1e83b78 package: @putout/compare v11.0.0
+
 2023.07.05, v2.51.0
 
 feature:
