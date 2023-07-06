@@ -1,3 +1,8 @@
+2023.07.06, v2.54.0
+
+feature:
+- 0fe105a @putout/printer: TupleExpression: add support
+
 2023.07.06, v2.53.0
 
 feature:
