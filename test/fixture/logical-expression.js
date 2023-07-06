@@ -1,7 +1,7 @@
 const a = {
     ...DEV && {
         devtool: 'eval',
-    }
+    },
 };
 
 if (a && b && c)
