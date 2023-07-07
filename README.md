@@ -41,14 +41,14 @@ And update `.putout.json`:
 
 To benefit from it.
 
-## API
+## Example
 
 ```js
 const {print} = require('@putout/printer');
 const {parse} = require('@babel/parser');
 const ast = parse('const a = (b, c) => {const d = 5; return a;}');
 
-write(ast);
+print(ast);
 // returns
 `
 const a = (b, c) => {
