@@ -90,9 +90,9 @@ print(ast, {
         maxPropertiesInOneLine: 2,
     },
     visitors: {
-        AssignmentPattern(path, {write}) {
-            write('/* [hello world] */= ');
-            write('__right');
+        AssignmentPattern(path, {print}) {
+            print('/* [hello world] */= ');
+            print('__right');
         },
     },
 });
@@ -157,11 +157,17 @@ if(a>3)console.log('ok');else console.log('not ok');
 
 Options used to configure logic of output, similar to ESLint rules:
 
-- `maxElementsInOneLine` - count of `ArrayExpression` and `ArrayPattern` elements placed in one line.
+- ✅ `maxElementsInOneLine` - count of `ArrayExpression` and `ArrayPattern` elements placed in one line.
+- ✅ `maxVariablesInOneLine` - count of `VariableDeclarators` in one line.
+- ✅ `maxPropertiesInOneLine` - count of `ObjectProperties` in one line.
 
-### `write`
+## Visitors API
 
-Used in previous example `write` can be used for a couple purposes:
+When you want to improve support of existing visitor or extend **Printer** with a new ones, you need next base operations:
+
+### `print`
+
+Used in previous example `print` can be used for a couple purposes:
 
 - to write `string`;
 - to write `node` when `object` passed;
@@ -170,10 +176,10 @@ Used in previous example `write` can be used for a couple purposes:
 ```js
 print(ast, {
     visitors: {
-        AssignmentPattern(path, {write, maybe}) {
+        AssignmentPattern(path, {print, maybe}) {
             maybe.write.newline(path.parentPath.isCallExpression());
-            write('/* [hello world] */= ');
-            write('__right');
+            print('/* [hello world] */= ');
+            print('__right');
         },
     },
 });
@@ -232,7 +238,7 @@ print(ast, {
 
 ### `traverse`
 
-When are you needing to traverse node, you can use `traverse`:
+When you need to traverse node path, you can use `traverse`:
 
 ```js
 print(ast, {
