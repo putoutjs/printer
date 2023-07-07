@@ -198,7 +198,7 @@ print(ast, {
 
 ### `write`
 
-When are you going to output string you can use low-level function `write`:
+When you going to output string you can use low-level function `write`:
 
 ```js
 print(ast, {
