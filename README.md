@@ -257,8 +257,9 @@ This is the same as `write('__left')` but more low-level, and supports only obje
 About speed, for file `speed.js`:
 
 ```js
-const putout = require('putout');
 const {readFileSync} = require('fs');
+
+const putout = require('putout');
 const parser = require('@babel/parser');
 
 const code = readFileSync('./lib/tokenize/tokenize.js', 'utf8');
