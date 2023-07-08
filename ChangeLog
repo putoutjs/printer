@@ -1,3 +1,8 @@
+2023.07.08, v2.57.0
+
+feature:
+- 0e980f4 @putout/printer: ObjectProperty: improve support of multiline comments
+
 2023.07.08, v2.56.0
 
 feature:
