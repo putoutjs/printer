@@ -1,0 +1,1 @@
+type Test = Operator & OperatorStub;
