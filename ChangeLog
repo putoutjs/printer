@@ -1,3 +1,8 @@
+2023.07.10, v2.68.0
+
+feature:
+- e1fc3d9 @putout/printer: ObjectPattern: properties: AssignmentPattern: newline
+
 2023.07.10, v2.67.0
 
 feature:
