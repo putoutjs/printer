@@ -1,3 +1,8 @@
+2023.07.10, v2.66.0
+
+feature:
+- 77088cb @putout/printer: TSDeclareFunction: params
+
 2023.07.10, v2.65.0
 
 feature:
