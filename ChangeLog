@@ -1,3 +1,8 @@
+2023.07.10, v2.62.0
+
+feature:
+- 3fe49ba @putout/printer: tokenize: TSIntersectionType: add
+
 2023.07.09, v2.61.0
 
 feature:
