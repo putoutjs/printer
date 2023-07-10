@@ -6,4 +6,4 @@
     */
 export default function toBabel(ast: Module, src?: string): ParseResult<File>;
 
-declare function parse(title: Title): void
+declare function parse(title: Title): void;
