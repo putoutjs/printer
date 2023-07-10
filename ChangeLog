@@ -1,3 +1,8 @@
+2023.07.10, v2.64.0
+
+feature:
+- 291163a @putout/printer: RestElement: typeAnnotation
+
 2023.07.10, v2.63.0
 
 feature:
