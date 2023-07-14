@@ -1,3 +1,8 @@
+2023.07.14, v2.72.0
+
+feature:
+- c81de01 TSTypeParameterDeclaration inside ArrowExpression
+
 2023.07.14, v2.71.0
 
 feature:
