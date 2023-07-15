@@ -1,3 +1,8 @@
+2023.07.15, v2.74.0
+
+feature:
+- e6b07a5 @putout/printer: TSTypePredicate: add
+
 2023.07.14, v2.73.1
 
 feature:
