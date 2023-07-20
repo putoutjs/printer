@@ -1,3 +1,8 @@
+2023.07.20, v2.79.0
+
+feature:
+- 036d9b0 @putout/printer: TSImportEqualsDeclaration
+
 2023.07.20, v2.78.0
 
 feature:
