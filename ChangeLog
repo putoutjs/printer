@@ -1,3 +1,8 @@
+2023.07.21, v2.81.0
+
+feature:
+- dddf2b5 @putout/printer: TSExternalModuleReference
+
 2023.07.20, v2.80.0
 
 feature:
