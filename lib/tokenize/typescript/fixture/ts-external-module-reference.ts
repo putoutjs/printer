@@ -1,0 +1,1 @@
+import jsdom = require('jsdom');
