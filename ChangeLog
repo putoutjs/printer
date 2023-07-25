@@ -1,3 +1,8 @@
+2023.07.25, v2.85.0
+
+feature:
+- c28e82a @putout/printer: TSConstructorType: add (coderaiser/putout#149)
+
 2023.07.25, v2.84.0
 
 feature:
