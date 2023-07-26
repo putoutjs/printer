@@ -1,3 +1,8 @@
+2023.07.26, v2.86.0
+
+feature:
+- 42a28c1 @putout/printer: static-property (coderaiser/putout#159)
+
 2023.07.25, v2.85.0
 
 feature:
