@@ -1,3 +1,8 @@
+2023.07.27, v2.89.0
+
+feature:
+- 6d324e9 @putout/printer: ClassMethod: scoped constructor (coderaiser/putout#172)
+
 2023.07.27, v2.88.0
 
 feature:
