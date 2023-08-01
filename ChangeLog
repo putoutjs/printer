@@ -1,3 +1,8 @@
+2023.08.01, v2.94.0
+
+feature:
+- b12d1d8 @putout/printer: TSInterfaceDeclaration: newlines
+
 2023.08.01, v2.93.0
 
 feature:
