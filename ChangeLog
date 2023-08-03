@@ -1,3 +1,8 @@
+2023.08.03, v2.96.0
+
+feature:
+- 205200b @putout/printer: UpdateExpression: parens (coderaiser/minify#112)
+
 2023.08.02, v2.95.0
 
 feature:
