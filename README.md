@@ -3,7 +3,7 @@
 [NPMIMGURL]: https://img.shields.io/npm/v/@putout/printer.svg?style=flat&longCache=true
 [NPMURL]: https://npmjs.org/package/@putout/printer "npm"
 
-Prints [**Babel AST**](https://github.com/coderaiser/estree-to-babel) to readable **JavaScript**.
+Prints [**Babel AST**](https://github.com/coderaiser/estree-to-babel) to readable **JavaScript**. For Babel 7 use `@putout/printer` v2.
 
 - ☝️ Similar to **Recast**, but [twice faster](#speed-comparison), also simpler and easier in maintenance, since it supports only **Babel**.
 - ☝️ As opinionated as **Prettier**, but has more user-friendly output and works directly with **AST**.
