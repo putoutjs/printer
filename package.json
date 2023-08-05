@@ -48,7 +48,7 @@
   ],
   "devDependencies": {
     "@babel/plugin-codemod-object-assign-to-object-spread": "^7.10.4",
-    "@putout/plugin-minify": "^1.8.0",
+    "@putout/plugin-minify": "^2.4.0",
     "@putout/plugin-printer": "^1.0.0",
     "@putout/plugin-promises": "^11.0.0",
     "@putout/plugin-react-hook-form": "^3.4.1",
