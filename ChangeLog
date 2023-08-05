@@ -1,3 +1,8 @@
+2023.08.05, v3.0.1
+
+feature:
+- 3528d83 2putout/printer: TSFunctionType: parens
+
 2023.08.05, v3.0.0
 
 feature:
