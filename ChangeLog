@@ -1,3 +1,15 @@
+2023.08.05, v3.0.0
+
+feature:
+- 90898aa @putout/printer: drop support of Babel < 8
+- 95e659c package: @putout/plugin-minify v2.4.0
+- 4025615 package: @putout/operate v10.0.2
+- df5945b package: @putout/compare v12.0.4
+- 6092ae6 package: nodemon v3.0.1
+- b7428a5 package: estree-to-babel v6.0.0
+- 2a6decd package: eslint-plugin-putout v19.0.2
+- e17d03f package: putout v31.0.3
+
 2023.08.03, v2.96.0
 
 feature:
