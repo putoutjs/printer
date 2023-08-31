@@ -1,3 +1,11 @@
+2023.08.31, v3.7.0
+
+feature:
+- 427e14f package: @putout/plugin-minify v4.0.0
+- f3a6959 package: @putout/plugin-promises v12.0.0
+- 52c04e4 package: @putout/plugin-printer v2.0.0
+- 1c7171d @putout/printer: VariableDeclaration inside TSModuleDeclaration
+
 2023.08.11, v3.6.0
 
 feature:
