@@ -1,0 +1,1 @@
+new (a.constructor as any)(a.length + b.length);
