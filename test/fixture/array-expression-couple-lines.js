@@ -1,4 +1,4 @@
-const {transform} = require("putout");
+const {transform} = require('putout');
 
 transform(ast, source, {
     plugins: [

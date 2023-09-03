@@ -81,6 +81,7 @@ print(ast, {
         splitter: '\n',
         roundBraceOpen: '(',
         roundBraceClose: ')',
+        quote: `'`,
     },
     semantics: {
         comments: true,
@@ -88,6 +89,7 @@ print(ast, {
         maxElementsInOneLine: 3,
         maxVariablesInOneLine: 4,
         maxPropertiesInOneLine: 2,
+        trailingComma: true,
     },
     visitors: {
         AssignmentPattern(path, {print}) {
