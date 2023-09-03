@@ -1,3 +1,9 @@
+2023.09.03, v4.0.0
+
+feature:
+- d935f8f @putout/printer: semantics: trailingComma
+- 9aa52e4 @putout/printer: format: quote: add
+
 2023.09.01, v3.8.0
 
 feature:
