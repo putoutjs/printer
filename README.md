@@ -21,7 +21,7 @@ Supports:
 - ✅ **ES2023**;
 - ✅ **JSX**;
 - ✅ **TypeScript**;
-- ✅ [**JSON**](https://github.com/coderaiser/putout/tree/master/packages/processor-json);
+- ✅ [**JSON**](https://github.com/coderaiser/putout/tree/master/packages/processor-json#readme);
 
 ## Install
 
