@@ -1,7 +1,13 @@
-# Printer [![NPM version][NPMIMGURL]][NPMURL]
+# Printer [![License][LicenseIMGURL]][LicenseURL] [![NPM version][NPMIMGURL]][NPMURL] [![Build Status][BuildStatusIMGURL]][BuildStatusURL] [![Coverage Status][CoverageIMGURL]][CoverageURL]
 
-[NPMIMGURL]: https://img.shields.io/npm/v/@putout/printer.svg?style=flat&longCache=true
 [NPMURL]: https://npmjs.org/package/@putout/printer "npm"
+[NPMIMGURL]: https://img.shields.io/npm/v/@putout/printer.svg?style=flat&longCache=true
+[BuildStatusURL]: https://github.com/putoutjs/printer/actions/workflows/nodejs.yml "Build Status"
+[BuildStatusIMGURL]: https://github.com/putoutjs/printer/actions/workflows/nodejs.yml/badge.svg
+[LicenseURL]: https://tldrlegal.com/license/mit-license "MIT License"
+[LicenseIMGURL]: https://img.shields.io/badge/license-MIT-317BF9.svg?style=flat
+[CoverageURL]: https://coveralls.io/github/putoutjs/printer?branch=master
+[CoverageIMGURL]: https://coveralls.io/repos/putoutjs/printer/badge.svg?branch=master&service=github
 
 Prints [**Babel AST**](https://github.com/coderaiser/estree-to-babel) to readable **JavaScript**. For Babel 7 use `@putout/printer` v2.
 
