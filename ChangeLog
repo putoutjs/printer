@@ -1,3 +1,9 @@
+2023.09.13, v4.2.0
+
+feature:
+- d5b4479 @putout/printer: babel 7 -> babel 8
+- dd1b24e @putout/printer: typescript: newline -> breakline
+
 2023.09.04, v4.1.0
 
 feature:
