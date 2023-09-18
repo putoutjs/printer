@@ -1,3 +1,14 @@
+2023.09.18, v5.0.0
+
+feature:
+- 9ad0e3c package: putout v32.0.4
+- b8e15fc package: estree-to-babel v7.0.0
+- ebcf3aa package: @putout/plugin-react-hook-form v4.0.0
+- efbf8e8 package: @putout/plugin-promises v13.0.0
+- 7ebee8a package: @putout/operate v11.0.0
+- a40cb80 package: @putout/compare v13.0.0
+- 84c933d @putout/printer: TSMappedType: nameType
+
 2023.09.13, v4.2.0
 
 feature:
