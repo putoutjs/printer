@@ -28,7 +28,7 @@
   "dependencies": {
     "@putout/babel": "^1.1.1",
     "@putout/compare": "^13.0.0",
-    "@putout/operate": "^10.0.2",
+    "@putout/operate": "^11.0.0",
     "@putout/processor-json": "^7.0.0",
     "fullstore": "^3.0.0",
     "just-snake-case": "^3.2.0",
