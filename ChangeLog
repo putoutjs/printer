@@ -1,3 +1,8 @@
+2023.09.19, v5.3.0
+
+feature:
+- c0b651a @putout/printer: ArrayPattern: typeAnnotation
+
 2023.09.19, v5.2.0
 
 feature:
