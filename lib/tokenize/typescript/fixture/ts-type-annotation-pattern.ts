@@ -9,3 +9,5 @@ function Profile({name}: Props) {
         </div>
     );
 }
+
+const f = ([a]: x) => {};
