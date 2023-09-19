@@ -1,3 +1,9 @@
+2023.09.19, v5.1.0
+
+feature:
+- 8cea880 package: eslint-plugin-putout v20.0.0
+- 7ae8762 @putout/printer: ObjectExpression used as argument of CallExpression with MemberExpression chain used as callee
+
 2023.09.18, v5.0.0
 
 feature:
