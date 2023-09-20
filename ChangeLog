@@ -1,3 +1,8 @@
+2023.09.20, v5.5.1
+
+feature:
+- 42e1a65 @putout/printer: ObjectExpression: maybeParens: get back old behaviour
+
 2023.09.20, v5.5.0
 
 feature:
