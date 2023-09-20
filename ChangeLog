@@ -1,3 +1,9 @@
+2023.09.20, v5.4.0
+
+feature:
+- 896b185 @putout/printer: maybeTypeAnnotation
+- 74f9303 @putout/printer: ObjectExpression: maybeParens
+
 2023.09.19, v5.3.0
 
 feature:
