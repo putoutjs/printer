@@ -1,3 +1,8 @@
+2023.09.20, v5.5.0
+
+feature:
+- 4b84e6e @putout/printer: maybePrintTypeAnnotation
+
 2023.09.20, v5.4.0
 
 feature:
