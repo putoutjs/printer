@@ -132,7 +132,7 @@ const overrides = {
 - `newline` - symbol for used for line separation;
 - `space` - default symbol used for space character;
 - `splitter` - mandatory symbol that used inside of statements like this:
-- `roundBraceOpen` and `roundBraceClose` symbols to to output braces in a  single argument arrow function expressions: `(a) => {}`.
+- `roundBraceOpen` and `roundBraceClose` symbols to output braces in a  single argument arrow function expressions: `(a) => {}`.
 
 Default options produce:
 
