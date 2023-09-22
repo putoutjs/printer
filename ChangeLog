@@ -1,3 +1,8 @@
+2023.09.22, v5.7.2
+
+fix:
+- 45631de @putout/printer: avoid leaking mutation of a tree
+
 2023.09.22, v5.7.1
 
 feature:
