@@ -1,3 +1,9 @@
+2023.09.23, v5.9.0
+
+feature:
+- f163f9e @putout/printer: drop maybeMarkBefore
+- 06e2b19 @putout/printer: maybeDecorators
+
 2023.09.23, v5.8.0
 
 fix:
