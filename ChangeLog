@@ -1,3 +1,8 @@
+2023.09.26, v5.10.0
+
+feature:
+- 04ff653 @putout/printer: improve check of unsupported node
+
 2023.09.23, v5.9.0
 
 feature:
