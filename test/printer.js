@@ -459,7 +459,7 @@ test('putout: printer: unknown', (t) => {
     const [error] = tryCatch(print, ast);
     
     const expected = montag`
-        Node type 'InterfaceDeclaration' is not supported yet: 'interface IInputHandlingTerminal {}'
+        ☝️Node type 'InterfaceDeclaration' is not supported yet by @putout/printer: 'interface IInputHandlingTerminal {}'
     `;
     
     t.equal(error?.message, expected);
