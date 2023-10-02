@@ -1,3 +1,9 @@
+2023.10.02, v5.15.0
+
+feature:
+- 209cdd5 @putout/printer: TSEnumDeclaration: not const
+- 49837dc package: @putout/plugin-printer v3.0.0
+
 2023.10.02, v5.14.0
 
 feature:
