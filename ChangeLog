@@ -1,3 +1,8 @@
+2023.10.02, v5.13.0
+
+feature:
+- e8d8b04 @putout/printer: typescript: type, interface: add support of declare
+
 2023.09.26, v5.12.0
 
 feature:
