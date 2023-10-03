@@ -174,6 +174,30 @@ Options used to configure logic of output, similar to ESLint rules:
 
 When you want to improve support of existing visitor or extend **Printer** with a new ones, you need next base operations:
 
+### override
+
+When you need to override behavior of existing visitor use:
+
+```js
+import {
+    print,
+    visitors as v,
+} from '@putout/printer';
+
+print(ast, {
+    visitors: {
+        CallExpression(path, printer, semantics) {
+            const {print} = printer;
+            
+            if (!path.node.goldstein)
+                return v.CallExpression(path, printer, semantics);
+            
+            print('__goldstein');
+        },
+    },
+});
+```
+
 ### `print`
 
 Used in previous example `print` can be used for a couple purposes:
