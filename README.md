@@ -283,7 +283,7 @@ print(ast, {
 });
 ```
 
-This is the same as `write('__left')` but more low-level, and supports only objects.
+This is the same as `print('__left')` but more low-level, and supports only objects.
 
 ## Speed Comparison
 
