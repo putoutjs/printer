@@ -10,6 +10,7 @@
 [CoverageIMGURL]: https://coveralls.io/repos/putoutjs/printer/badge.svg?branch=master&service=github
 
 Prints [**Babel AST**](https://github.com/coderaiser/estree-to-babel) to readable **JavaScript**. For **ESTree** use [`estree-to-babel`](https://github.com/coderaiser/estree-to-babel).
+
 - ☝️ Similar to **Recast**, but [twice faster](#speed-comparison), also simpler and easier in maintenance, since it supports only **Babel**.
 - ☝️ As opinionated as **Prettier**, but has more user-friendly output and works directly with **AST**.
 - ☝️ Like **ESLint** but works directly with **Babel AST**.
