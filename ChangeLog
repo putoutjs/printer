@@ -1,3 +1,8 @@
+2023.10.17, v5.24.0
+
+feature:
+- 463cadc @putout/printer: ExportAllDeclaration: exportKind = type
+
 2023.10.17, v5.23.0
 
 feature:
