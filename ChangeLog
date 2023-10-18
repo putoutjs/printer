@@ -1,3 +1,9 @@
+2023.10.18, v5.27.0
+
+feature:
+- f799814 @putout/printer: ClassDeclaration: supertTypeParameters
+- 36192f7 @putout/printer: ClassMethod: typeParameters
+
 2023.10.18, v5.26.0
 
 feature:
