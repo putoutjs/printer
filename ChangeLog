@@ -1,3 +1,8 @@
+2023.10.18, v5.26.0
+
+feature:
+- 801a8f1 @putout/printer: TSDeclareFunction: typeParameters
+
 2023.10.18, v5.25.0
 
 feature:
