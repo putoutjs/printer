@@ -1,0 +1,1 @@
+export const unsafeCoerce = async <T>(u: unknown): T => u as T;
