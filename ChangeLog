@@ -1,3 +1,8 @@
+2023.10.20, v5.31.0
+
+feature:
+- 6b56994 @putout/printer: IfStatement: indent
+
 2023.10.19, v5.30.0
 
 feature:
