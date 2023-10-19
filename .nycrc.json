@@ -8,6 +8,7 @@
         "**/debug.js",
         "**/coverage",
         "**/.*.*",
+        "**/*.d.ts",
         "**/fixture.js"
     ],
     "branches": 100,

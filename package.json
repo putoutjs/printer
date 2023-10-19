@@ -16,6 +16,7 @@
   "scripts": {
     "wisdom": "madrun wisdom",
     "test": "madrun test",
+    "test:dts": "madrun test:dts",
     "watch:test": "madrun watch:test",
     "lint": "madrun lint",
     "fresh:lint": "madrun fresh:lint",
@@ -53,6 +54,7 @@
     "@putout/plugin-react-hooks": "^5.0.0",
     "acorn": "^8.8.2",
     "c8": "^8.0.0",
+    "check-dts": "^0.7.2",
     "escover": "^3.0.0",
     "eslint": "^8.0.1",
     "eslint-plugin-n": "^16.0.0",
