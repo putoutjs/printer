@@ -1,3 +1,8 @@
+2023.10.19, v5.30.0
+
+feature:
+- c665680 @putout/printer: CallExpression: no arguments
+
 2023.10.19, v5.29.0
 
 feature:
