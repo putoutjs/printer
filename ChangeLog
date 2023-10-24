@@ -1,3 +1,8 @@
+2023.10.24, v5.35.1
+
+feature:
+- 689ec53 @putout/printer: TSTypeAliasDeclaration: simplify
+
 2023.10.24, v5.35.0
 
 feature:
