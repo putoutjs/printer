@@ -1,3 +1,8 @@
+2023.10.24, v5.36.0
+
+feature:
+- 495d9d9 @putout/printer: TSPropertySignature: readonly
+
 2023.10.24, v5.35.2
 
 feature:
