@@ -1,3 +1,8 @@
+2023.10.24, v5.32.0
+
+feature:
+- 2888e77 ExportNamedDeclaration: couple specifiers + source
+
 2023.10.20, v5.31.0
 
 feature:
