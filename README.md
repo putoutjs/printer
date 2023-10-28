@@ -89,6 +89,7 @@ print(ast, {
         roundBraceOpen: '(',
         roundBraceClose: ')',
         quote: `'`,
+        endOfFile: '\n',
     },
     semantics: {
         comments: true,
@@ -124,6 +125,7 @@ const overrides = {
         splitter: '\n',
         roundBraceOpen: '(',
         roundBraceClose: ')',
+        endOfFile: '\n',
     },
 };
 ```
