@@ -1,3 +1,9 @@
+2023.10.28, v6.0.0
+
+feature:
+- a739ffa package: eslint-plugin-putout v21.0.1
+- 9c6dd07 @putout/printer: format: endOfFile
+
 2023.10.26, v5.44.0
 
 feature:
