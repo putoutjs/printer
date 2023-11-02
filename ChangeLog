@@ -1,3 +1,8 @@
+2023.11.02, v6.1.0
+
+feature:
+- 138a4ac @putout/printer: RegExpLiteral: use pattern when no raw
+
 2023.10.28, v6.0.2
 
 fix:
