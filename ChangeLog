@@ -1,3 +1,8 @@
+2023.11.09, v6.2.0
+
+feature:
+- 6892d1c @putout/printer: json: add support of @putout/processor-filesystem
+
 2023.11.03, v6.1.1
 
 fix:
