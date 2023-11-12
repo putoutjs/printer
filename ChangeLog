@@ -1,3 +1,9 @@
+2023.11.12, v6.3.0
+
+feature:
+- d4795dc @putout/printer: putout v33.1.1
+- 68439dd @putout/printer: StringLiteral: encode single quote (coderaiser/putout#192)
+
 2023.11.09, v6.2.0
 
 feature:
