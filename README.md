@@ -98,6 +98,7 @@ print(ast, {
         maxVariablesInOneLine: 4,
         maxPropertiesInOneLine: 2,
         trailingComma: true,
+        encodeSingleQuote: true,
     },
     visitors: {
         AssignmentPattern(path, {print}) {
