@@ -20,9 +20,8 @@ module.exports.printExtension = ({fail, equal}) => (fixture, options) => {
     
     const [errorPrint, source] = tryCatch(print, ast, options);
     
-    if (errorPrint) {
+    if (errorPrint)
         return fail(errorPrint);
-    }
     
     const expected = `${fixture}\n`;
     
