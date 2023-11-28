@@ -1,3 +1,8 @@
+2023.11.28, v6.6.0
+
+fix:
+- 954cda8 @putout/printer: ArrayExpression: array inside array
+
 2023.11.28, v6.5.0
 
 feature:
