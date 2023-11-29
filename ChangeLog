@@ -1,3 +1,8 @@
+2023.11.29, v6.7.0
+
+feature:
+- 0e3a3cc @putout/printer: nested arrays
+
 2023.11.28, v6.6.0
 
 fix:
