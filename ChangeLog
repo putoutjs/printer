@@ -1,3 +1,8 @@
+2023.11.30, v6.9.0
+
+feature:
+- 672f353 @putout/printer: improve support of trailing comments on next line
+
 2023.11.30, v6.8.2
 
 feature:
