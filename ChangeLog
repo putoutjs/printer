@@ -1,3 +1,8 @@
+2023.11.30, v6.8.1
+
+fix:
+- 7df97ad @putout/printer: duplicate comments
+
 2023.11.30, v6.8.0
 
 feature:
