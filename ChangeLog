@@ -1,3 +1,8 @@
+2023.11.30, v6.8.0
+
+feature:
+- 82cd2e3 @putout/printer: leading comments in SpreadElement ObjectProperty
+
 2023.11.29, v6.7.0
 
 feature:
