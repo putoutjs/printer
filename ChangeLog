@@ -1,3 +1,8 @@
+2023.11.30, v6.8.2
+
+feature:
+- 2e8cba7 @putout/printer: SpreadElement: comment
+
 2023.11.30, v6.8.1
 
 fix:
