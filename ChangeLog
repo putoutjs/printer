@@ -1,3 +1,8 @@
+2023.11.30, v6.10.0
+
+feature:
+- dfe625e @putout/printer: ObjectProperty: comments: improve
+
 2023.11.30, v6.9.0
 
 feature:
