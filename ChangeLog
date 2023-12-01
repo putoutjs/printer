@@ -1,3 +1,8 @@
+2023.12.01, v6.11.1
+
+feature:
+- 39e3a0c ArrayExpression: simplify
+
 2023.11.30, v6.11.0
 
 feature:
