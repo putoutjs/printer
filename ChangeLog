@@ -1,3 +1,8 @@
+2023.12.01, v6.11.5
+
+feature:
+- 96f6f4b @putout/printer: ArrayExpression: newline: isMultiLine
+
 2023.12.01, v6.11.4
 
 feature:
