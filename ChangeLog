@@ -1,3 +1,8 @@
+2023.12.01, v6.11.3
+
+feature:
+- f363754 ArrayExpression: isOneLine
+
 2023.12.01, v6.11.2
 
 feature:
