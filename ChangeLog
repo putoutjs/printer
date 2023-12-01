@@ -1,3 +1,8 @@
+2023.12.01, v6.11.4
+
+feature:
+- d181e1c @putout/printer: ArrayExpression: notNumbersInsideForOf
+
 2023.12.01, v6.11.3
 
 feature:
