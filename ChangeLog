@@ -1,3 +1,8 @@
+2023.12.03, v6.15.0
+
+feature:
+- f05ae8a @putout/printer: MemberExpression: chain inside ifStatement
+
 2023.12.03, v6.14.0
 
 feature:
