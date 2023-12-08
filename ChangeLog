@@ -1,3 +1,9 @@
+2023.12.08, v6.17.0
+
+feature:
+- ff5b2bf @putout/printer: @putout/plugin-minify v6.2.0
+- a5c7341 @putout/printer: Multiline Comments after function params
+
 2023.12.03, v6.16.0
 
 feature:
