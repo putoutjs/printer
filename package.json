@@ -61,7 +61,7 @@
     "eslint-plugin-putout": "^21.0.1",
     "estree-to-babel": "^8.0.0",
     "just-kebab-case": "^4.2.0",
-    "madrun": "^9.0.0",
+    "madrun": "^10.0.0",
     "mock-require": "^3.0.3",
     "montag": "^1.0.0",
     "nodemon": "^3.0.1",
