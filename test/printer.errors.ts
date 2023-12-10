@@ -9,6 +9,6 @@ print(1);
 print(identifier('hello'), 1);
 
 print(identifier('hello'), {
-    // THROWS Argument of type '{ abc: string; }' is not assignable to parameter of type 'Options'.
+    // THROWS Object literal may only specify known properties, and 'abc' does not exist in type 'Options'.
     abc: 'hello',
 });
