@@ -1,3 +1,12 @@
+2023.12.10, v7.0.0
+
+feature:
+- d9a3874 @putout/printer: escover v4.0.1
+- 93781cd @putout/printer: @putout/compare v14.0.0
+- e2fe43d @putout/printer: drop support of node < 18
+- b713b09 @putout/printer: madrun v10.0.0
+- 16df5a6 @putout/printer: putout v34.0.0
+
 2023.12.08, v6.17.0
 
 feature:
