@@ -1,8 +1,11 @@
 {
     "printer": "putout",
-    "plugins": ["printer"],
+    "plugins": [
+        "printer"
+    ],
     "rules": {
-        "nodejs/declare": "off"
+        "nodejs/declare": "off",
+        "github/convert-npm-to-bun": "off"
     },
     "match": {
         "*.md": {
