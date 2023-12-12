@@ -1,3 +1,8 @@
+2023.12.12, v7.1.1
+
+feature:
+- feefbe7 @putout/printer: rm useless comment deduplicate
+
 2023.12.11, v7.1.0
 
 fix:
