@@ -58,7 +58,7 @@
     "eslint": "^8.0.1",
     "eslint-plugin-n": "^16.0.0",
     "eslint-plugin-putout": "^22.0.0",
-    "estree-to-babel": "^8.0.0",
+    "estree-to-babel": "^9.0.0",
     "just-kebab-case": "^4.2.0",
     "madrun": "^10.0.0",
     "mock-require": "^3.0.3",
