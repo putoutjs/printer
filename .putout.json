@@ -1,8 +1,6 @@
 {
     "printer": "putout",
-    "plugins": [
-        "printer"
-    ],
+    "plugins": ["printer"],
     "rules": {
         "nodejs/declare": "off",
         "github/convert-npm-to-bun": "off"
