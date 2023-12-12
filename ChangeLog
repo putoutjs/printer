@@ -1,3 +1,9 @@
+2023.12.12, v7.1.2
+
+feature:
+- 7801ff7 @putout/printer: @putout/plugin-promises v14.0.0
+- a34da40 @putout/printer: estree-to-babel v9.0.0
+
 2023.12.12, v7.1.1
 
 feature:
