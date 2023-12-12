@@ -48,7 +48,7 @@
     "@babel/plugin-codemod-object-assign-to-object-spread": "^7.10.4",
     "@putout/plugin-minify": "^6.2.0",
     "@putout/plugin-printer": "^3.0.0",
-    "@putout/plugin-promises": "^13.0.0",
+    "@putout/plugin-promises": "^14.0.0",
     "@putout/plugin-react-hook-form": "^4.0.0",
     "@putout/plugin-react-hooks": "^5.0.0",
     "acorn": "^8.8.2",
