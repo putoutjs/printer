@@ -1,3 +1,8 @@
+2023.12.14, v7.2.0
+
+feature:
+- 389b695 @putout/printer: var inside if (coderaiser/putout#194)
+
 2023.12.12, v7.1.2
 
 feature:
