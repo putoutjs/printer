@@ -52,7 +52,7 @@ To benefit from it.
 
 ```js
 const {print} = require('@putout/printer');
-const {parse} = require('@babel/parser');
+const {parse} = require('@putout/babel');
 const ast = parse('const a = (b, c) => {const d = 5; return a;}');
 
 print(ast);
