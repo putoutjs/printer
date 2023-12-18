@@ -9,7 +9,10 @@
 [CoverageURL]: https://coveralls.io/github/putoutjs/printer?branch=master
 [CoverageIMGURL]: https://coveralls.io/repos/putoutjs/printer/badge.svg?branch=master&service=github
 
-Prints [**Babel AST**](https://github.com/coderaiser/estree-to-babel) to readable **JavaScript**. For **ESTree** use [`estree-to-babel`](https://github.com/coderaiser/estree-to-babel).
+Prints [**Babel AST**](https://github.com/coderaiser/estree-to-babel) to readable **JavaScript**. 
+Use 🐊[**Putout**](https://github.com/coderaiser/putout) to parse your code.
+
+You may also use [Babel 8](https://github.com/putoutjs/babel) with [`estree-to-babel`](https://github.com/coderaiser/estree-to-babel) for **ESTree** and **Babel AST** to put `.extra.raw` to `.raw` (which is simpler for transforms, no need to use [Optional Chaining](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Optional_chaining) and add extra values every time).
 
 - ☝️ Similar to **Recast**, but [twice faster](#speed-comparison), also simpler and easier in maintenance, since it supports only **Babel**.
 - ☝️ As opinionated as **Prettier**, but has more user-friendly output and works directly with **AST**.
@@ -52,7 +55,7 @@ To benefit from it.
 
 ```js
 const {print} = require('@putout/printer');
-const {parse} = require('@putout/babel');
+const {parse} = require('putout');
 const ast = parse('const a = (b, c) => {const d = 5; return a;}');
 
 print(ast);
