@@ -9,7 +9,7 @@
 [CoverageURL]: https://coveralls.io/github/putoutjs/printer?branch=master
 [CoverageIMGURL]: https://coveralls.io/repos/putoutjs/printer/badge.svg?branch=master&service=github
 
-Prints [**Babel AST**](https://github.com/coderaiser/estree-to-babel) to readable **JavaScript**. 
+Prints [**Babel AST**](https://github.com/coderaiser/estree-to-babel) to readable **JavaScript**.
 Use 🐊[**Putout**](https://github.com/coderaiser/putout) to parse your code.
 
 You may also use [Babel 8](https://github.com/putoutjs/babel) with [`estree-to-babel`](https://github.com/coderaiser/estree-to-babel) for **ESTree** and **Babel AST** to put `.extra.raw` to `.raw` (which is simpler for transforms, no need to use [Optional Chaining](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Optional_chaining) and add extra values every time).
