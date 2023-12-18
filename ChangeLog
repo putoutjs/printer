@@ -1,3 +1,8 @@
+2023.12.18, v7.4.0
+
+feature:
+- 48b8257 @putout/printer: encodeDoubleQuote: add
+
 2023.12.18, v7.3.0
 
 fix:
