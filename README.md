@@ -102,6 +102,7 @@ print(ast, {
         maxPropertiesInOneLine: 2,
         trailingComma: true,
         encodeSingleQuote: true,
+        encodeDoubleQuote: false,
     },
     visitors: {
         AssignmentPattern(path, {print}) {
