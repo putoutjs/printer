@@ -5,12 +5,11 @@ interface Format {
     newline: string;
     space: string;
     splitter: string;
-    roundBraceOpen: string;
-    roundBraceClose: string;
     quote: string;
 }
 
 interface Semantics {
+    roundBraces: boolean;
     comments: boolean;
     maxPropertiesInOneLine: number;
     maxSpecifiersInOneLine: number;

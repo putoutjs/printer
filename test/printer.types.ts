@@ -9,12 +9,11 @@ print(ast, {
         newline: '\n',
         space: ' ',
         splitter: '\n',
-        roundBraceOpen: '(',
-        roundBraceClose: ')',
         quote: `'`,
     },
     semantics: {
         comments: true,
+        roundBraces: true,
         maxSpecifiersInOneLine: 2,
         maxElementsInOneLine: 3,
         maxVariablesInOneLine: 4,

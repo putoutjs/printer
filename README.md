@@ -89,8 +89,6 @@ print(ast, {
         newline: '\n',
         space: ' ',
         splitter: '\n',
-        roundBraceOpen: '(',
-        roundBraceClose: ')',
         quote: `'`,
         endOfFile: '\n',
     },
@@ -103,6 +101,7 @@ print(ast, {
         trailingComma: true,
         encodeSingleQuote: true,
         encodeDoubleQuote: false,
+        roundBraces: true,
     },
     visitors: {
         AssignmentPattern(path, {print}) {
@@ -128,8 +127,6 @@ const overrides = {
         newline: '\n',
         space: ' ',
         splitter: '\n',
-        roundBraceOpen: '(',
-        roundBraceClose: ')',
         endOfFile: '\n',
     },
 };
@@ -139,7 +136,6 @@ const overrides = {
 - `newline` - symbol used for line separation;
 - `space` - default symbol used for space character;
 - `splitter` - mandatory symbol that used inside of statements like this:
-- `roundBraceOpen` and `roundBraceClose` symbols to output braces in a  single argument arrow function expressions: `(a) => {}`.
 
 Default options produce:
 
@@ -176,6 +172,7 @@ Options used to configure logic of output, similar to ESLint rules:
 - ✅ `maxElementsInOneLine` - count of `ArrayExpression` and `ArrayPattern` elements placed in one line.
 - ✅ `maxVariablesInOneLine` - count of `VariableDeclarators` in one line.
 - ✅ `maxPropertiesInOneLine` - count of `ObjectProperties` in one line.
+- ✅ `roundBraces` - to output braces in a  single argument arrow function expressions: `(a) => {}` or not `a => {}`.
 
 ## Visitors API
 
