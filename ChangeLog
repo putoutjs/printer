@@ -1,3 +1,8 @@
+2024.02.12, v8.2.0
+
+feature:
+- 673ec74 @putout/printer: ArrayExpression: isStringAndArray: check array count
+
 2024.02.05, v8.1.0
 
 feature:
