@@ -1,3 +1,8 @@
+2024.02.14, v8.3.0
+
+feature:
+- 788739f @putout/printer: SwitchStatement: improve indent
+
 2024.02.12, v8.2.0
 
 feature:
