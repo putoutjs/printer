@@ -1,3 +1,8 @@
+2024.02.15, v8.5.0
+
+feature:
+- 0270569 @putout/printer: ArrayExpression: couple elements including nesting
+
 2024.02.15, v8.4.0
 
 feature:
