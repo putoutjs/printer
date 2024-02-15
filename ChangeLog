@@ -1,3 +1,8 @@
+2024.02.15, v8.4.0
+
+feature:
+- 1b6c4d1 @putout/printer: ArrayExpression: improve support
+
 2024.02.14, v8.3.0
 
 feature:
