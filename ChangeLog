@@ -1,3 +1,8 @@
+2024.02.19, v8.6.1
+
+fix:
+- 2fa4230 @putout/printer: maybePlugin -> maybeVisitor
+
 2024.02.19, v8.6.0
 
 feature:
