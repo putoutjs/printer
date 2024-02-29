@@ -3,3 +3,4 @@ type A = import('hello', {
         type: 'json',
     },
 });
+type B = import('hello');
