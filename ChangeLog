@@ -1,3 +1,8 @@
+2024.03.04, v8.8.0
+
+feature:
+- fda0513 @putout/printer: import-expression: TSImportType: createImportExpression
+
 2024.02.29, v8.7.1
 
 fix:
