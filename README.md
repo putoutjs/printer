@@ -183,10 +183,7 @@ When you want to improve support of existing visitor or extend **Printer** with 
 When you need to override behavior of existing visitor use:
 
 ```js
-import {
-    print,
-    visitors as v,
-} from '@putout/printer';
+import {print, visitors as v} from '@putout/printer';
 
 print(ast, {
     visitors: {
