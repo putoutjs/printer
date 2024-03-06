@@ -23,7 +23,7 @@ Supports:
 
 - ✅ **ES2023**;
 - ✅ **JSX**;
-- ✅ **TypeScript**;
+- ✅ [**TypeScript**](https://www.typescriptlang.org/);
 - ✅ [**JSON**](https://github.com/coderaiser/putout/tree/master/packages/processor-json#readme);
 
 ## Install
