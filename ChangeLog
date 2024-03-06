@@ -1,3 +1,8 @@
+2024.03.06, v8.8.1
+
+fix:
+- cce2240 @putout/printer: TSImportType
+
 2024.03.04, v8.8.0
 
 feature:
