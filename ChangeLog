@@ -1,3 +1,8 @@
+2024.04.04, v8.10.0
+
+feature:
+- 5f46656 @putout/printer: TSMappedType: no typeAnnotation
+
 2024.03.31, v8.9.0
 
 feature:
