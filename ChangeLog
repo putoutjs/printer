@@ -1,3 +1,8 @@
+2024.04.06, v8.10.1
+
+feature:
+- 079b1ad @putout/printer: TSExportAssignment: add newline when has next
+
 2024.04.04, v8.10.0
 
 feature:
