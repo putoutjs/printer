@@ -56,7 +56,7 @@
     "check-dts": "^0.7.2",
     "escover": "^4.0.1",
     "eslint": "^9.0.0",
-    "eslint-plugin-n": "^16.0.0",
+    "eslint-plugin-n": "^17.0.0",
     "eslint-plugin-putout": "^22.0.0",
     "estree-to-babel": "^9.0.0",
     "just-kebab-case": "^4.2.0",
