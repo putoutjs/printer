@@ -1,3 +1,10 @@
+2024.04.09, v8.11.0
+
+feature:
+- 914b94a @putout/printer: ImportDeclaration: when there is couple specifiers and one of them renamed - always write each on separate line
+- c1961a5 @putout/printer: eslint-plugin-n v17.0.0
+- abd17d5 @putout/printer: eslint v9.0.0
+
 2024.04.06, v8.10.1
 
 feature:
