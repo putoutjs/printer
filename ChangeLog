@@ -1,3 +1,8 @@
+2024.04.11, v8.12.0
+
+feature:
+- 426fccf @putout/printer: ArrayExpression, ObjectExpression: improve support of printing Identifier, Object inside Arrray
+
 2024.04.09, v8.11.0
 
 feature:
