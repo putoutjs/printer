@@ -1,3 +1,8 @@
+2024.04.11, v8.13.0
+
+feature:
+- 454c659 @putout/printer: ArrayExpression: SpreadElement, ObjectExpression
+
 2024.04.11, v8.12.1
 
 feature:
