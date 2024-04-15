@@ -10,7 +10,8 @@
         "**/coverage",
         "**/.*.*",
         "**/*.d.ts",
-        "**/fixture.js"
+        "**/fixture.js",
+        "**/*.config.*"
     ],
     "branches": 100,
     "lines": 100,
