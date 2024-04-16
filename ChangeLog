@@ -1,3 +1,8 @@
+2024.04.16, v8.15.0
+
+feature:
+- e17158f @putout/printer: ObjectPattern: improve indentation
+
 2024.04.15, v8.14.0
 
 feature:
