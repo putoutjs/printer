@@ -1,3 +1,8 @@
+2024.04.16, v8.16.0
+
+feature:
+- 95b0c77 @putout/printer: ImprotDeclaration: maxSpecifiersInOneLine: align to eslint-plugin-putout
+
 2024.04.16, v8.15.0
 
 feature:
