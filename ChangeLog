@@ -1,3 +1,8 @@
+2024.04.16, v8.17.0
+
+feature:
+- 60c64ba @putout/printer: IfStatement: nested no body: improve
+
 2024.04.16, v8.16.0
 
 feature:
