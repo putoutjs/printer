@@ -1,3 +1,8 @@
+2024.04.19, v8.18.0
+
+feature:
+- 8a56e08 @putout/printer: ArrayExpression: SpreadElement after ObjectExpression
+
 2024.04.16, v8.17.0
 
 feature:
