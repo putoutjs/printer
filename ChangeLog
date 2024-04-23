@@ -1,3 +1,8 @@
+2024.04.24, v8.20.1
+
+feature:
+- 4551754 @putout/printer: ArrayExpression: CallExpression, ObjectExpression
+
 2024.04.23, v8.20.0
 
 feature:
