@@ -1,3 +1,8 @@
+2024.04.23, v8.20.0
+
+feature:
+- 5a53f7e @putout/printer: ArrayExpression: array-object-identifier
+
 2024.04.19, v8.19.0
 
 feature:
