@@ -1,3 +1,8 @@
+2024.04.29, v8.22.0
+
+feature:
+- 1d67db1 @putout/printer: improve trailingComments support
+
 2024.04.29, v8.21.0
 
 feature:
