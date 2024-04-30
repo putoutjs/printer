@@ -1,3 +1,8 @@
+2024.04.30, v8.24.0
+
+feature:
+- dd056f5 @putout/printer: semantics: add maxPropertiesLengthInOneLine to align with eslint-plugin-putout: long-properties-destructuring (https://github.com/coderaiser/putout/tree/master/packages/eslint-plugin-putout/lib/long-properties-destructuring#readme)
+
 2024.04.30, v8.23.0
 
 feature:
