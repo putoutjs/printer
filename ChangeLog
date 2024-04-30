@@ -1,3 +1,8 @@
+2024.04.30, v8.23.0
+
+feature:
+- a0dc84e @putout/printer: improve support of Decorators
+
 2024.04.29, v8.22.0
 
 feature:
