@@ -1,8 +1,11 @@
 'use strict';
 
 const {types, operator} = require('putout');
+const {
+    isForStatement,
+    variableDeclaration,
+} = types;
 
-const {isForStatement, variableDeclaration} = types;
 const {replaceWithMultiple} = operator;
 
 module.exports.report = () => 'Variables should be declared separately';

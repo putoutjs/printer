@@ -6,7 +6,11 @@ const {
     template,
 } = require('putout');
 
-const {compare, getTemplateValues} = operator;
+const {
+    compare,
+    getTemplateValues,
+} = operator;
+
 const {isBlockStatement} = types;
 
 module.exports.report = () => `Use 'for...of' instead of 'for'`;

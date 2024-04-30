@@ -98,6 +98,7 @@ print(ast, {
         maxElementsInOneLine: 3,
         maxVariablesInOneLine: 4,
         maxPropertiesInOneLine: 2,
+        maxPropertiesLengthInOneLine: 15,
         trailingComma: true,
         encodeSingleQuote: true,
         encodeDoubleQuote: false,
@@ -172,6 +173,7 @@ Options used to configure logic of output, similar to ESLint rules:
 - ✅ `maxElementsInOneLine` - count of `ArrayExpression` and `ArrayPattern` elements placed in one line.
 - ✅ `maxVariablesInOneLine` - count of `VariableDeclarators` in one line.
 - ✅ `maxPropertiesInOneLine` - count of `ObjectProperties` in one line.
+- ✅ `maxPropertiesLengthInOneLine` - maximum length of `Object Property`, when violated splits event if `maxPropertiesInOneLine` satisfies;
 - ✅ `roundBraces` - to output braces in a  single argument arrow function expressions: `(a) => {}` or not `a => {}`.
 
 ## Visitors API
