@@ -25,5 +25,6 @@ module.exports.printExtension = ({fail, equal}) => (fixture, options) => {
     
     const expected = `${fixture}\n`;
     
+    debugger;
     return equal(source, expected);
 };
