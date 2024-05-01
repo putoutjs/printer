@@ -1,3 +1,8 @@
+2024.05.01, v8.25.0
+
+feature:
+- 095a130 @putout/printer: ImportDeclaration: maxPropertiesLengthInOneLine
+
 2024.04.30, v8.24.0
 
 feature:
