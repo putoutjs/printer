@@ -1,3 +1,8 @@
+2024.05.01, v8.26.0
+
+feature:
+- 510df22 @putout/printer: ArrayExpression: [boolean, object]
+
 2024.05.01, v8.25.0
 
 feature:
