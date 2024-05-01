@@ -296,7 +296,7 @@ This is the same as `print('__left')` but more low-level, and supports only obje
 About speed, for file `speed.js`:
 
 ```js
-const {readFileSync} = require('fs');
+const {readFileSync} = require('node:fs');
 
 const putout = require('putout');
 const parser = require('@babel/parser');
