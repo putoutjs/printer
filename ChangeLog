@@ -1,3 +1,8 @@
+2024.05.02, v8.29.0
+
+feature:
+- 3286498 @putout/printer: ObjectExpression inside ArrayExpression tuple
+
 2024.05.02, v8.28.0
 
 fix:
