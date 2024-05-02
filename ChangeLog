@@ -1,3 +1,8 @@
+2024.05.02, v8.27.0
+
+feature:
+- 20b3eac @putout/printer: ArrayExpression: nested array: space
+
 2024.05.01, v8.26.0
 
 feature:
