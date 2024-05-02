@@ -1,3 +1,8 @@
+2024.05.02, v8.30.0
+
+feature:
+- 9a3ea75 @putout/printer: ArrayExpression: tuple: call
+
 2024.05.02, v8.29.0
 
 feature:
