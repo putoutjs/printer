@@ -24,8 +24,8 @@ type Traverse = (input: types.Node) => void;
 
 declare function MaybeIndent(condition: boolean): void;
 declare namespace MaybeIndent {
-type inc = (condition: boolean) => void;
-type dec = (condition: boolean) => void;
+    type inc = (condition: boolean) => void;
+    type dec = (condition: boolean) => void;
     
     export {
         inc,
