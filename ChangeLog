@@ -1,3 +1,11 @@
+2024.05.02, v8.28.0
+
+fix:
+- b1fd34d @putout/printer: tsTypeAliasDeclaration: indent
+
+feature:
+- ac26e2e @putout/printer: ArrayExpression: inside nested array call
+
 2024.05.02, v8.27.0
 
 feature:
