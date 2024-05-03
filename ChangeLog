@@ -1,3 +1,9 @@
+2024.05.03, v8.33.0
+
+feature:
+- c8b9948 @putout/printer: ObjectPattern: improve support of maxPropertiesLengthInOneLine
+- 039c54d @putout/printer: ObjectPattern: indent: simplify
+
 2024.05.03, v8.32.0
 
 feature:
