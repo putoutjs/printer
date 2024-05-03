@@ -1,3 +1,9 @@
+2024.05.03, v8.31.0
+
+feature:
+- 5fd0053 @putout/printer: ArrayExpression: is-object-after-simple: simplify
+- 22dae11 @putout/printer: ArrayExpression: is-object-after-simple
+
 2024.05.02, v8.30.0
 
 feature:
