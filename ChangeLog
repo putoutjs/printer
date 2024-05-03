@@ -1,3 +1,8 @@
+2024.05.03, v8.32.0
+
+feature:
+- 4c10986 @putout/printer: ObjectPattern: used as Function param
+
 2024.05.03, v8.31.0
 
 feature:
