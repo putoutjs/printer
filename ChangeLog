@@ -1,3 +1,8 @@
+2024.05.07, v8.34.0
+
+feature:
+- 8a303f5 @putout/printer: jsx: JSXOpeningElement: indent
+
 2024.05.03, v8.33.0
 
 feature:
