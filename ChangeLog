@@ -1,3 +1,9 @@
+2024.05.14, v8.35.0
+
+feature:
+- 6eda60b @putout/printer: AssignmentExpression: add new line when takes couple lines
+- 738d2aa @putout/printer: @putout/plugin-promises v15.0.0
+
 2024.05.07, v8.34.0
 
 feature:
