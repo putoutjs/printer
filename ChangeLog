@@ -1,3 +1,8 @@
+2024.05.16, v8.35.2
+
+fix:
+- 3dc22a9 @putout/printer: AssignmentExpression: no loc
+
 2024.05.14, v8.35.1
 
 fix:
