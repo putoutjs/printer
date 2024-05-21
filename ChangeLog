@@ -1,3 +1,8 @@
+2024.05.21, v8.37.0
+
+feature:
+- 97bcc9e @putout/printer: VariableDeclaration: add support of LabeledStatement
+
 2024.05.19, v8.36.0
 
 feature:
