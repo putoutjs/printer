@@ -1,3 +1,9 @@
+2024.05.24, v8.38.0
+
+feature:
+- f1f3d74 @putout/printer: check-dts v0.8.0
+- 2e9ff2d @putout/printer: AssignmentExpression: newline after FunctionDeclaration
+
 2024.05.21, v8.37.0
 
 feature:
