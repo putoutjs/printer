@@ -53,7 +53,7 @@
     "@putout/plugin-react-hooks": "^6.0.0",
     "acorn": "^8.8.2",
     "c8": "^9.1.0",
-    "check-dts": "^0.7.2",
+    "check-dts": "^0.8.0",
     "escover": "^4.0.1",
     "eslint": "^9.0.0",
     "eslint-plugin-putout": "^22.0.0",
