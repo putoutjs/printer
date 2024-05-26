@@ -1,3 +1,8 @@
+2024.05.26, v8.39.0
+
+feature:
+- cb3474b @putout/printer: TSMethodDeclaration: getter/setter
+
 2024.05.24, v8.38.0
 
 feature:
