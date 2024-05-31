@@ -1,3 +1,9 @@
+2024.05.31, v8.40.0
+
+feature:
+- 5ef27d5 @putout/printer: samadhi v2.8.0
+- 9d00b2c @putout/printer: VariableDeclaration: newline before IfStatement
+
 2024.05.27, v8.39.1
 
 fix:
