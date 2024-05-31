@@ -1,79 +1,79 @@
 {
-  "name": "@putout/printer",
-  "version": "8.39.1",
-  "type": "commonjs",
-  "author": "coderaiser <mnemonic.enemy@gmail.com> (https://github.com/coderaiser)",
-  "description": "Simplest possible opinionated Babel AST printer for 🐊Putout",
-  "homepage": "https://github.com/putoutjs/printer#readme",
-  "main": "./lib/printer.js",
-  "exports": {
-    ".": "./lib/printer.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/putoutjs/printer.git"
-  },
-  "scripts": {
-    "test": "madrun test",
-    "test:dts": "madrun test:dts",
-    "watch:test": "madrun watch:test",
-    "lint": "madrun lint",
-    "fresh:lint": "madrun fresh:lint",
-    "lint:fresh": "madrun lint:fresh",
-    "fix:lint": "madrun fix:lint",
-    "coverage": "madrun coverage",
-    "coverage:html": "madrun coverage:html",
-    "report": "madrun report"
-  },
-  "dependencies": {
-    "@putout/babel": "^2.0.0",
-    "@putout/compare": "^14.0.0",
-    "@putout/operate": "^12.0.0",
-    "@putout/operator-json": "^2.0.0",
-    "fullstore": "^3.0.0",
-    "just-snake-case": "^3.2.0",
-    "parse-import-specifiers": "^1.0.1",
-    "rendy": "^4.0.0"
-  },
-  "keywords": [
-    "putout",
-    "printer",
-    "AST",
-    "babel",
-    "api",
-    "traverse",
-    "generate"
-  ],
-  "devDependencies": {
-    "@babel/plugin-codemod-object-assign-to-object-spread": "^7.10.4",
-    "@putout/plugin-minify": "^8.0.0",
-    "@putout/plugin-printer": "^3.0.0",
-    "@putout/plugin-promises": "^15.0.0",
-    "@putout/plugin-react-hook-form": "^4.0.0",
-    "@putout/plugin-react-hooks": "^6.0.0",
-    "acorn": "^8.8.2",
-    "c8": "^9.1.0",
-    "check-dts": "^0.8.0",
-    "escover": "^4.0.1",
-    "eslint": "^9.0.0",
-    "eslint-plugin-putout": "^22.0.0",
-    "estree-to-babel": "^9.0.0",
-    "just-kebab-case": "^4.2.0",
-    "madrun": "^10.0.0",
-    "mock-require": "^3.0.3",
-    "montag": "^1.0.0",
-    "nodemon": "^3.0.1",
-    "putout": "^35.0.0",
-    "samadhi": "^1.1.1",
-    "supertape": "^10.0.0",
-    "try-catch": "^3.0.0",
-    "typescript": "^5.3.3"
-  },
-  "license": "MIT",
-  "engines": {
-    "node": ">=18"
-  },
-  "publishConfig": {
-    "access": "public"
-  }
+    "name": "@putout/printer",
+    "version": "8.39.1",
+    "type": "commonjs",
+    "author": "coderaiser <mnemonic.enemy@gmail.com> (https://github.com/coderaiser)",
+    "description": "Simplest possible opinionated Babel AST printer for 🐊Putout",
+    "homepage": "https://github.com/putoutjs/printer#readme",
+    "main": "./lib/printer.js",
+    "exports": {
+        ".": "./lib/printer.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/putoutjs/printer.git"
+    },
+    "scripts": {
+        "test": "madrun test",
+        "test:dts": "madrun test:dts",
+        "watch:test": "madrun watch:test",
+        "lint": "madrun lint",
+        "fresh:lint": "madrun fresh:lint",
+        "lint:fresh": "madrun lint:fresh",
+        "fix:lint": "madrun fix:lint",
+        "coverage": "madrun coverage",
+        "coverage:html": "madrun coverage:html",
+        "report": "madrun report"
+    },
+    "dependencies": {
+        "@putout/babel": "^2.0.0",
+        "@putout/compare": "^14.0.0",
+        "@putout/operate": "^12.0.0",
+        "@putout/operator-json": "^2.0.0",
+        "fullstore": "^3.0.0",
+        "just-snake-case": "^3.2.0",
+        "parse-import-specifiers": "^1.0.1",
+        "rendy": "^4.0.0"
+    },
+    "keywords": [
+        "putout",
+        "printer",
+        "AST",
+        "babel",
+        "api",
+        "traverse",
+        "generate"
+    ],
+    "devDependencies": {
+        "@putout/plugin-minify": "^8.0.0",
+        "@putout/plugin-printer": "^3.0.0",
+        "@putout/plugin-promises": "^15.0.0",
+        "@putout/plugin-react-hook-form": "^4.0.0",
+        "@putout/plugin-react-hooks": "^6.0.0",
+        "acorn": "^8.8.2",
+        "c8": "^9.1.0",
+        "check-dts": "^0.8.0",
+        "escover": "^4.0.1",
+        "eslint": "^9.0.0",
+        "eslint-plugin-putout": "^22.0.0",
+        "estree-to-babel": "^9.0.0",
+        "goldstein": "^5.13.1",
+        "just-kebab-case": "^4.2.0",
+        "madrun": "^10.0.0",
+        "mock-require": "^3.0.3",
+        "montag": "^1.0.0",
+        "nodemon": "^3.0.1",
+        "putout": "^35.0.0",
+        "samadhi": "^1.1.1",
+        "supertape": "^10.0.0",
+        "try-catch": "^3.0.0",
+        "typescript": "^5.3.3"
+    },
+    "license": "MIT",
+    "engines": {
+        "node": ">=18"
+    },
+    "publishConfig": {
+        "access": "public"
+    }
 }
