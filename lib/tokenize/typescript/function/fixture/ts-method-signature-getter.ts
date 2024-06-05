@@ -1,5 +1,5 @@
 /** Params constructor type. */
-const abc = 'helo';
+const abc = 'hello';
 
 export interface IParamsConstructor {
     new(maxLength: number, maxSubParamsLength: number): string;
