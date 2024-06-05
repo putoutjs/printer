@@ -1,3 +1,8 @@
+2024.06.05, v8.42.0
+
+feature:
+- d33926d @putout/printer: improve support of TSPropertySignature inside of TSTypeLiteral (coderaiser/putout#206)
+
 2024.06.03, v8.41.0
 
 feature:
