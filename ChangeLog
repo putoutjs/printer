@@ -1,3 +1,8 @@
+2024.06.06, v8.43.0
+
+feature:
+- e48fb76 @putout/printer: TSPropertySignature: computed (coderaiser/putout#206)
+
 2024.06.05, v8.42.0
 
 feature:
