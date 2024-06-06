@@ -1,3 +1,8 @@
+2024.06.06, v8.45.0
+
+feature:
+- 43d5b18 @putout/printer: TSAsExpression: ObjectExpression (coderaiser/putout#206)
+
 2024.06.06, v8.44.0
 
 feature:
