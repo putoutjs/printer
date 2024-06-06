@@ -1,3 +1,8 @@
+2024.06.06, v8.47.0
+
+feature:
+- 53c7909 @putout/printer: ArrayExpression: comma (coderaiser/putout#206)
+
 2024.06.06, v8.46.0
 
 feature:
