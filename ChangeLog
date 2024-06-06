@@ -1,3 +1,8 @@
+2024.06.06, v8.46.0
+
+feature:
+- 98b3425 @putout/printer: TSTypeParameterDeclaration: trailingComma (#coderaiser/putout#207)
+
 2024.06.06, v8.45.0
 
 feature:
