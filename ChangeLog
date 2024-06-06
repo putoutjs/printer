@@ -1,3 +1,8 @@
+2024.06.06, v8.44.0
+
+feature:
+- 5bb32c9 @putout/printer: Class: extends + implements (coderaiser/putout#206)
+
 2024.06.06, v8.43.0
 
 feature:
