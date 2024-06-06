@@ -1,0 +1,1 @@
+const MultiChips = <T,>({items, idProperty, labelProperty, onRemove, xs, lg, md, sm, getLabel, disabled}: Props<T>): JSX.Element => {};
