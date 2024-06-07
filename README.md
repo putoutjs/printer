@@ -174,7 +174,7 @@ Options used to configure logic of output, similar to ESLint rules:
 - ✅ `maxVariablesInOneLine` - count of `VariableDeclarators` in one line.
 - ✅ `maxPropertiesInOneLine` - count of `ObjectProperties` in one line.
 - ✅ `maxPropertiesLengthInOneLine` - maximum length of `Object Property`, when violated splits event if `maxPropertiesInOneLine` satisfies;
-- ✅ `roundBraces` to output braces or not  
+- ✅ `roundBraces` to output braces or not
   - In a  single argument arrow function expressions `(a) => {}` or not `a => {}`;
   - In sequence expressions: `for(let e of l) (a(), b())` or not `for(let e of l) a(), b()`;
 
