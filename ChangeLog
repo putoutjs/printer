@@ -1,3 +1,8 @@
+2024.06.07, v9.0.1
+
+feature:
+- cf5dfe7 @putout/printer: SequenceExpression: roundBraces: LogicalExpressions
+
 2024.06.07, v9.0.0
 
 feature:
