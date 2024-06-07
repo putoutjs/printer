@@ -1,3 +1,8 @@
+2024.06.07, v8.48.1
+
+feature:
+- 5fe30fd @putout/printer: move out SequenceExpression
+
 2024.06.07, v8.48.0
 
 feature:
