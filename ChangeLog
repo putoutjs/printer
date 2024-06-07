@@ -1,3 +1,8 @@
+2024.06.07, v9.0.3
+
+feature:
+- a254ee6 @putout/printer: SequenceExpression maybe-write-brace
+
 2024.06.07, v9.0.2
 
 feature:
