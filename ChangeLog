@@ -1,3 +1,8 @@
+2024.06.09, v9.1.0
+
+feature:
+- 82ddbc3 @putout/printer: semantics: roundBraces: add support of AssignmentExpression (@putoutjs/minify#15)
+
 2024.06.07, v9.0.3
 
 feature:
