@@ -177,6 +177,7 @@ Options used to configure logic of output, similar to ESLint rules:
 - ✅ `roundBraces` to output braces or not
   - In a  single argument arrow function expressions `(a) => {}` or not `a => {}`;
   - In sequence expressions: `for(let e of l) (a(), b())` or not `for(let e of l) a(), b()`;
+  - In assignment expressions: `(e.o=w(e.o)` or not `e.o=w(e.o)`;
 
 ## Visitors API
 
