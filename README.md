@@ -102,7 +102,11 @@ print(ast, {
         trailingComma: true,
         encodeSingleQuote: true,
         encodeDoubleQuote: false,
-        roundBraces: true,
+        roundBraces: {
+            arrow: true,
+            sequence: true,
+            assign: false,
+        },
     },
     visitors: {
         AssignmentPattern(path, {print}) {
@@ -175,9 +179,9 @@ Options used to configure logic of output, similar to ESLint rules:
 - ✅ `maxPropertiesInOneLine` - count of `ObjectProperties` in one line.
 - ✅ `maxPropertiesLengthInOneLine` - maximum length of `Object Property`, when violated splits event if `maxPropertiesInOneLine` satisfies;
 - ✅ `roundBraces` to output braces or not
-  - In a  single argument arrow function expressions `(a) => {}` or not `a => {}`;
-  - In sequence expressions: `for(let e of l) (a(), b())` or not `for(let e of l) a(), b()`;
-  - In assignment expressions: `(e.o=w(e.o)` or not `e.o=w(e.o)`;
+  - `arrow`: In a  single argument arrow function expressions enabled: `(a) => {}`, disabled: `a => {}`;
+  - `sequence`: In sequence expressions: enabled: `for(let e of l) (a(), b())`, disabled: `for(let e of l) a(), b()`;
+  - `assign`: In assignment expressions: enabled: `(e.o=w(e.o)`, disabled: `e.o=w(e.o)`;
 
 ## Visitors API
 
