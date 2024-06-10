@@ -1,3 +1,8 @@
+2024.06.10, v9.3.0
+
+feature:
+- 960565f @putout/printer: roundBraces: add ability to split to: arrow, sequence and assign
+
 2024.06.09, v9.2.0
 
 feature:
