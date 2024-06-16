@@ -1,3 +1,9 @@
+2024.06.16, v9.5.0
+
+feature:
+- f42012c @putout/printer: c8 v10.1.2
+- b782436 @putout/printer: AssignmentExpression: nested
+
 2024.06.10, v9.4.0
 
 feature:
