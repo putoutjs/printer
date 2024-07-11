@@ -1,5 +1,5 @@
-import {print} from '..';
 import {types} from '@putout/babel';
+import {print} from '..';
 
 const {identifier} = types;
 
