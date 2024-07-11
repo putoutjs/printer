@@ -1,3 +1,8 @@
+2024.07.11, v9.6.0
+
+feature:
+- 0d1f296 @putout/printer: MemberExpression: object used as AssignProperty (coderaiser/minify#124)
+
 2024.06.16, v9.5.0
 
 feature:
