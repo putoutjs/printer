@@ -1,3 +1,9 @@
+2024.07.13, v9.7.0
+
+feature:
+- 192a828 @putout/printer: TryStatement: spaces: align with eslint-plugin-putout
+- 5fb3b67 @putout/printer: MemberExpression: object used as AssignProperty (coderaiser/minify#124)
+
 2024.07.11, v9.6.0
 
 feature:
