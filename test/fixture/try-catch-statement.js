@@ -1,6 +1,6 @@
 try {
     fn();
-} catch (error) {
+} catch(error) {
     console.log(error);
 } finally {
     console.log('done');
