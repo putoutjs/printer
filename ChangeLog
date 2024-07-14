@@ -1,3 +1,8 @@
+2024.07.14, v9.8.1
+
+feature:
+- 1490187 @putout/printer: YieldExpression: maybeParens
+
 2024.07.14, v9.8.0
 
 feature:
