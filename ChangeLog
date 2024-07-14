@@ -1,3 +1,9 @@
+2024.07.14, v9.8.0
+
+feature:
+- 8fc9139 @putout/printer: maybe-print-computed: add
+- 8800d25 @putout/printer: printKey: add
+
 2024.07.13, v9.7.0
 
 feature:
