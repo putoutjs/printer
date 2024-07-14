@@ -45,6 +45,7 @@
     "generate"
   ],
   "devDependencies": {
+    "@putout/eslint": "^3.5.0",
     "@putout/plugin-minify": "^8.0.0",
     "@putout/plugin-printer": "^3.0.0",
     "@putout/plugin-promises": "^15.0.0",
