@@ -1,3 +1,11 @@
+2024.07.16, v9.9.0
+
+fix:
+- d59aaae @putout/printer: JSXText: raw: & (coderaiser/putout#216)
+
+feature:
+- 3f87ab5 @putout/printer: putout v36.0.0
+
 2024.07.14, v9.8.1
 
 feature:
