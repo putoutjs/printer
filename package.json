@@ -64,7 +64,7 @@
     "mock-require": "^3.0.3",
     "montag": "^1.0.0",
     "nodemon": "^3.0.1",
-    "putout": "^35.0.0",
+    "putout": "^36.0.0",
     "samadhi": "^2.8.0",
     "supertape": "^10.0.0",
     "try-catch": "^3.0.0",
