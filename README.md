@@ -73,7 +73,7 @@ const a = (b, c) => {
 When you need to extend syntax of `@putout/printer` just pass a function which receives:
 
 - `path`, Babel Path
-- `write`, a function to output result of printing into token array;
+- `print`, a function to output result of printing into token array;
 
 When `path` contains to dashes `__` and name, it is the same as: `write(path.get('right'))`, and this is
 actually `traverse(path.get('right'))` shortened to simplify read and process.
