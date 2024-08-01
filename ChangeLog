@@ -1,3 +1,8 @@
+2024.08.01, v9.10.0
+
+feature:
+- 1e95457 @putout/printer: ClassMethod: override
+
 2024.07.16, v9.9.0
 
 fix:
