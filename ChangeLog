@@ -1,3 +1,8 @@
+2024.09.02, v9.14.0
+
+feature:
+- c75c1c5 @putout/printer: TSAsExpression: parens
+
 2024.09.01, v9.13.0
 
 feature:
