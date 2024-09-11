@@ -15,13 +15,18 @@
     "url": "git://github.com/putoutjs/printer.git"
   },
   "scripts": {
+    "wisdom": "madrun wisdom",
     "test": "madrun test",
     "test:dts": "madrun test:dts",
     "watch:test": "madrun watch:test",
     "lint": "madrun lint",
+    "lint:redlint": "madrun lint:redlint",
+    "lint:putout": "madrun lint:putout",
     "fresh:lint": "madrun fresh:lint",
     "lint:fresh": "madrun lint:fresh",
     "fix:lint": "madrun fix:lint",
+    "fix:lint:putout": "madrun fix:lint:putout",
+    "fix:lint:redlint": "madrun fix:lint:redlint",
     "coverage": "madrun coverage",
     "coverage:html": "madrun coverage:html",
     "report": "madrun report"
@@ -66,6 +71,7 @@
     "montag": "^1.0.0",
     "nodemon": "^3.0.1",
     "putout": "^36.0.0",
+    "redlint": "^3.16.0",
     "samadhi": "^2.8.0",
     "supertape": "^10.0.0",
     "try-catch": "^3.0.0",
