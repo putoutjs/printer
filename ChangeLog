@@ -1,3 +1,8 @@
+2024.09.11, v9.15.2
+
+fix:
+- 568ab44 @putout/printer: comment: parse-trailing-comments: no loc
+
 2024.09.11, v9.15.1
 
 feature:
