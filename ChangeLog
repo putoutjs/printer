@@ -1,3 +1,8 @@
+2024.09.11, v9.15.1
+
+feature:
+- 2e28d2e @putout/printer: comments: parse-trailing-comments
+
 2024.09.02, v9.15.0
 
 feature:
