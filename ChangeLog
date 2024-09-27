@@ -1,3 +1,8 @@
+2024.09.27, v9.17.0
+
+feature:
+- 13a81f2 @putout/printer: FunctionDeclaration: nested
+
 2024.09.27, v9.16.0
 
 feature:
