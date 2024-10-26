@@ -1,3 +1,8 @@
+2024.10.26, v10.0.0
+
+feature:
+- 24d872a @putout/printer: align with Babel v8
+
 2024.10.23, v9.19.0
 
 feature:
