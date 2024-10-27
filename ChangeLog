@@ -1,3 +1,9 @@
+2024.10.27, v10.0.1
+
+feature:
+- 453d7a2 @putout/printer: @putout/compare v15.0.2
+- ac170c0 @putout/printer: estree-to-babel v10.0.0
+
 2024.10.26, v10.0.0
 
 feature:
