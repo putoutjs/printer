@@ -1,3 +1,8 @@
+2024.10.28, v10.1.0
+
+feature:
+- d77c7ce @putout/printer: TSInferType: parens
+
 2024.10.27, v10.0.1
 
 feature:
