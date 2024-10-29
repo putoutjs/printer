@@ -1,3 +1,8 @@
+2024.10.29, v10.1.1
+
+feature:
+- 73a628b @putout/printer: parens -> maybe-parens
+
 2024.10.28, v10.1.0
 
 feature:
