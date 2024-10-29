@@ -1,3 +1,8 @@
+2024.10.29, v10.2.0
+
+feature:
+- 329ca16 @putout/printer: TSTypeLiteral: one inside TSTypeParameterInstantiation: no newline
+
 2024.10.29, v10.1.1
 
 feature:
