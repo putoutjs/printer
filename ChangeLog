@@ -1,3 +1,8 @@
+2024.11.28, v10.6.0
+
+feature:
+- 0769003 @putout/printer: ImportDeclaration: imported: StringLiteral
+
 2024.11.28, v10.5.0
 
 feature:
