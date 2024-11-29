@@ -1,3 +1,8 @@
+2024.11.29, v10.8.0
+
+feature:
+- c10faee @putout/printer: TSTypeParameterProperty: add support of decorators
+
 2024.11.28, v10.7.0
 
 feature:
