@@ -1,3 +1,8 @@
+2024.12.04, v10.11.0
+
+feature:
+- 7ce10f9 @putout/printer: improve support of comments inside VariableDeclarator
+
 2024.12.02, v10.10.0
 
 feature:
