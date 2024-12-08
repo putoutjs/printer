@@ -106,6 +106,7 @@ print(ast, {
             arrow: true,
             sequence: true,
             assign: false,
+            new: true,
         },
     },
     visitors: {
@@ -182,6 +183,7 @@ Options used to configure logic of output, similar to ESLint rules:
   - `arrow`: In a  single argument arrow function expressions enabled: `(a) => {}`, disabled: `a => {}`;
   - `sequence`: In sequence expressions: enabled: `for(let e of l) (a(), b())`, disabled: `for(let e of l) a(), b()`;
   - `assign`: In assignment expressions: enabled: `(e.o=w(e.o)`, disabled: `e.o=w(e.o)`;
+  - `new`: In new expressions: enabled: `new Date()`, disabled: `new Date`;
 
 ## Visitors API
 
