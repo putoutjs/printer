@@ -1,3 +1,9 @@
+2024.12.10, v11.0.0
+
+feature:
+- b2a249c @putout/printer: overrides: roundBraces: new
+- 179df4d @putout/printer: align to babel v8 (https://github.com/babel/babel/blob/main/.github/CHANGELOG-v8.md#v800-alpha14-2024-12-06)
+
 2024.12.04, v10.11.0
 
 feature:
