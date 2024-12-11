@@ -97,6 +97,7 @@ print(ast, {
         maxSpecifiersInOneLine: 2,
         maxElementsInOneLine: 3,
         maxVariablesInOneLine: 4,
+        maxTypesInOneLine: 3,
         maxPropertiesInOneLine: 2,
         maxPropertiesLengthInOneLine: 15,
         trailingComma: true,
