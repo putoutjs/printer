@@ -1,3 +1,10 @@
+2024.12.11, v11.1.0
+
+feature:
+- 43d733c @putout/printer: maxTypesInOneLine: add
+- 85c6d1b @putout/printer: TSUnionType: more
+- d3ee397 @putout/printer: ts-union-type: move out
+
 2024.12.10, v11.0.0
 
 feature:
