@@ -1,3 +1,8 @@
+2024.12.12, v11.2.1
+
+feature:
+- 56da95d @putout/printer: maybeParens
+
 2024.12.12, v11.2.0
 
 feature:
