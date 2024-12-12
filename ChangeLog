@@ -1,3 +1,10 @@
+2024.12.12, v11.2.0
+
+feature:
+- 523cd24 @putout/printer: TSUnionType: newlines inside of functions
+- 1f99cbb @putout/printer: @putout/plugin-minify v9.0.0
+- 2c507b1 @putout/printer: TSTypeQuery: maybe parens
+
 2024.12.11, v11.1.1
 
 fix:
