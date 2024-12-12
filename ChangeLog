@@ -1,3 +1,10 @@
+2024.12.12, v11.3.0
+
+feature:
+- b5de5fc @putout/printer: split BinaryExpression and LogicalExpression
+- 262f6ab @putout/printer: LogicalExpressions: maxElementsInOneLine
+- 4bccded @putout/printer: LogicalExpressions: newline
+
 2024.12.12, v11.2.1
 
 feature:
