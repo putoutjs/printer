@@ -1,0 +1,1 @@
+type Literal = (value: boolean | string | number | bigint | undefined | null) => Node;
