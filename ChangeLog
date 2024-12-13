@@ -1,3 +1,8 @@
+2024.12.13, v11.4.0
+
+feature:
+- 332efd1 @putout/printer: LogicalExpression inside UnaryExpression: parens
+
 2024.12.12, v11.3.0
 
 feature:
