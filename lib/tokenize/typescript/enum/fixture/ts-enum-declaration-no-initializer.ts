@@ -5,11 +5,13 @@ export const enum ABC {
     D,
     E,
 }
+
 enum E {
     A,
     B,
     C,
 }
+
 enum Direction {
     Up = 1,
     Down,
