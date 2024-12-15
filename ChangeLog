@@ -1,3 +1,9 @@
+2024.12.15, v11.5.0
+
+feature:
+- 2224570 @putout/printer: improve support of TSInterfaceDeclaration
+- d15b999 @putout/printer: putout v37.0.1
+
 2024.12.13, v11.4.0
 
 feature:
