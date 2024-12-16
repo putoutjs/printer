@@ -1,3 +1,8 @@
+2024.12.16, v11.6.0
+
+feature:
+- 77f529d @putout/printer: AwaitExpressions: parens
+
 2024.12.15, v11.5.0
 
 feature:
