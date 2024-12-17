@@ -54,7 +54,7 @@
     "@putout/eslint": "^3.5.0",
     "@putout/plugin-minify": "^9.0.0",
     "@putout/plugin-printer": "^3.0.0",
-    "@putout/plugin-promises": "^15.0.0",
+    "@putout/plugin-promises": "^16.0.0",
     "@putout/plugin-react-hook-form": "^4.0.0",
     "@putout/plugin-react-hooks": "^6.0.0",
     "acorn": "^8.8.2",
