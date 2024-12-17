@@ -1,3 +1,8 @@
+2024.12.17, v11.8.0
+
+feature:
+- 0ed288d @putout/printer: LabeledStatement: nexted
+
 2024.12.17, v11.7.0
 
 feature:
