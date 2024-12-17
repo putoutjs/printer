@@ -1,3 +1,10 @@
+2024.12.17, v11.7.0
+
+feature:
+- 8fd4fd6 @putout/printer: FunctionDeclaration inside TSModuleDeclarationExportnamed
+- ab8c280 @putout/printer: @putout/plugin-promises v16.0.0
+- ba04427 @putout/printer: LabeledStatement: indent
+
 2024.12.16, v11.6.0
 
 feature:
