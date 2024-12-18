@@ -177,6 +177,7 @@ if(a>3)console.log('ok');else console.log('not ok');
 Options used to configure logic of output, similar to ESLint rules:
 
 - ✅ `maxElementsInOneLine` - count of `ArrayExpression` and `ArrayPattern` elements placed in one line.
+- ✅ `maxLogicalsInOneLine` - count of `LogicalExpression` elements placed in one line.
 - ✅ `maxVariablesInOneLine` - count of `VariableDeclarators` in one line.
 - ✅ `maxPropertiesInOneLine` - count of `ObjectProperties` in one line.
 - ✅ `maxPropertiesLengthInOneLine` - maximum length of `Object Property`, when violated splits event if `maxPropertiesInOneLine` satisfies;
