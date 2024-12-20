@@ -1,6 +1,5 @@
 'use strict';
 
-const noop = () => {};
 const montag = require('montag');
 const tryCatch = require('try-catch');
 const {extend} = require('supertape');
@@ -10,6 +9,7 @@ const {parse, transform} = require('putout');
 const {readFixtures} = require('./fixture');
 const {print} = require('..');
 const {printExtension} = require('./print-extension/print-extension');
+const noop = () => {};
 
 const test = extend({
     print: printExtension,
