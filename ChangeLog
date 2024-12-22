@@ -1,3 +1,8 @@
+2024.12.22, v11.11.0
+
+feature:
+- a9800ca @putout/printer: AssignmentExpression: inside BinaryExpression: parens
+
 2024.12.20, v11.10.2
 
 feature:
