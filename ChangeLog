@@ -1,3 +1,8 @@
+2024.12.31, v11.13.0
+
+feature:
+- 99c7207 @putout/printer: TSUnionType: always add parens when inside TSArrayType (benjamn/recast#1416)
+
 2024.12.25, v11.12.0
 
 feature:
