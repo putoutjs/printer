@@ -1,3 +1,8 @@
+2025.01.05, v11.14.0
+
+feature:
+- ad933f7 @putout/printer: MemberExpression: chain: path.get
+
 2024.12.31, v11.13.0
 
 feature:
