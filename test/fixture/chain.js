@@ -1,6 +1,4 @@
-hello
-    .get('hello world')
-    .set('how come');
+hello.get('declarations.0.id').isIdentifier();
 
 const hasDoubleQuote = (a) => createCheckRegExp('"').test(a);
 this.mappings.forEach(function(mapping, i) {});
