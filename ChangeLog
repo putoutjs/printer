@@ -1,3 +1,10 @@
+2025.01.11, v12.0.0
+
+feature:
+- 610ea6e @putout/printer: babel alpha v15
+- 8093095 @putout/printer: CallExpression: typeParameters -> typeArguments
+- d628037 @putout/printer: @putout/babel v3.0.0
+
 2025.01.05, v11.14.0
 
 feature:
