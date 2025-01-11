@@ -20,10 +20,8 @@ module.exports.readFixtures = (dir) => {
     return new Proxy({}, createHandler(dir));
 };
 
-function createHandler(dir) {
-    return {
-        get(obj, prop) {
-            return readFixture(dir, kebabCase(prop));
-        },
-    };
-}
+const createHandler = (dir) => ({
+    get(obj, prop) {
+        return readFixture(dir, kebabCase(prop));
+    },
+});
