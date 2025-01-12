@@ -1,3 +1,8 @@
+2025.01.12, v12.1.0
+
+feature:
+- 93a6b0b @putout/printer: JSX: indent
+
 2025.01.11, v12.0.0
 
 feature:
