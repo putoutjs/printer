@@ -1,3 +1,9 @@
+2025.01.14, v12.3.0
+
+feature:
+- a8074a5 @putout/printer: ExpressionStatement: inside ReturnStatement
+- ecf7d0e @putout/printer: move out ExpressionStatement
+
 2025.01.13, v12.2.0
 
 feature:
