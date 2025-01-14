@@ -50,6 +50,14 @@
     "traverse",
     "generate"
   ],
+  "imports": {
+    "#test/printer": {
+      "default": "./test/printer.js"
+    },
+    "#test/fixture": {
+      "default": "./test/fixture.js"
+    }
+  },
   "devDependencies": {
     "@putout/eslint": "^3.5.0",
     "@putout/plugin-minify": "^9.0.0",
