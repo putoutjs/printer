@@ -1,3 +1,8 @@
+2025.01.15, v12.5.0
+
+feature:
+- 8173406 @putout/printer: ObjectExpression: BigIntLiteral
+
 2025.01.15, v12.4.0
 
 feature:
