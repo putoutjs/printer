@@ -1,3 +1,8 @@
+2025.01.15, v12.6.0
+
+feature:
+- b8e8648 ArrayExpression: Tuple with CallExpression inside
+
 2025.01.15, v12.5.0
 
 feature:
