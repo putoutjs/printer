@@ -1,3 +1,8 @@
+2025.01.22, v12.8.0
+
+feature:
+- 6bc911d @putout/printer: ObjectExpression: indent
+
 2025.01.21, v12.7.0
 
 feature:
