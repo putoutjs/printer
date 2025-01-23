@@ -59,6 +59,9 @@
     },
     "#printer": {
       "default": "./lib/printer.js"
+    },
+    "#test": {
+      "default": "./test/create-test.js"
     }
   },
   "devDependencies": {
