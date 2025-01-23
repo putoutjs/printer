@@ -1,3 +1,8 @@
+2025.01.24, v12.17.0
+
+feature:
+- 9f5b1af @putout/printer: ExpressionStatement: inside AssignemntExpression: after FunctionDeclaration: indent
+
 2025.01.24, v12.16.0
 
 feature:
