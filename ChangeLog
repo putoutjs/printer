@@ -1,3 +1,8 @@
+2025.01.23, v12.10.0
+
+feature:
+- 262925b @putout/printer: BlockStatement: call inside chain
+
 2025.01.23, v12.9.0
 
 feature:
