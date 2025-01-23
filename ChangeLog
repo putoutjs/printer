@@ -1,3 +1,8 @@
+2025.01.23, v12.9.0
+
+feature:
+- 750b6cd @putout/printer: NewExpression: round braces (coderiaser/minify#135)
+
 2025.01.22, v12.8.0
 
 feature:
