@@ -56,6 +56,9 @@
     },
     "#test/fixture": {
       "default": "./test/fixture.js"
+    },
+    "#printer": {
+      "default": "./lib/printer.js"
     }
   },
   "devDependencies": {
