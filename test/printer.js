@@ -1,23 +1,14 @@
 'use strict';
 
 const montag = require('montag');
-const tryCatch = require('try-catch');
-const {extend} = require('supertape');
-
 const {parse, transform} = require('putout');
+const tryCatch = require('try-catch');
 
-const {readFixtures} = require('./fixture');
-const {print} = require('..');
-const {printExtension} = require('./print-extension/print-extension');
+const {print} = require('#printer');
+const {createTest} = require('#test');
+
+const {fixture, test} = createTest(__dirname);
 const noop = () => {};
-
-const test = extend({
-    print: printExtension,
-});
-
-module.exports.printExtension = printExtension;
-
-const fixture = readFixtures(__dirname);
 
 test('putout: printer: arrow', (t) => {
     const ast = parse(fixture.arrow);

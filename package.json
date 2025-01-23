@@ -52,7 +52,7 @@
   ],
   "imports": {
     "#test/printer": {
-      "default": "./test/printer.js"
+      "default": "./test/print-extension/print-extension.js"
     },
     "#test/fixture": {
       "default": "./test/fixture.js"
