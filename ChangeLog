@@ -1,3 +1,8 @@
+2025.01.24, v12.16.0
+
+feature:
+- 974bf0e @putout/printer: ExpressionStatement: inside AssignemntExpression: after FunctionDeclaration
+
 2025.01.24, v12.15.0
 
 feature:
