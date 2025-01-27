@@ -1,3 +1,8 @@
+2025.01.27, v12.18.0
+
+feature:
+- 7fae490 @putout/printer: ExpressionStatement: before IfStatement
+
 2025.01.24, v12.17.0
 
 feature:
