@@ -84,7 +84,7 @@
     "mock-require": "^3.0.3",
     "montag": "^1.0.0",
     "nodemon": "^3.0.1",
-    "putout": "^37.0.1",
+    "putout": "^38.0.0",
     "redlint": "^3.16.0",
     "samadhi": "^2.8.0",
     "supertape": "^10.0.0",
