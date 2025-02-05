@@ -1,3 +1,10 @@
+2025.02.05, v12.22.1
+
+feature:
+- edce5cd @putout/printer: MemberExpression: chain: route
+- b7a6088 @putout/printer: eslint-plugin-putout v24.0.0
+- 9882d47 @putout/printer: putout v38.0.0
+
 2025.01.29, v12.22.0
 
 feature:
