@@ -1,3 +1,4 @@
 type X<M> = M;
-type T = {}
+type T = {};
+
 interface I extends X<T> {}
