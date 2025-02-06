@@ -1,3 +1,11 @@
+2025.02.06, v12.23.1
+
+fix:
+- 90fc691 @putout/printer: ExportDefeaultDeclaration: newline
+
+feature:
+- c50c581 @putout/printer: TSInterfaceHeritage: typeArguments
+
 2025.02.06, v12.23.0
 
 feature:
