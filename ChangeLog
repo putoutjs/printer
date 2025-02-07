@@ -1,3 +1,11 @@
+2025.02.07, v12.24.0
+
+fix:
+- d936102 @putout/printer: ExportDefeaultDeclaration: newline
+
+feature:
+- d5169a3 @putout/printer: BinaryExpression inside LogicalExpression: comment
+
 2025.02.06, v12.23.1
 
 fix:
