@@ -1,6 +1,5 @@
 class Foo {
     constructor(
-        @decorator
-        readonly foo,
+        @decorator readonly foo
     ) {}
 }
