@@ -1,3 +1,8 @@
+2025.02.07, v12.25.0
+
+feature:
+- ab68c19 @putout/printer: improve decorators support
+
 2025.02.07, v12.24.0
 
 fix:
