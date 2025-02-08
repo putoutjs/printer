@@ -1,3 +1,8 @@
+2025.02.09, v12.29.0
+
+feature:
+- 6d8a215 @putout/printer: ParenthesizedExpression: add
+
 2025.02.08, v12.28.0
 
 feature:
