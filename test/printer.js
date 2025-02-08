@@ -447,6 +447,7 @@ test('putout: printer: unknown', (t) => {
     const ast = babel.parse(fixture.unknown, {
         plugins: ['flow'],
     });
+    
     const [error] = tryCatch(print, ast);
     
     const expected = montag`
