@@ -1,3 +1,9 @@
+2025.02.08, v12.26.0
+
+feature:
+- b2afc0d @putout/printer: @putout/compare v16.0.1
+- 386284a @putout/printer: ClassMethod: comments
+
 2025.02.07, v12.25.0
 
 feature:
