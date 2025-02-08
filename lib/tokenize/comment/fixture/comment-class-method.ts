@@ -16,3 +16,8 @@ class Derived extends Base {
     // ~~~~~
     // error under noImplicitOverride: This member must have an 'override' modifier because it overrides a member in the base class 'Base'.
 }
+
+export class AccessibilityManager {
+    // hello
+    get() {}
+}
