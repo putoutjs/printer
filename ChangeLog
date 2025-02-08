@@ -1,3 +1,9 @@
+2025.02.08, v12.28.0
+
+feature:
+- 306e48c @putout/printer: @putout/operate v13.0.0
+- 240f1e8 @putout/printer: TSParenthesizedType: add
+
 2025.02.08, v12.27.1
 
 feature:
