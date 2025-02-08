@@ -1,3 +1,8 @@
+2025.02.08, v12.27.0
+
+feature:
+- 7775296 @putout/printer: Decorator: trailing comments
+
 2025.02.08, v12.26.0
 
 feature:
