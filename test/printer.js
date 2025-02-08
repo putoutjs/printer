@@ -2,6 +2,7 @@
 
 const montag = require('montag');
 const {parse, transform} = require('putout');
+const babel = require('@putout/babel');
 const tryCatch = require('try-catch');
 
 const {print} = require('#printer');
@@ -443,10 +444,9 @@ test('putout: printer: throw-statement', (t) => {
 });
 
 test('putout: printer: unknown', (t) => {
-    const ast = parse(fixture.unknown, {
-        isFlow: true,
+    const ast = babel.parse(fixture.unknown, {
+        plugins: ['flow'],
     });
-    
     const [error] = tryCatch(print, ast);
     
     const expected = montag`
