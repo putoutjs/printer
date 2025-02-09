@@ -1,3 +1,8 @@
+2025.02.09, v12.30.0
+
+feature:
+- a47b560 @putout/printer: introduce Comments Printer so each node can handle printing comments
+
 2025.02.09, v12.29.0
 
 feature:
