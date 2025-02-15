@@ -1,3 +1,8 @@
+2025.02.15, v12.32.1
+
+fix:
+- 1ae65ad @putout/printer: DEBUG -> LOG_DEBUG
+
 2025.02.14, v12.32.0
 
 feature:
