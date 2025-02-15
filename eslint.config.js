@@ -1,5 +1,6 @@
 'use strict';
 
+const {createESLintConfig} = require('@putout/eslint-flat');
 const {safeAlign} = require('eslint-plugin-putout/config');
 const config = {
     ignores: [
@@ -7,7 +8,4 @@ const config = {
     ],
 };
 
-module.exports = [
-    ...safeAlign,
-    config,
-];
+module.exports = createESLintConfig([safeAlign, config]);
