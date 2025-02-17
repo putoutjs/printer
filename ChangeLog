@@ -1,3 +1,11 @@
+2025.02.17, v13.0.0
+
+fix:
+- 64bec90 @putout/printer:  "\\n'" will be escaped to '\\n\'' instead of '\\n''
+
+feature:
+- 8fd3042 @putout/printer: add ability to set escapeSingleQuotes/escapeDoubleQuotes according to format (coderaiser/putout#230)
+
 2025.02.15, v12.32.1
 
 fix:
