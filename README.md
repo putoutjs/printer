@@ -102,8 +102,8 @@ print(ast, {
         maxPropertiesInOneLine: 2,
         maxPropertiesLengthInOneLine: 15,
         trailingComma: true,
-        encodeSingleQuote: true,
-        encodeDoubleQuote: false,
+        escapeSingleQuote: true,
+        escapeDoubleQuote: false,
         roundBraces: {
             arrow: true,
             sequence: true,
