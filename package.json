@@ -77,7 +77,7 @@
     "check-dts": "^0.8.0",
     "escover": "^4.0.1",
     "eslint": "^9.0.0",
-    "eslint-plugin-putout": "^24.0.0",
+    "eslint-plugin-putout": "^25.0.1",
     "estree-to-babel": "^10.0.0",
     "goldstein": "^5.14.0",
     "just-kebab-case": "^4.2.0",
