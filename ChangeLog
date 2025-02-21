@@ -1,3 +1,10 @@
+2025.02.22, v13.0.1
+
+feature:
+- ee27918 @putout/printer: @putout/eslint v4.1.0
+- 7384b14 @putout/printer: eslint-plugin-putout v25.0.1
+- fc42fa2 @putout/printer: ObjectExpression inside ArrayExpression
+
 2025.02.17, v13.0.0
 
 fix:
