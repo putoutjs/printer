@@ -1,3 +1,8 @@
+2025.02.25, v13.1.0
+
+feature:
+- 4387ef7 @putout/printer: AssignmentExpression: add semicolon even when not inside ExpressionStatement but when inside BlockStatement or Program
+
 2025.02.22, v13.0.1
 
 feature:
