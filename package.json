@@ -62,6 +62,9 @@
     },
     "#test": {
       "default": "./test/create-test.js"
+    },
+    "#is": {
+      "default": "./lib/tokenize/is.js"
     }
   },
   "devDependencies": {
