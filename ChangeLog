@@ -1,3 +1,10 @@
+2025.03.08, v13.2.0
+
+feature:
+- 6a5607b @putout/printer: @putout/plugin-react-hooks v7.0.0
+- b9c5048 @putout/printer: @putout/plugin-minify v10.0.0
+- 87aed30 @putout/printer: third object in ArrayExpression
+
 2025.02.25, v13.1.0
 
 feature:
