@@ -69,7 +69,6 @@
   },
   "devDependencies": {
     "@putout/eslint": "^4.1.0",
-    "@putout/eslint-flat": "^2.0.0",
     "@putout/plugin-minify": "^10.0.0",
     "@putout/plugin-printer": "^4.0.0",
     "@putout/plugin-promises": "^16.0.0",

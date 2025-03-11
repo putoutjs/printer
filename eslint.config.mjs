@@ -1,5 +1,5 @@
-import {createESLintConfig} from '@putout/eslint-flat';
 import {safeAlign} from 'eslint-plugin-putout';
+import {defineConfig} from 'eslint/config';
 
 const config = {
     ignores: [
@@ -7,4 +7,4 @@ const config = {
     ],
 };
 
-export default createESLintConfig([safeAlign, config]);
+export default defineConfig([safeAlign, config]);
