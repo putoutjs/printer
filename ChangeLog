@@ -1,3 +1,8 @@
+2025.03.11, v13.3.0
+
+feature:
+- b4f00b3 @putout/printer: TSInterfaceDeclaration: couple extends
+
 2025.03.08, v13.2.0
 
 feature:
