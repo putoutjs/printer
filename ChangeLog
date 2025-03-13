@@ -1,3 +1,8 @@
+2025.03.13, v13.4.0
+
+feature:
+- abbfbce @putout/printer: improve support of ObjectExpressions inside ArrayExpressions
+
 2025.03.11, v13.3.0
 
 feature:
