@@ -70,7 +70,7 @@
   "devDependencies": {
     "@putout/eslint": "^4.1.0",
     "@putout/plugin-minify": "^10.0.0",
-    "@putout/plugin-printer": "^4.0.0",
+    "@putout/plugin-printer": "^5.0.0",
     "@putout/plugin-promises": "^16.0.0",
     "@putout/plugin-react-hook-form": "^5.0.0",
     "@putout/plugin-react-hooks": "^7.0.0",
