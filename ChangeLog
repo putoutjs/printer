@@ -1,3 +1,14 @@
+2025.03.22, v14.0.0
+
+feature:
+- ee8b09d @putout/printer: drop support of node < 20
+- 3e6915a Function inside ExportDefaultDeclaration before VariableDeclaration
+- 7efbba1 @putout/printer: redlint v4.0.0
+- 70b9601 @putout/printer: putout v39.0.2
+- 5038eb4 @putout/printer: @putout/plugin-printer v5.0.0
+- c1b1f56 @putout/printer: madrun v11.0.0
+- 8dc78fb @putout/printer: eslint-plugin-putout v26.0.2
+
 2025.03.13, v13.4.1
 
 feature:
