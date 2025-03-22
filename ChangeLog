@@ -1,3 +1,8 @@
+2025.03.22, v14.1.0
+
+feature:
+- 10da896 @putout/printer: ExportNamedDeclaration inside BlockStatement
+
 2025.03.22, v14.0.1
 
 feature:
