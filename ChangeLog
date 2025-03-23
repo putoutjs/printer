@@ -1,3 +1,8 @@
+2025.03.23, v14.1.1
+
+feature:
+- 7f68d52 @putout/printer: ObjectPattern: maxPropertiesLengthInOneLine: NumericLiteral
+
 2025.03.22, v14.1.0
 
 feature:
