@@ -1,3 +1,8 @@
+2025.03.28, v14.3.0
+
+feature:
+- 0252ed8 @putout/printer: ExpressionStatement: next is CallExpression with leading comment
+
 2025.03.28, v14.2.0
 
 feature:
