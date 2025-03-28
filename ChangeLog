@@ -1,3 +1,8 @@
+2025.03.28, v14.3.1
+
+feature:
+- 8ea46f3 @putout/printer: ExpressionStatement: after CallExpression: indent
+
 2025.03.28, v14.3.0
 
 feature:
