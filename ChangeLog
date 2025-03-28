@@ -1,3 +1,8 @@
+2025.03.28, v14.3.6
+
+fix:
+- 7dbb77e @putout/printer: ExpressionStatement: AssignmentExpression and then CallEpression
+
 2025.03.28, v14.3.5
 
 feature:
