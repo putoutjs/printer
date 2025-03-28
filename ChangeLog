@@ -1,3 +1,8 @@
+2025.03.28, v14.3.5
+
+feature:
+- 79674c6 @putout/printer: VariableDeclaration: react-hooks
+
 2025.03.28, v14.3.4
 
 feature:
