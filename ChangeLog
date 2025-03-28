@@ -1,3 +1,8 @@
+2025.03.28, v14.2.0
+
+feature:
+- 4b1fb65 @putout/printer: FunctionDeclaration: newline
+
 2025.03.23, v14.1.1
 
 feature:
