@@ -73,7 +73,7 @@
     "@putout/plugin-printer": "^5.0.0",
     "@putout/plugin-promises": "^17.0.0",
     "@putout/plugin-react-hook-form": "^6.0.0",
-    "@putout/plugin-react-hooks": "^7.0.0",
+    "@putout/plugin-react-hooks": "^8.0.1",
     "acorn": "^8.8.2",
     "c8": "^10.1.2",
     "check-dts": "^0.8.0",
