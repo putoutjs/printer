@@ -10,6 +10,9 @@
         },
         "{test,debug.js}": {
             "remove-console": "off"
+        },
+        "*.ts": {
+            "esm": "off"
         }
     }
 }
