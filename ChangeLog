@@ -1,3 +1,18 @@
+2025.04.15, v14.4.0
+
+feature:
+- c15e8d1 @putout/printer: json: string-literal
+- fb50b99 @putout/printer: supertape v11.1.0
+- 7e46e0a @putout/printer: samadhi v3.0.3
+- d4222cf @putout/printer: putout v40.0.1
+- f24d29d @putout/printer: goldstein v6.0.1
+- 72a05df @putout/printer: estree-to-babel v11.0.2
+- 36aefdf @putout/printer: check-dts v0.9.0
+- bcb7a53 @putout/printer: @putout/plugin-react-hooks v8.0.1
+- 809bfe2 @putout/printer: @putout/plugin-react-hook-form v6.0.0
+- b5c91ec @putout/printer: @putout/plugin-promises v17.0.0
+- 6c24426 @putout/printer: @putout/compare v17.0.0
+
 2025.03.29, v14.3.7
 
 fix:
