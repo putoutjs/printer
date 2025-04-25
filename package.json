@@ -8,7 +8,8 @@
   "main": "./lib/printer.js",
   "exports": {
     ".": "./lib/printer.js",
-    "./is": "./lib/tokenize/is.js"
+    "./is": "./lib/tokenize/is.js",
+    "./params": "./lib/tokenize/expressions/function/params.js"
   },
   "repository": {
     "type": "git",
