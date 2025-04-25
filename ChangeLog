@@ -1,3 +1,8 @@
+2025.04.25, v14.5.1
+
+feature:
+- b9d9316 @putout/printer: function: params: printAfterClose -> printBeforeClose
+
 2025.04.25, v14.5.0
 
 feature:
