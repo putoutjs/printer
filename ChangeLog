@@ -1,3 +1,8 @@
+2025.04.29, v14.6.0
+
+feature:
+- 15f94af @putout/printer: FunctionExpression inside 3-elements ArrayExpression tuple
+
 2025.04.25, v14.5.1
 
 feature:
