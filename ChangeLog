@@ -1,3 +1,8 @@
+2025.05.03, v14.7.1
+
+feature:
+- 639c091 @putout/printer: comment: block: trailing: before export
+
 2025.05.03, v14.7.0
 
 feature:
