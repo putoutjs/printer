@@ -1,3 +1,10 @@
+2025.05.26, v14.8.0
+
+feature:
+- 1d87093 @putout/printer: eslint-plugin-putout v27.0.0
+- 6b3ea67 @putout/printer: ExportDeclaration: trailingComma
+- fa15bb1 @putout/printer: ObjectExpression: ObjectMethod: trailingComma
+
 2025.05.23, v14.7.3
 
 feature:
