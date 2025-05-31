@@ -1,3 +1,11 @@
+2025.06.01, v15.0.0
+
+feature:
+- abb07ed @putout/printer: get rid of Record and Tuple (https://github.com/tc39/proposal-record-tuple/issues/394)
+- 6a5ff0c @putout/printer: @putout/compare v18.0.0
+- 9c147b2 @putout/printer: @putout/plugin-promises v18.0.0
+- 0300161 @putout/printer: @putout/babel v4.0.1
+
 2025.05.26, v14.8.0
 
 feature:
