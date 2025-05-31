@@ -1,7 +1,8 @@
 {
     "plugins": ["printer"],
     "rules": {
-        "github/convert-npm-to-bun": "off"
+        "github/convert-npm-to-bun": "off",
+        "putout/apply-lowercase-to-node-builders": "on"
     },
     "match": {
         "*.md": {
