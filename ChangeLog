@@ -1,3 +1,13 @@
+2025.06.12, v15.1.0
+
+fix:
+- 7274b61 @putout/printer: ObjectPattern: AssignmentPattern: ObjectExpression: comma
+
+feature:
+- c41eda6 @putout/printer: Decorator: printLeadingCommentLine
+- 88d8cd4 @putout/printer: @putout/plugin-react-hooks v9.0.0
+- 57495a1 @putout/printer: @putout/operate v14.0.1
+
 2025.06.01, v15.0.0
 
 feature:
