@@ -1,3 +1,8 @@
+2025.06.12, v15.1.2
+
+fix:
+- b3499c9 @putout/printer: ObjectPattern: destructuring
+
 2025.06.12, v15.1.1
 
 feature:
