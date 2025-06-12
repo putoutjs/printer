@@ -1,3 +1,8 @@
+2025.06.12, v15.1.1
+
+feature:
+- e67a827 @putout/printer: ObjectPattern: Assign: improve
+
 2025.06.12, v15.1.0
 
 fix:
