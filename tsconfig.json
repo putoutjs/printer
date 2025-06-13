@@ -1,5 +1,6 @@
 {
     "compilerOptions": {
+        "moduleResolution": "nodenext",
         "target": "es2015",
         "skipLibCheck": true
     },
