@@ -1,3 +1,8 @@
+2025.06.14, v15.3.2
+
+fix:
+- a92c4d3 @putout/printer: ObjectPattern: indent
+
 2025.06.14, v15.3.1
 
 feature:
