@@ -96,6 +96,7 @@ print(ast, {
         comments: true,
         maxSpecifiersInOneLine: 2,
         maxElementsInOneLine: 3,
+        maxElementLengthInOneLine: 10,
         maxLogicalsInOneLine: 3,
         maxVariablesInOneLine: 4,
         maxTypesInOneLine: 3,
