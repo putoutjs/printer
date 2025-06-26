@@ -1,3 +1,8 @@
+2025.06.26, v15.6.0
+
+feature:
+- 6dce866 @putout/printer: DirectiveLiteral: no raw
+
 2025.06.19, v15.5.0
 
 feature:
