@@ -1,3 +1,10 @@
+2025.07.03, v15.9.0
+
+feature:
+- 57013dc @putout/printer: ExpressionStatement: inside BlockStatement: leading comment
+- f2f187f @putout/printer: ExpressionStatement inside ArrowFunction: leadinging comment
+- 0afbf8d @putout/printer: @putout/plugin-printer v6.0.0
+
 2025.07.02, v15.8.0
 
 feature:
