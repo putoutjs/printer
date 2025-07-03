@@ -1,3 +1,9 @@
+2025.07.03, v15.9.1
+
+feature:
+- 9419ded @putout/printer: hasTrailingCommentsPrinter
+- eb8d16f ExpressionStatement: inside IfStatement
+
 2025.07.03, v15.9.0
 
 feature:
