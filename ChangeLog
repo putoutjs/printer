@@ -1,3 +1,8 @@
+2025.07.04, v15.10.0
+
+feature:
+- 38782c7 @putout/printer: MemberExpresison: both identifiers inside nested MemberExpression call
+
 2025.07.03, v15.9.1
 
 feature:
