@@ -21,15 +21,14 @@ interface Semantics {
 type Print = (input: string | types.Node) => void;
 type Indent = () => void;
 type Traverse = (input: types.Node) => void;
-
 type MaybeCondition = (condition: boolean) => void;
 
 declare const MaybeIndent: {
     inc: MaybeCondition;
     dec: MaybeCondition;
 };
-declare function MaybeIndent(condition: boolean): void;
 
+declare function MaybeIndent(condition: boolean): void;
 type MaybePrint = (condition: boolean, input: string | types.Node) => void;
 type MaybeTraverse = (condition: boolean, input: types.Node) => void;
 
