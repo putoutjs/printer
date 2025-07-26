@@ -1,3 +1,8 @@
+2025.07.26, v15.14.1
+
+feature:
+- ab61623 @putout/printer: EmptyStatement: new line
+
 2025.07.26, v15.14.0
 
 feature:
