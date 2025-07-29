@@ -1,3 +1,8 @@
+2025.07.29, v15.15.0
+
+feature:
+- 79dc3bd @putout/printer: ExportDeclaration: add newline before VariableDeclaration
+
 2025.07.26, v15.14.1
 
 feature:
