@@ -1,3 +1,8 @@
+2025.08.04, v15.18.0
+
+feature:
+- 3357c63 @putout/printer: AssignmentExpression: leadingComments: CommentBlock
+
 2025.08.04, v15.17.0
 
 feature:
