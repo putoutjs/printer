@@ -1,3 +1,8 @@
+2025.08.05, v15.18.1
+
+feature:
+- 59d5952 @putout/printer: AssignmentExpression: maybeParens
+
 2025.08.04, v15.18.0
 
 feature:
