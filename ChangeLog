@@ -1,3 +1,11 @@
+2025.09.09, v15.20.1
+
+fix:
+- ea679da @putout/printer: JSXAttribute: StringLiteral: quote: single -> double
+
+feature:
+- 4e11751 @putout/printer: @putout/plugin-minify v11.2.1
+
 2025.08.12, v15.20.0
 
 feature:
