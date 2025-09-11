@@ -69,6 +69,7 @@
     }
   },
   "devDependencies": {
+    "@babel/parser": "8.0.0-beta.2",
     "@putout/eslint": "^4.1.0",
     "@putout/plugin-minify": "^11.2.1",
     "@putout/plugin-printer": "^6.0.0",

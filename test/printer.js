@@ -2,7 +2,7 @@
 
 const montag = require('montag');
 const {parse, transform} = require('putout');
-const babel = require('@putout/babel');
+const {parse: babelParse} = require('@babel/parser');
 const tryCatch = require('try-catch');
 
 const {print} = require('#printer');
@@ -444,17 +444,17 @@ test('putout: printer: throw-statement', (t) => {
 });
 
 test('putout: printer: unknown', (t) => {
-    const ast = babel.parse(fixture.unknown, {
+    const ast = babelParse(fixture.unknown, {
         plugins: ['flow'],
     });
     
-    const [error] = tryCatch(print, ast);
+    const [printError] = tryCatch(print, ast);
     
     const expected = montag`
         ☝️ Node type 'InterfaceDeclaration' is not supported yet by @putout/printer: 'interface IInputHandlingTerminal {}'
     `;
     
-    t.equal(error?.message, expected);
+    t.equal(printError?.message, expected);
     t.end();
 });
 
