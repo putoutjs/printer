@@ -1,3 +1,8 @@
+2025.09.11, v15.20.2
+
+feature:
+- 9258c6c @putout/printer: ObjectPattern: comma
+
 2025.09.09, v15.20.1
 
 fix:
