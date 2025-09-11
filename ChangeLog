@@ -1,3 +1,8 @@
+2025.09.11, v15.20.3
+
+feature:
+- ff9d636 @putout/printer: ObjectPattern: simplify
+
 2025.09.11, v15.20.2
 
 feature:
