@@ -1,3 +1,8 @@
+2025.09.11, v15.20.5
+
+fix:
+- 95632c3 @putout/printer: ObjectPattern: calculateLongAssignPattern
+
 2025.09.11, v15.20.4
 
 feature:
