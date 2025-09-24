@@ -1,3 +1,8 @@
+2025.09.24, v15.21.1
+
+fix:
+- 8b47e5e @putout/printer: jsx-element: indent
+
 2025.09.21, v15.21.0
 
 feature:
