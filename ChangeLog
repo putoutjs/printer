@@ -1,3 +1,8 @@
+2025.10.01, v15.22.0
+
+feature:
+- a295bb3 @putout/printer: TSTemplateLiteralType: add
+
 2025.09.24, v15.21.1
 
 fix:
