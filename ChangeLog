@@ -1,3 +1,8 @@
+2025.10.01, v15.23.1
+
+feature:
+- d10b125 @putout/printer: ForStatement inside LabeledStatement: indent
+
 2025.10.01, v15.23.0
 
 feature:
