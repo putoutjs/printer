@@ -1,3 +1,8 @@
+2025.10.29, v15.24.0
+
+feature:
+- 926c187 @putout/printer: TSTypeParameter: default
+
 2025.10.01, v15.23.1
 
 feature:
