@@ -1,3 +1,8 @@
+2025.10.30, v15.25.0
+
+feature:
+- 96e0b13 @putout/printer: TSOptionalType: add
+
 2025.10.29, v15.24.0
 
 feature:
