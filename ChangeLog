@@ -1,3 +1,8 @@
+2025.10.31, v15.26.0
+
+feature:
+- 366a0ca @putout/printer: ObjectPattern: computed: maxPropertiesLengthInOneLine check
+
 2025.10.30, v15.25.0
 
 feature:
