@@ -1,3 +1,8 @@
+2025.11.07, v15.26.2
+
+feature:
+- c388dfa @putout/printer: IfStatement: consiquent is TryCatchStatement: add newline before else
+
 2025.10.31, v15.26.1
 
 feature:
