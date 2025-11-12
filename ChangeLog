@@ -1,3 +1,8 @@
+2025.11.12, v15.27.0
+
+feature:
+- cd2a315 @putout/printer: MemberExpression: object is ObjectExpression: inside ArrowFunctionExpression
+
 2025.11.07, v15.26.2
 
 feature:
