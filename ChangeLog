@@ -1,3 +1,8 @@
+2025.11.27, v15.28.0
+
+feature:
+- b47c2fc @putout/printer: ObjectPattern: properties: leadingComments
+
 2025.11.12, v15.27.0
 
 feature:
