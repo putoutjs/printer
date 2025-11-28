@@ -1,3 +1,13 @@
+2025.11.28, v16.0.0
+
+feature:
+- 8464bc8 @putout/printer: TSImportType: argument -> source
+- 79e538a @putout/printer: ImportDeclaration: drop support of assertions
+- 4a62b80 @putout/printer: @putout/operate v15.0.0
+- 1876784 @putout/printer: @putout/compare v19.0.1
+- 0a777ac @putout/printer: eslint-plugin-putout v29.0.0
+- b0874ca @putout/printer: @putout/babel v5.0.0
+
 2025.11.27, v15.28.0
 
 feature:
