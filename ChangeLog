@@ -1,3 +1,11 @@
+2025.12.08, v16.1.0
+
+feature:
+- 1974703 @putout/printer: ClassDeclaration: implements: improve support
+- f8a62fa @putout/printer: TSInterfaceDeclaration: improve support of extends
+- 0a62781 @putout/printer: escover v5.0.0
+- ca1d748 @putout/printer: putout v41.0.0
+
 2025.11.28, v16.0.0
 
 feature:
