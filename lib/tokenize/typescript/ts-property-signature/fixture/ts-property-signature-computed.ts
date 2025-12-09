@@ -5,7 +5,7 @@ const StatusCodes = {
     NOT_FOUND: 'NOT_FOUND',
     INTERNAL_SERVER_ERROR: 'INTERNAL_SERVER_ERROR',
     SERVICE_UNAVAILABLE: 'SERVICE_UNAVAILABLE',
-}
+};
 
 type HttpErrorMessage = {
     [StatusCodes.BAD_REQUEST]: string;
