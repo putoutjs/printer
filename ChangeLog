@@ -1,3 +1,9 @@
+2025.12.09, v16.3.0
+
+feature:
+- 5c8c2ff @putout/printer: TSTypeLiteral: indent
+- 6419576 @putout/printer: TSImportType: trailing comma
+
 2025.12.09, v16.2.0
 
 feature:
