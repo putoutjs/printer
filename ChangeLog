@@ -1,3 +1,8 @@
+2025.12.27, v16.5.0
+
+feature:
+- 039ab4a @putout/printer: SwitchCase: maybe space after case
+
 2025.12.11, v16.4.0
 
 feature:
