@@ -1,3 +1,8 @@
+2026.01.03, v16.6.0
+
+feature:
+- 8558f03 @putout/printer: ExportDeclaration: export default from: add support
+
 2025.12.27, v16.5.0
 
 feature:
