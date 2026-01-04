@@ -92,7 +92,7 @@
     "redlint": "^4.0.0",
     "samadhi": "^3.0.3",
     "supertape": "^11.1.0",
-    "try-catch": "^3.0.0",
+    "try-catch": "^4.0.6",
     "typescript": "^5.3.3"
   },
   "license": "MIT",
