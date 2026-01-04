@@ -1,10 +1,8 @@
-'use strict';
+import {extend} from 'supertape';
+import {printExtension} from '#test/printer';
+import {readFixtures} from '#test/fixture';
 
-const {extend} = require('supertape');
-const {printExtension} = require('#test/printer');
-const {readFixtures} = require('#test/fixture');
-
-module.exports.createTest = (dir) => {
+export const createTest = (dir) => {
     const fixture = readFixtures(dir);
     const test = extend({
         print: printExtension,
@@ -15,3 +13,4 @@ module.exports.createTest = (dir) => {
         test,
     };
 };
+

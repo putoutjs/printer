@@ -54,8 +54,8 @@ To benefit from it.
 ## Example
 
 ```js
-const {print} = require('@putout/printer');
-const {parse} = require('putout');
+import {print} from '@putout/printer';
+import {parse} from 'putout';
 const ast = parse('const a = (b, c) => {const d = 5; return a;}');
 
 print(ast);
@@ -309,10 +309,10 @@ This is the same as `print('__left')` but more low-level, and supports only obje
 About speed, for file `speed.js`:
 
 ```js
-const {readFileSync} = require('node:fs');
+import {readFileSync} from 'node:fs';
 
-const putout = require('putout');
-const parser = require('@babel/parser');
+import {putout} from 'putout';
+import parser from '@babel/parser';
 
 const code = readFileSync('./lib/tokenize/tokenize.js', 'utf8');
 const ast = parser.parse(code);

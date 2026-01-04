@@ -1,13 +1,14 @@
-'use strict';
+import {fileURLToPath} from 'node:url';
+import {dirname} from 'node:path';
+import montag from 'montag';
+import {parse, transform} from 'putout';
+import {parse as babelParse} from '@babel/parser';
+import {tryCatch} from 'try-catch';
+import {print} from '#printer';
+import {createTest} from '#test';
 
-const montag = require('montag');
-const {parse, transform} = require('putout');
-const {parse: babelParse} = require('@babel/parser');
-const tryCatch = require('try-catch');
-
-const {print} = require('#printer');
-const {createTest} = require('#test');
-
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = dirname(__filename);
 const {fixture, test} = createTest(__dirname);
 const noop = () => {};
 

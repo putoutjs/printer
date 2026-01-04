@@ -1,11 +1,9 @@
-'use strict';
+import {tryCatch} from 'try-catch';
+import {parse} from 'putout';
+import {print} from '../../lib/printer.js';
+import {maybeApplyFromFormat} from './from.js';
 
-const tryCatch = require('try-catch');
-const {parse} = require('putout');
-const {print} = require('../../lib/printer');
-const {maybeApplyFromFormat} = require('./from');
-
-module.exports.printExtension = ({fail, equal}) => (fixture, options) => {
+export const printExtension = ({fail, equal}) => (fixture, options) => {
     const cleanFixture = maybeApplyFromFormat(fixture, options);
     
     const [errorParse, ast] = tryCatch(parse, cleanFixture, {

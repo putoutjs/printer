@@ -1,9 +1,7 @@
-'use strict';
-
-const {join} = require('node:path');
-const {readFileSync} = require('node:fs');
-const tryCatch = require('try-catch');
-const kebabCase = require('just-kebab-case');
+import {join} from 'node:path';
+import {readFileSync} from 'node:fs';
+import {tryCatch} from 'try-catch';
+import kebabCase from 'just-kebab-case';
 
 const readFixture = (dir, name) => {
     const dirFixture = join(dir, 'fixture');
@@ -16,7 +14,7 @@ const readFixture = (dir, name) => {
     return readFileSync(`${longName}.js`, 'utf8');
 };
 
-module.exports.readFixtures = (dir) => {
+export const readFixtures = (dir) => {
     return new Proxy({}, createHandler(dir));
 };
 

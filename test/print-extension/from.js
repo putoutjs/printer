@@ -1,5 +1,3 @@
-'use strict';
-
 const isUndefined = (a) => typeof a === 'undefined';
 
 const formatFromList = [
@@ -8,7 +6,7 @@ const formatFromList = [
     maybeApplyFromNewline,
 ];
 
-module.exports.maybeApplyFromFormat = (source, options) => {
+export const maybeApplyFromFormat = (source, options) => {
     for (const format of formatFromList)
         source = format(source, options);
     

@@ -72,7 +72,7 @@
     "@babel/parser": "8.0.0-beta.2",
     "@putout/eslint": "^5.0.2",
     "@putout/plugin-minify": "^11.2.1",
-    "@putout/plugin-printer": "^6.0.0",
+    "@putout/plugin-printer": "^7.0.0",
     "@putout/plugin-promises": "^18.0.0",
     "@putout/plugin-react-hook-form": "^6.0.0",
     "@putout/plugin-react-hooks": "^9.0.0",

@@ -1,10 +1,8 @@
-'use strict';
+import {test} from 'supertape';
 
-const {test} = require('supertape');
-
-test('printer: exports: is', (t) => {
-    const exported = require('@putout/printer/is');
-    const is = require('../lib/tokenize/is');
+test('printer: exports: is', async (t) => {
+    const exported = await import('@putout/printer/is');
+    const is = await import('../lib/tokenize/is.js');
     
     t.equal(exported, is);
     t.end();
