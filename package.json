@@ -1,7 +1,7 @@
 {
   "name": "@putout/printer",
   "version": "16.6.0",
-  "type": "commonjs",
+  "type": "module",
   "author": "coderaiser <mnemonic.enemy@gmail.com> (https://github.com/coderaiser)",
   "description": "Simplest possible opinionated Babel AST printer for 🐊Putout",
   "homepage": "https://github.com/putoutjs/printer#readme",
@@ -70,7 +70,7 @@
   },
   "devDependencies": {
     "@babel/parser": "8.0.0-beta.2",
-    "@putout/eslint": "^4.1.0",
+    "@putout/eslint": "^5.0.2",
     "@putout/plugin-minify": "^11.2.1",
     "@putout/plugin-printer": "^6.0.0",
     "@putout/plugin-promises": "^18.0.0",
