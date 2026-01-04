@@ -83,7 +83,7 @@
     "eslint": "^9.0.0",
     "eslint-plugin-putout": "^29.0.0",
     "estree-to-babel": "^11.0.2",
-    "goldstein": "^6.0.1",
+    "goldstein": "^7.0.0",
     "just-kebab-case": "^4.2.0",
     "madrun": "^12.0.0",
     "montag": "^1.0.0",
