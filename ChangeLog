@@ -1,3 +1,14 @@
+2026.01.04, v17.0.0
+
+feature:
+- b33d062 @putout/printer: migrate to ESM
+- dcd78dd @putout/printer: redlint v5.0.2
+- 45b4570 @putout/printer: goldstein v7.0.0
+- 97a49eb @putout/printer: madrun v12.0.0
+- 063fda0 @putout/printer: samadhi v4.0.2
+- 3ff6ea5 @putout/printer: try-catch v4.0.6
+- 09f5c5a @putout/printer: @putout/eslint v5.0.2
+
 2026.01.03, v16.6.0
 
 feature:
