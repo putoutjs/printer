@@ -56,6 +56,7 @@ To benefit from it.
 ```js
 import {print} from '@putout/printer';
 import {parse} from 'putout';
+
 const ast = parse('const a = (b, c) => {const d = 5; return a;}');
 
 print(ast);
@@ -310,7 +311,6 @@ About speed, for file `speed.js`:
 
 ```js
 import {readFileSync} from 'node:fs';
-
 import {putout} from 'putout';
 import parser from '@babel/parser';
 
