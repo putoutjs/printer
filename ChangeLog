@@ -1,3 +1,15 @@
+2026.01.11, v17.0.1
+
+fix:
+- ee1df33 @putout/printer: drop support of node < 22
+
+feature:
+- 183f7ba @putout/printer: supertape v12.0.9
+- cfa04f4 @putout/printer: fullstore v4.0.0
+- 399ad3d @putout/printer: estree-to-babel v12.0.0
+- 2641280 @putout/printer: @putout/operator-json v3.1.0
+- ea8a6fe @putout/printer: @babel/parser v7.28.5
+
 2026.01.04, v17.0.0
 
 feature:
