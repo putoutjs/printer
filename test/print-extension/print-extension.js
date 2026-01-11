@@ -1,6 +1,6 @@
 import {tryCatch} from 'try-catch';
 import {parse} from 'putout';
-import {print} from '../../lib/printer.js';
+import {print} from '#printer';
 import {maybeApplyFromFormat} from './from.js';
 
 export const printExtension = ({fail, equal}) => (fixture, options) => {
