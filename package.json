@@ -36,7 +36,7 @@
     "@putout/babel": "^5.0.0",
     "@putout/compare": "^19.0.1",
     "@putout/operate": "^15.0.0",
-    "@putout/operator-json": "^2.0.0",
+    "@putout/operator-json": "^3.1.0",
     "fullstore": "^3.0.0",
     "just-snake-case": "^3.2.0",
     "parse-import-specifiers": "^1.0.1",
