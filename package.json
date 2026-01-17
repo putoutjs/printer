@@ -66,6 +66,9 @@
     },
     "#is": {
       "default": "./lib/tokenize/is.js"
+    },
+    "#maybe-parens": {
+      "default": "./lib/tokenize/maybe/maybe-parens.js"
     }
   },
   "devDependencies": {
