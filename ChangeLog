@@ -1,3 +1,8 @@
+2026.01.18, v17.0.4
+
+feature:
+- 06823ba @putout/printer: print-params -> #print-params
+
 2026.01.17, v17.0.3
 
 feature:
