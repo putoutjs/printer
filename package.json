@@ -52,27 +52,13 @@
     "generate"
   ],
   "imports": {
-    "#test/printer": {
-      "default": "./test/print-extension/print-extension.js"
-    },
-    "#test/fixture": {
-      "default": "./test/fixture.js"
-    },
-    "#printer": {
-      "default": "./lib/printer.js"
-    },
-    "#test": {
-      "default": "./test/create-test.js"
-    },
-    "#is": {
-      "default": "./lib/tokenize/is.js"
-    },
-    "#maybe-parens": {
-      "default": "./lib/tokenize/maybe/maybe-parens.js"
-    },
-    "#print-params": {
-      "default": "./lib/tokenize/expressions/function/params.js"
-    }
+    "#test/printer": "./test/print-extension/print-extension.js",
+    "#test/fixture": "./test/fixture.js",
+    "#printer": "./lib/printer.js",
+    "#test": "./test/create-test.js",
+    "#is": "./lib/tokenize/is.js",
+    "#maybe-parens": "./lib/tokenize/maybe/maybe-parens.js",
+    "#print-params": "./lib/tokenize/expressions/function/params.js"
   },
   "devDependencies": {
     "@babel/parser": "^7.28.5",
