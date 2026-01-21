@@ -1,5 +1,3 @@
-import {fileURLToPath} from 'node:url';
-import {dirname} from 'node:path';
 import montag from 'montag';
 import {parse, transform} from 'putout';
 import {parse as babelParse} from '@babel/parser';
@@ -7,9 +5,7 @@ import {tryCatch} from 'try-catch';
 import {print} from '#printer';
 import {createTest} from '#test';
 
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = dirname(__filename);
-const {fixture, test} = createTest(__dirname);
+const {fixture, test} = createTest(import.meta.url);
 const noop = () => {};
 
 test('putout: printer: arrow', (t) => {
