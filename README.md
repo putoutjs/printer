@@ -21,7 +21,7 @@ You may also use [Babel 8](https://github.com/putoutjs/babel) with [`estree-to-b
 
 Supports:
 
-- ✅ **ES2023**;
+- ✅ **ES2026**;
 - ✅ **JSX**;
 - ✅ [**TypeScript**](https://www.typescriptlang.org/);
 - ✅ [**JSON**](https://github.com/coderaiser/putout/tree/master/packages/processor-json#readme);
