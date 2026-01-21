@@ -2,7 +2,9 @@ const {errors} = {
     ...props,
 };
 
-const {errors2} = {...props};
+const {errors2} = {
+    ...props,
+};
 
 for (const {a, ...b} of {...c}) {}
 
