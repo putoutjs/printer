@@ -1,3 +1,8 @@
+2026.01.21, v17.0.7
+
+feature:
+- bc4913e @putout/printer: SpreadElement inside ObjectExpression: improve support
+
 2026.01.20, v17.0.6
 
 feature:
