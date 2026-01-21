@@ -35,4 +35,3 @@ const readFixture = (url, name) => {
     
     return readFileSync(`${longName}.js`, 'utf8');
 };
-
