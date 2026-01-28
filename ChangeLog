@@ -1,3 +1,8 @@
+2026.01.28, v17.0.8
+
+feature:
+- d606ed8 @putout/printer: json: isJSON -> isJSONGroup
+
 2026.01.21, v17.0.7
 
 feature:
