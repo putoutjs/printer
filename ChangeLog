@@ -1,3 +1,9 @@
+2026.02.01, v17.1.0
+
+feature:
+- df72e84 @putout/printer: ObjectPattern: split to couple files
+- 3dba268 @putout/printer: ObjectPattern: couple assigns
+
 2026.01.28, v17.0.8
 
 feature:
