@@ -72,7 +72,7 @@
     "c8": "^10.1.2",
     "check-dts": "^0.9.0",
     "escover": "^5.0.0",
-    "eslint": "^9.0.0",
+    "eslint": "^10.0.0",
     "eslint-plugin-putout": "^30.0.0",
     "estree-to-babel": "^12.0.0",
     "goldstein": "^7.0.0",
