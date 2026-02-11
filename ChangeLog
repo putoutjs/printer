@@ -1,3 +1,9 @@
+2026.02.11, v17.2.0
+
+feature:
+- 7cb116c @putout/printer: ArrayExpression: ObjectExpression, after StringLiteral/TemplateLiteral: indent
+- 7a5f660 @putout/printer: eslint v10.0.0
+
 2026.02.01, v17.1.0
 
 feature:
