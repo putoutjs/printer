@@ -1,3 +1,8 @@
+2026.02.11, v17.4.0
+
+feature:
+- 2bcb1e2 @putout/printer: ExportAllDeclaration: import attributes
+
 2026.02.11, v17.3.0
 
 feature:
