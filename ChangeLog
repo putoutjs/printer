@@ -1,3 +1,8 @@
+2026.02.15, v17.6.0
+
+feature:
+- a27d2f6 @putout/printer: ReturnStatement after TryStatement
+
 2026.02.13, v17.5.0
 
 feature:
