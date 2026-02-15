@@ -1,7 +1,20 @@
 import {types} from '@putout/babel';
-import {print} from '..';
+import {
+    print,
+    maybeVisitor,
+    visitors,
+} from '../lib/printer.js';
 
 const {identifier} = types;
+
+// THROWS Expected 4 arguments, but got 1.
+maybeVisitor(1);
+
+// THROWS Argument of type 'number' is not assignable to parameter of type 'Visitor'
+maybeVisitor(1, 2, 3, 4);
+
+// THROWS Argument of type 'number' is not assignable to parameter of type 'Print'.
+maybeVisitor(visitors.ArrayExpression, 2, 3, 4);
 
 // THROWS Argument of type 'number' is not assignable to parameter of type 'Node'
 print(1);
