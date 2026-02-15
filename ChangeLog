@@ -1,3 +1,8 @@
+2026.02.16, v17.7.0
+
+feature:
+- 1512671 @putout/printer: types: maybeVisitor, visitors
+
 2026.02.15, v17.6.0
 
 feature:
