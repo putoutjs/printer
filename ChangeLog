@@ -1,3 +1,14 @@
+2026.02.16, v17.7.1
+
+feature:
+- 3811a52 @putout/printer: TSDeclareFunction: no returnType
+- 206f251 @putout/printer: redlint v6.0.0
+- 90d9f97 @putout/printer: putout v42.0.1
+- 2a805c8 @putout/printer: madrun v13.0.0
+- 316c6d4 @putout/printer: eslint-plugin-putout v31.0.0
+- b38077b @putout/printer: escover v6.0.0
+- a36080d @putout/printer: @putout/plugin-promises v19.0.0
+
 2026.02.16, v17.7.0
 
 feature:
