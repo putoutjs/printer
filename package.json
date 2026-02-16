@@ -64,6 +64,7 @@
   "devDependencies": {
     "@babel/parser": "^7.28.5",
     "@putout/eslint": "^5.0.2",
+    "@putout/eslint-flat": "^4.0.0",
     "@putout/plugin-minify": "^11.2.1",
     "@putout/plugin-printer": "^7.0.0",
     "@putout/plugin-promises": "^19.0.0",

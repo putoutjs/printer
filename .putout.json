@@ -9,7 +9,9 @@
             "printer/remove-args": "off"
         },
         "{test,debug.js}": {
-            "remove-console": "off"
+            "remove-console": "off",
+            "variables/remove-unused": "off",
+            "variables/remove-useless": "off"
         },
         "*.ts": {
             "esm": "off"

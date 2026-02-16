@@ -1,10 +1,16 @@
 import {safeAlign} from 'eslint-plugin-putout';
 import {defineConfig} from 'eslint/config';
+import {matchToFlat} from '@putout/eslint-flat';
 
-const config = {
-    ignores: [
-        '**/fixture/*.*',
-    ],
+export const match = {
+    '**/*.errors.ts': {
+        '@typescript-eslint/no-unused-vars': 'off',
+    },
 };
 
-export default defineConfig([safeAlign, config]);
+export default defineConfig([
+    safeAlign,
+    matchToFlat(match), {
+        ignores: ['**/fixture'],
+    },
+]);
