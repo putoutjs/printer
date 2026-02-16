@@ -1,0 +1,1 @@
+declare function maybeVisitor(path: string, printer: number);
