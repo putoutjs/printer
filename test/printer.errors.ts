@@ -14,7 +14,10 @@ maybeVisitor(1);
 maybeVisitor(1, 2, 3, 4);
 
 // THROWS Argument of type 'number' is not assignable to parameter of type 'Print'.
-maybeVisitor(visitors.ArrayExpression, 2, 3, 4);
+const a = maybeVisitor(visitors.ArrayExpression, 2, 3, 4);
+
+// THROWS Type 'void' is not assignable to type 'string'
+const b: string = a;
 
 // THROWS Argument of type 'number' is not assignable to parameter of type 'Node'
 print(1);
