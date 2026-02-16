@@ -1,3 +1,8 @@
+2026.02.17, v17.7.2
+
+feature:
+- 4db4f2b @putout/printer: types: maybeVisitor: return type
+
 2026.02.16, v17.7.1
 
 feature:
