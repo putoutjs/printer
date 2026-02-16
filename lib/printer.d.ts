@@ -60,6 +60,4 @@ interface Options {
 export function print(ast: types.Node, options?: Options): string;
 
 declare function maybeVisitor(plugin: Visitor, path: types.Path, printer: Print, semantics: Semantics): void;
-
 export const visitors = Visitors;
-
