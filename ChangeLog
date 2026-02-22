@@ -1,3 +1,11 @@
+2026.02.22, v17.9.0
+
+feature:
+- cc0746d @putout/printer: private import: #types
+- 0e9fa7f @putout/printer: move out indent
+- c7f8249 @putout/printer: printer: simplify
+- d2f8005 @putout/printer: tokenize: printer: add
+
 2026.02.22, v17.8.1
 
 feature:
