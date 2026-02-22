@@ -2,7 +2,8 @@
     "plugins": ["printer"],
     "rules": {
         "github/convert-npm-to-bun": "off",
-        "putout/apply-lowercase-to-node-builders": "on"
+        "putout/apply-lowercase-to-node-builders": "on",
+        "putout/remove-useless-source-argument": "on"
     },
     "match": {
         "*.md": {

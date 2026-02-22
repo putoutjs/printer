@@ -136,7 +136,7 @@ test('putout: printer: call-expression + empty object', (t) => {
     const source = fixture.callExpressionEmptyObject;
     const ast = parse(source);
     
-    transform(ast, source, {
+    transform(ast, {
         plugins: ['eslint'],
     });
     
@@ -289,7 +289,7 @@ test('putout: printer: MemberExpression', (t) => {
 test('putout: printer: MemberExpression: no newline', (t) => {
     const ast = parse(fixture.memberExpressionNoNewline);
     
-    transform(ast, fixture.memberExpressionNoNewline, {
+    transform(ast, {
         plugins: ['remove-debugger'],
     });
     
@@ -318,7 +318,7 @@ test('putout: printer: numericLiteral: no raw', (t) => {
     const source = 'const b = a * a';
     const ast = parse(source);
     
-    transform(ast, source, {
+    transform(ast, {
         plugins: [
             ['math', {
                 report: noop,
