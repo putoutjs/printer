@@ -8,7 +8,7 @@ export default {
     'test:dts': () => 'check-dts test/*.ts',
     'watch:test': async () => [env, `nodemon -w lib -w test -x ${await cutEnv('test')}`],
     'lint': () => run('lint:*'),
-    'lint:redlint': () => 'redlint scan',
+    'lint:redlint': () => 'redlint fix',
     'lint:putout': () => 'putout .',
     'fresh': () => run('lint', '--fresh'),
     'fix:lint': () => run('fix:lint:*'),
