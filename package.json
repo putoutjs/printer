@@ -38,6 +38,7 @@
     "@putout/operate": "^15.0.0",
     "@putout/operator-json": "^3.1.0",
     "fullstore": "^4.0.0",
+    "jessy": "^5.0.0",
     "just-snake-case": "^3.2.0",
     "parse-import-specifiers": "^1.0.1",
     "rendy": "^5.0.0"
