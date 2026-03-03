@@ -1,3 +1,9 @@
+2026.03.03, v17.10.0
+
+feature:
+- 76458a6 @putout/printer: IfStatement: trailing comments: improve support
+- 8eebdfb @putout/printer: IfStatement: trailing comments
+
 2026.02.22, v17.9.0
 
 feature:
