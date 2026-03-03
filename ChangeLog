@@ -1,3 +1,12 @@
+2026.03.03, v17.11.0
+
+feature:
+- 08981fd @putout/printer: WhileStatement: trailng comments: improve support
+- abfacc7 @putout/printer: superc8 v12.2.4
+- 0ff4fb3 @putout/printer: @putout/eslint v6.0.0
+- aa35981 @putout/printer: #mark: add
+- 52f16d2 @putout/printer: IfStatement: comments with next sibling
+
 2026.03.03, v17.10.1
 
 feature:
