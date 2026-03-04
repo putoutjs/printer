@@ -1,3 +1,8 @@
+2026.03.04, v18.0.4
+
+feature:
+- e81d579 @putout/printer: type-checker: export
+
 2026.03.04, v18.0.3
 
 fix:
