@@ -70,7 +70,7 @@
     "@putout/eslint": "^6.0.0",
     "@putout/eslint-flat": "^4.0.0",
     "@putout/plugin-minify": "^11.2.1",
-    "@putout/plugin-printer": "^7.0.0",
+    "@putout/plugin-printer": "^8.0.0",
     "@putout/plugin-promises": "^19.0.0",
     "@putout/plugin-react-hook-form": "^6.0.0",
     "@putout/plugin-react-hooks": "^9.0.0",
