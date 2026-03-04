@@ -9,7 +9,8 @@
   "exports": {
     ".": "./lib/printer.js",
     "./is": "./lib/tokenize/is.js",
-    "./params": "./lib/tokenize/expressions/function/params.js"
+    "./params": "./lib/tokenize/expressions/function/params.js",
+    "./type-checker": "./lib/tokenize/type-checker/type-checker.js"
   },
   "repository": {
     "type": "git",
