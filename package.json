@@ -62,7 +62,8 @@
     "#maybe-parens": "./lib/tokenize/maybe/maybe-parens.js",
     "#print-params": "./lib/tokenize/expressions/function/params.js",
     "#import-attributes": "./lib/tokenize/statements/import-declaration/import-attribute.js",
-    "#types": "./lib/types.js"
+    "#types": "./lib/types.js",
+    "#type-checker": "./lib/tokenize/type-checker/type-checker.js"
   },
   "devDependencies": {
     "@babel/parser": "^7.28.5",
