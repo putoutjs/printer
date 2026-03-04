@@ -1,3 +1,15 @@
+2026.03.04, v18.0.1
+
+feature:
+- 5e6e906 @putout/printer: VariableDeclaration: after: simplify
+- 852f982 @putout/printer: @putout/plugin-printer v8.0.0
+- 7b3977d @putout/printer: VariableDeclaration: skipAfter
+- 4f43a9f VariableDeclaration: isNeedNewline
+- 9dece24 @putout/printer: VariableDeclaration: isSemicolon
+- b9a27e0 @putout/printer: VariableDeclaration: isInsideIf
+- 06d6255 @putout/printer: is: isParentProgram -> isInsideProgram
+- 2a0ef4e is: isParentBlock -> isInsideBlock
+
 2026.03.04, v18.0.0
 
 feature:
