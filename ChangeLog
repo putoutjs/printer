@@ -1,3 +1,14 @@
+2026.03.04, v18.0.0
+
+feature:
+- 1aaf942 @putout/printer: ArrayExpression: newline: is more then max element length in one line
+- a0d465b @putout/printer: maxElementLengthInOneLine: 10 -> 15
+- eea22ae @putout/printer: BlockStatement: newline: simplify
+- c9c9f34 @putout/printer: BlockStatement: isMethodOrArrow: simplify
+- 010780c @putout/printer: private-imports: #type-checker
+- 9a4b938 BlockStatements: apply type-checker
+- 9357d36 type-checker: simplify
+
 2026.03.04, v17.13.0
 
 feature:
