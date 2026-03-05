@@ -1,3 +1,8 @@
+2026.03.05, v18.0.7
+
+feature:
+- dd7f874 @putout/printer: VariableDeclaration: inside ForOfStatement: indent
+
 2026.03.05, v18.0.6
 
 feature:
