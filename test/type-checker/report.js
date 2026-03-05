@@ -26,7 +26,7 @@ export const report = (coverage) => {
                 forceColor: true,
             });
             
-            log(`🧨 Uncovered checkers found with index: ${red(index)}`);
+            log(`🧨 Uncovered Checkers found with index: ${red(index)}`);
             log(`${code}\n`);
             exitCode = FAIL;
         }
@@ -35,7 +35,7 @@ export const report = (coverage) => {
     }
     
     if (exitCode === SUCCESS)
-        log('# 🌴 Type Checkers succeeded');
+        log('# 🌴 Checkers Covered');
     
     return [exitCode, lines.join('\n')];
 };

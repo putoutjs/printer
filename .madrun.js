@@ -1,4 +1,4 @@
-import {run} from 'madrun';
+import {run, cutEnv} from 'madrun';
 
 const env = {
     TYPE_CHECK: 1,
@@ -6,10 +6,10 @@ const env = {
 
 export default {
     'wisdom': () => run(['lint', 'coverage', 'test:dts']),
-    'test': () => `tape 'lib/**/*.spec.js' test/*.js 'rules/**/*.spec.js'`,
+    'test': () => [env, `tape 'lib/**/*.spec.js' test/*.js 'rules/**/*.spec.js'`],
     'test:check': () => [env, `tape 'lib/**/*.spec.js' test/*.js 'rules/**/*.spec.js'`],
     'test:dts': () => 'check-dts test/*.ts',
-    'watch:test': async () => [env, `nodemon -w lib -w test -x "${await run('test')}"`],
+    'watch:test': async () => [env, `nodemon -w lib -w test -x "${await cutEnv('test')}"`],
     'lint': () => run('lint:*'),
     'lint:redlint': () => 'redlint fix',
     'lint:putout': () => 'putout .',
@@ -17,7 +17,7 @@ export default {
     'fix:lint': () => run('fix:lint:*'),
     'fix:lint:redlint': () => 'redlint fix',
     'fix:lint:putout': () => run('lint:putout', '--fix'),
-    'coverage': async () => [env, `c8 ${await run('test')}`],
-    'coverage:html': async () => [env, `c8 --reporter=lcov ${await run('test')}`],
+    'coverage': async () => [env, `c8 ${await cutEnv('test')}`],
+    'coverage:html': async () => [env, `c8 --reporter=lcov ${await cutEnv('test')}`],
     'report': () => 'c8 report --reporter=lcov',
 };
