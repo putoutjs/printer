@@ -26,7 +26,7 @@ export const report = (coverage) => {
                 forceColor: true,
             });
             
-            log(`🧨 Uncovered Checkers found with index: ${red(index)}`);
+            log(`🧨 Uncovered Checkers found at index: ${red(index)}`);
             log(`${code}\n`);
             exitCode = FAIL;
         }
@@ -56,7 +56,8 @@ function createRawCode(currentType) {
         return currentType.name;
     
     const [operator, fn] = currentType;
-    const rawCode = `['${operator}', ${fn.name}]`;
+    const name = fn.name || fn;
+    const rawCode = `['${operator}', ${name}]`;
     
     return rawCode;
 }
