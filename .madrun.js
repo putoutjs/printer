@@ -21,4 +21,3 @@ export default {
     'coverage:html': async () => [env, `c8 --reporter=lcov ${await run('test')}`],
     'report': () => 'c8 report --reporter=lcov',
 };
-

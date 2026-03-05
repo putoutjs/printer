@@ -60,4 +60,3 @@ function createRawCode(currentType) {
     
     return rawCode;
 }
-

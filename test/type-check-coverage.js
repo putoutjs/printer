@@ -10,4 +10,3 @@ if (process.env.TYPE_CHECK)
         console.log(output);
         process.exitCode = code;
     });
-
