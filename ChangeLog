@@ -1,3 +1,9 @@
+2026.03.05, v18.0.8
+
+feature:
+- 08b7207 @putout/printer: VariableDeclaration: inside ForStatement
+- dda61cc @putout/printer: type-check-coverage: check for only
+
 2026.03.05, v18.0.7
 
 feature:
