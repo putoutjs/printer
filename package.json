@@ -19,16 +19,16 @@
   "scripts": {
     "wisdom": "madrun wisdom",
     "test": "madrun test",
+    "test:check": "madrun test:check",
     "test:dts": "madrun test:dts",
     "watch:test": "madrun watch:test",
     "lint": "madrun lint",
     "lint:redlint": "madrun lint:redlint",
     "lint:putout": "madrun lint:putout",
-    "fresh:lint": "madrun fresh:lint",
-    "lint:fresh": "madrun lint:fresh",
+    "fresh": "madrun fresh",
     "fix:lint": "madrun fix:lint",
-    "fix:lint:putout": "madrun fix:lint:putout",
     "fix:lint:redlint": "madrun fix:lint:redlint",
+    "fix:lint:putout": "madrun fix:lint:putout",
     "coverage": "madrun coverage",
     "coverage:html": "madrun coverage:html",
     "report": "madrun report"
@@ -64,7 +64,8 @@
     "#print-params": "./lib/tokenize/expressions/function/params.js",
     "#import-attributes": "./lib/tokenize/statements/import-declaration/import-attribute.js",
     "#types": "./lib/types.js",
-    "#type-checker": "./lib/tokenize/type-checker/type-checker.js"
+    "#type-checker": "./lib/tokenize/type-checker/type-checker.js",
+    "#type-checker/instrument": "./lib/tokenize/type-checker/instrument.js"
   },
   "devDependencies": {
     "@babel/parser": "^7.28.5",
@@ -76,6 +77,7 @@
     "@putout/plugin-react-hook-form": "^6.0.0",
     "@putout/plugin-react-hooks": "^9.0.0",
     "acorn": "^8.8.2",
+    "chalk": "^5.6.2",
     "check-dts": "^0.9.0",
     "escover": "^6.0.0",
     "eslint": "^10.0.0",
