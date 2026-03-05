@@ -1,3 +1,8 @@
+2026.03.05, v18.0.11
+
+feature:
+- 6315e3c @putout/printer: BlockStatement: simplify
+
 2026.03.05, v18.0.10
 
 feature:
