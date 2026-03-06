@@ -21,23 +21,33 @@ export const report = (coverage) => {
         for (const index of difference(fullSet(length), covered)) {
             const currentType = typeNames[index];
             const rawCode = createRawCode(currentType);
-            
             const code = codeFrameColumns(rawCode, {}, {
                 forceColor: true,
             });
             
-            log(`🧨 Uncovered Checkers found at index: ${red(index)}`);
+            log(`🧨 Uncovered Checkers found at index: ${red(index + 1)}`);
             log(`${code}\n`);
+            log(`${setLine(name, index)}\n`);
             exitCode = FAIL;
         }
-        
-        log(`${name}\n`);
     }
     
     if (exitCode === SUCCESS)
         log('# 🌴 Checkers Covered');
     
     return [exitCode, lines.join('\n')];
+};
+
+const setLine = (name, index) => {
+    const [at, uri, line, column] = name.split(':');
+    const newLine = Number(line) + index + 1;
+    
+    return [
+        at,
+        uri,
+        newLine,
+        column,
+    ].join(':');
 };
 
 const fullSet = (n) => {
@@ -56,8 +66,11 @@ function createRawCode(currentType) {
         return currentType.name;
     
     const [operator, fn] = currentType;
-    const name = fn.name || fn;
-    const rawCode = `['${operator}', ${name}]`;
     
-    return rawCode;
+    if (fn) {
+        const name = fn.name || fn;
+        return `['${operator}', ${name}]`;
+    }
+    
+    return operator;
 }
