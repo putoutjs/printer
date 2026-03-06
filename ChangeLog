@@ -1,3 +1,19 @@
+2026.03.06, v18.1.0
+
+feature:
+- 604e849 @putout/printer: ArrayExpression: long identifier: improve support
+- bdd07e7 @putout/printer: isMultiLine: siplify
+- 945a833 @putout/printer: ArrayExpression: newline: isCoupleLines
+- 2ca2751 @putout/printer: ArrayExpression: newline: isStringsInsideArray
+- 488eb71 @putout/printer: ArrayExpression: newline: isSimpleAndObject
+- 246f9df @putout/printer: ArrayExpression: newline: isIdentifierAndString
+- 56637d1 @putout/printer: ArrayExpression: newline: isStringAndIdentifier
+- caa4682 @putout/printer: ArrayExpression: newline: isStringAndIdentifier
+- 0e9dc1d @putout/printer: ArrayExpression: newline: isMultiline: simplify
+- 103ad2e @putout/printer: ExpressionStatement: isBreakline
+- 04c19c3 @putout/printer: ExpressionStatement: isNextToAssignmentCall: simplify
+- 4bcbd61 @putout/printer: ExpressionStatement: isNextStatementWithBlockComment: simplify
+
 2026.03.06, v18.0.16
 
 feature:
