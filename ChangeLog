@@ -1,3 +1,18 @@
+2026.03.06, v18.0.16
+
+feature:
+- 2a81cf2 @putout/printer: ExpressionStatement: rm is-inside-assign-next-assign-function
+- 17d19f2 @putout/printer: ExpressionStatement: rm not
+- 1c07e30 @putout/printer: ExpressionStatement: isBreakline: add
+- 15f67f0 @putout/printer: ExpressionStatement: afterIf: move out
+- c6783ee @putout/printer: ExpressionStatement: hasTrailingCommentNotCoupleLines
+- 8e08572 @putout/printer: ExpressionStatement: isTopParentLast: simplify
+- fe1b0ca @putout/printer: ExpressionStatement: isTopParentLast
+- b84b9a6 @putout/printer: ExpressionStatement: isIndent
+- d4d0106 @putout/printer: ExpressionStatement: beforeIf: simplify
+- 9a4721a @putout/printer: ExpressionStatement: afterIf: simplify
+- a9d2cf8 @putout/printer: ExpressionStatement: isBeforeElse: simplify
+
 2026.03.06, v18.0.15
 
 feature:
