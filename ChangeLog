@@ -1,3 +1,11 @@
+2026.03.06, v18.1.2
+
+feature:
+- 5996fbf @putout/printer: TypeChecker: ->
+- 7001376 @putout/printer: ArrayExpression: beforeIf: move out
+- 2f22d1d @putout/printer: ArrayExpression: isSimpleBetweenObjects
+- 50166f4 @putout/printer: ArrayExpression: isSpaceAfterComma
+
 2026.03.06, v18.1.1
 
 feature:
