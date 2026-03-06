@@ -1,3 +1,8 @@
+2026.03.06, v18.0.15
+
+feature:
+- 22d510e @putout/printer: ObjectExpression: isLogicalArgument
+
 2026.03.06, v18.0.14
 
 feature:
