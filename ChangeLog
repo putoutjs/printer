@@ -1,3 +1,8 @@
+2026.03.06, v18.1.3
+
+fix:
+- 033b2a6 @putout/printer: ArrayExpression: maxElementLengthInOneLine
+
 2026.03.06, v18.1.2
 
 feature:
