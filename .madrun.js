@@ -2,6 +2,7 @@ import {run, cutEnv} from 'madrun';
 
 const env = {
     TYPE_CHECK: 1,
+    FORCE_COLOR: 1,
 };
 
 export default {

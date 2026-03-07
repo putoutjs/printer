@@ -11,6 +11,9 @@ export const match = {
 export default defineConfig([
     safeAlign,
     matchToFlat(match), {
+        rules: {
+            'n/no-unsupported-features/node-builtins': 'off',
+        },
         ignores: ['**/fixture'],
     },
 ]);
