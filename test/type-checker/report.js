@@ -78,4 +78,3 @@ function createRawCode(currentType) {
     
     return operator;
 }
-
