@@ -6,6 +6,9 @@
         "putout/remove-useless-source-argument": "on"
     },
     "match": {
+        "type-checker.spec.js": {
+            "printer": "off"
+        },
         "*.md": {
             "printer/remove-args": "off"
         },
