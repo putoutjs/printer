@@ -1,6 +1,7 @@
 import {codeFrameColumns} from '@putout/babel';
 import chalk from 'chalk';
 
+const isString = (a) => typeof a === 'string';
 const {red} = chalk;
 
 const isFn = (a) => typeof a === 'function';
@@ -62,6 +63,9 @@ const fullSet = (n) => {
 };
 
 function createRawCode(currentType) {
+    if (isString(currentType))
+        return currentType;
+    
     if (isFn(currentType))
         return currentType.name;
     
@@ -74,3 +78,4 @@ function createRawCode(currentType) {
     
     return operator;
 }
+
