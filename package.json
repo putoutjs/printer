@@ -10,7 +10,9 @@
     ".": "./lib/printer.js",
     "./is": "./lib/tokenize/is.js",
     "./params": "./lib/tokenize/expressions/function/params.js",
-    "./type-checker": "./lib/tokenize/type-checker/type-checker.js"
+    "./type-checker": "./lib/tokenize/type-checker/type-checker.js",
+    "./type-checker/instrument": "./lib/tokenize/type-checker/instrument.js",
+    "./type-checker/report": "./lib/tokenize/type-checker/report.js"
   },
   "repository": {
     "type": "git",
@@ -65,7 +67,8 @@
     "#import-attributes": "./lib/tokenize/statements/import-declaration/import-attribute.js",
     "#types": "./lib/types.js",
     "#type-checker": "./lib/tokenize/type-checker/type-checker.js",
-    "#type-checker/instrument": "./lib/tokenize/type-checker/instrument.js"
+    "#type-checker/instrument": "./lib/tokenize/type-checker/instrument.js",
+    "#type-checker/report": "./lib/tokenize/type-checker/report.js"
   },
   "devDependencies": {
     "@babel/parser": "^7.28.5",
