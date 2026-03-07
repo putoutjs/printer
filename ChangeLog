@@ -1,3 +1,9 @@
+2026.03.07, v18.2.0
+
+feature:
+- 87135c0 @putout/printer: type-checker: disable instrument: add support
+- 29e0a3c @putout/printer: type-checker: rm deepness
+
 2026.03.07, v18.1.8
 
 feature:
