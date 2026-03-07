@@ -1,3 +1,8 @@
+2026.03.07, v18.1.7
+
+feature:
+- 221c04e @putout/printer: ArrayExpression: one string
+
 2026.03.07, v18.1.6
 
 feature:
