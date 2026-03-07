@@ -1,3 +1,11 @@
+2026.03.07, v18.2.3
+
+fix:
+- 355176d @putout/printer: instrument -> instrumentName
+
+feature:
+- 85a60d6 @putout/printer: type-checker: report
+
 2026.03.07, v18.2.2
 
 feature:
