@@ -1,3 +1,10 @@
+2026.03.08, v18.2.7
+
+feature:
+- c873574 @putout/printer: isIncreaseIndent: move out: newlinew -> indent
+- d3672b6 @putout/printer: ArrayExpression: newline: isIncreaseIndent
+- 642c80f @putout/printer: ArrayExpression: indent: isArrayIndented: type-check
+
 2026.03.08, v18.2.6
 
 feature:
