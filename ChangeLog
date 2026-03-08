@@ -1,3 +1,8 @@
+2026.03.08, v18.2.12
+
+feature:
+- 284d9a7 @putout/printer: ArrayExpression: isNewlineAfterComma: simplify
+
 2026.03.08, v18.2.11
 
 feature:
