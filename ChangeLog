@@ -1,3 +1,9 @@
+2026.03.08, v18.2.6
+
+feature:
+- 9363494 @putout/printer: ArrayExpression: isObjectAfterSimple: type-check
+- 463944a @putout/printer: ArrayExpression: isZero -> !Boolean
+
 2026.03.07, v18.2.5
 
 fix:
