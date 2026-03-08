@@ -1,3 +1,14 @@
+2026.03.08, v18.3.0
+
+feature:
+- 31aa6f8 @putout/printer: ArrayExpression: isIndentBeforeElement
+- e21a6cd @putout/printer: ArrayExpression: simplify
+- 00b646d @putout/printer: ArrayExpression: maybePrintSpace
+- 56e83f6 @putout/printer: ArrayExpression: maybePrintCommaWithSpace
+- 9be2086 @putout/printer: ArrayExpression: afterIf: simplify
+- 2ccc185 @putout/printer: ArrayExpression: isCommaBeforeClosingSquareBrace
+- 35e1a1a @putout/printer: ArrayExpression: neesComma
+
 2026.03.08, v18.2.12
 
 feature:
