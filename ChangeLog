@@ -12,7 +12,7 @@ feature:
 2026.03.08, v18.2.10
 
 feature:
-- 7a73310 @putout/printer: ArrayExpresison: maybeSecondIndent
+- 7a73310 @putout/printer: ArrayExpresison: maybeAdditionalIndent
 - cfcf1ce @putout/printer: ArrayExpression: isSecondIndent
 - 0acb26a @putout/printer: ArrayExpression: isSecondIndent
 
