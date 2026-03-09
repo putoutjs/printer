@@ -1,3 +1,9 @@
+2026.03.09, v18.3.2
+
+feature:
+- 0273534 @putout/printer: type-checker: validateResults: add
+- e32d868 @putout/printer: @putout/plugin-minify v12.0.0
+
 2026.03.08, v18.3.1
 
 feature:
