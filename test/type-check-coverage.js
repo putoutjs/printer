@@ -1,16 +1,12 @@
-import process from 'node:process';
-import {isOnlyTests} from 'supertape';
+import {callWhenTestsEnds} from 'supertape';
 import {getCoverage} from '#type-checker/instrument';
 import {report} from '#type-checker/report';
 
-if (process.env.TYPE_CHECK)
-    process.on('exit', () => {
-        if (isOnlyTests())
-            return;
-        
-        const coverage = getCoverage();
-        const [code, output] = report(coverage);
-        
-        console.log(output);
-        process.exitCode = code;
-    });
+callWhenTestsEnds('TYPE_CHECK', () => {
+    const coverage = getCoverage();
+    const [code, output] = report(coverage);
+    
+    console.log(output);
+    
+    return code;
+});
