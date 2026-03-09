@@ -1,3 +1,8 @@
+2026.03.09, v18.3.3
+
+feature:
+- 088dab9 @putout/printer: type-checker: array -> set
+
 2026.03.09, v18.3.2
 
 feature:
