@@ -79,6 +79,7 @@
     "@putout/plugin-promises": "^19.0.0",
     "@putout/plugin-react-hook-form": "^6.0.0",
     "@putout/plugin-react-hooks": "^9.0.0",
+    "@supertape/operator-strip": "^1.0.0",
     "acorn": "^8.8.2",
     "chalk": "^5.6.2",
     "check-dts": "^0.9.0",
