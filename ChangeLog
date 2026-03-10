@@ -1,3 +1,11 @@
+2026.03.10, v18.4.0
+
+feature:
+- 3bcdf4b @putout/printer: ObjectExpression: callWithCallee
+- e205336 @putout/printer: ObjectExpression: isNewlineAfterProperty
+- c4f998d @putout/printer: ObjectExpression: comma: simplify
+- 2a49a3f @putout/printer: ObjectExpression: isLinebreakAfterProperty
+
 2026.03.10, v18.3.6
 
 feature:
