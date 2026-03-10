@@ -1,3 +1,9 @@
+2026.03.10, v18.4.2
+
+feature:
+- fffa725 @putout/printer: TSTypeAliasDeclaration: simplify
+- 02c1e2e @putout/printer: maybe-declare
+
 2026.03.10, v18.4.1
 
 feature:
