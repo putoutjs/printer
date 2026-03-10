@@ -1,3 +1,12 @@
+2026.03.10, v18.4.1
+
+feature:
+- 4f2fb23 @putout/printer: is-concatenation
+- 9c1917c @putout/printer: BinaryExpression: concatenate: simplify
+- a8f5542 @putout/printer: ObjectExpression: ObjectProperty: isSpaceAfterComma
+- e79a33c @putout/printer: ObjectExpression: ObjectProperty: space
+- d206ffa @putout/printer: ObjectProperty: isCommaAfterProperty
+
 2026.03.10, v18.4.0
 
 feature:
