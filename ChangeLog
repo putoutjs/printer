@@ -1,3 +1,11 @@
+2026.03.10, v18.3.6
+
+feature:
+- a3281ef @putout/printer: ObjectExpression: isMultiline
+- da64dc7 @putout/printer: ObjectExpression: isCommaAfterProperty
+- 69ff480 @putout/printer: ObjectExpression: hasTrailingComment
+- 50f7e07 @putout/printer: ObjectExpression: isIndentBeforeClosingCurlyBrace
+
 2026.03.10, v18.3.5
 
 feature:
