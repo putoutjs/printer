@@ -68,7 +68,8 @@
     "#types": "./lib/types.js",
     "#type-checker": "./lib/tokenize/type-checker/type-checker.js",
     "#type-checker/instrument": "./lib/tokenize/type-checker/instrument.js",
-    "#type-checker/report": "./lib/tokenize/type-checker/report.js"
+    "#type-checker/report": "./lib/tokenize/type-checker/report.js",
+    "#is-concatenation": "./lib/tokenize/expressions/binary-expression/is-contatenation.js"
   },
   "devDependencies": {
     "@babel/parser": "^7.28.5",
