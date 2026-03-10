@@ -1,3 +1,8 @@
+2026.03.10, v18.4.3
+
+fix:
+- ea60557 @putout/printer: is-concatenation
+
 2026.03.10, v18.4.2
 
 feature:
