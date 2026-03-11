@@ -1,3 +1,10 @@
+2026.03.11, v18.4.4
+
+feature:
+- 05d3e90 @putout/printer: BinaryExpression: isConcatenation
+- b293a10 @putout/printer: ClassDeclaration: simplify
+- e47c537 @putout/printer: ClassDeclaration: simplify
+
 2026.03.10, v18.4.3
 
 fix:
