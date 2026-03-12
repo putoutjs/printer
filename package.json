@@ -70,7 +70,8 @@
     "#type-checker": "./lib/tokenize/type-checker/type-checker.js",
     "#type-checker/instrument": "./lib/tokenize/type-checker/instrument.js",
     "#type-checker/report": "./lib/tokenize/type-checker/report.js",
-    "#is-concatenation": "./lib/tokenize/expressions/binary-expression/is-concatenation.js"
+    "#is-concatenation": "./lib/tokenize/expressions/binary-expression/is-concatenation.js",
+    "#comments": "./lib/tokenize/comments/comments.js"
   },
   "devDependencies": {
     "@babel/parser": "^7.28.5",
