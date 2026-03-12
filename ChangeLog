@@ -1,3 +1,9 @@
+2026.03.12, v18.4.6
+
+feature:
+- 7c290de @putout/printer: BlockStatement: simplify
+- 0dc390f @putout/printer: BlockStatement: indent
+
 2026.03.12, v18.4.5
 
 feature:
