@@ -12,7 +12,8 @@
     "./params": "./lib/tokenize/expressions/function/params.js",
     "./type-checker": "./lib/tokenize/type-checker/type-checker.js",
     "./type-checker/instrument": "./lib/tokenize/type-checker/instrument.js",
-    "./type-checker/report": "./lib/tokenize/type-checker/report.js"
+    "./type-checker/report": "./lib/tokenize/type-checker/report.js",
+    "./type-checker/when-tests-ends": "./lib/tokenize/type-checker/when-tests-ends.js"
   },
   "repository": {
     "type": "git",
@@ -70,6 +71,7 @@
     "#type-checker": "./lib/tokenize/type-checker/type-checker.js",
     "#type-checker/instrument": "./lib/tokenize/type-checker/instrument.js",
     "#type-checker/report": "./lib/tokenize/type-checker/report.js",
+    "#type-checker/when-tests-ends": "./lib/tokenize/type-checker/when-tests-ends.js",
     "#is-concatenation": "./lib/tokenize/expressions/binary-expression/is-concatenation.js",
     "#comments": "./lib/tokenize/comments/comments.js"
   },
