@@ -1,3 +1,8 @@
+2026.03.13, v18.6.2
+
+feature:
+- 98623e8 @putout/printer: VariableDeclaration: beforeIf: move out
+
 2026.03.13, v18.6.1
 
 feature:
