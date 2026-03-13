@@ -1,3 +1,8 @@
+2026.03.13, v18.6.0
+
+feature:
+- 43bb843 @putout/printer: type-checker: whenTestsEnds: add
+
 2026.03.13, v18.5.0
 
 feature:
