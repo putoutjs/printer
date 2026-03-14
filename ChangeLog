@@ -1,3 +1,10 @@
+2026.03.15, v18.7.2
+
+feature:
+- 03c11aa @putout/printer: ReturnStatements: maybeSpaceAfterKeyword: simplify
+- 2a0d633 @putout/printer: ReturnStatement: isJSXWithComment
+- 3ee3a68 @putout/printer: ReturnStatement: afterIf
+
 2026.03.14, v18.7.1
 
 feature:
