@@ -1,3 +1,8 @@
+2026.03.14, v18.6.3
+
+feature:
+- 5837376 @putout/printer: VariableDeclration: afterIf: simplify
+
 2026.03.13, v18.6.2
 
 feature:
