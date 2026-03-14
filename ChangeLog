@@ -1,3 +1,10 @@
+2026.03.14, v18.6.6
+
+feature:
+- c4f79e0 2putout/printer: VariableDeclaration: conditions
+- 42ea012 @putout/printer: VariableDeclaration: simplify
+- 1d079db @putout/printer: VariableDeclaration: afterIf: skipAfter
+
 2026.03.14, v18.6.5
 
 feature:
