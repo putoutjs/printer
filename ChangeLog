@@ -1,3 +1,11 @@
+2026.03.16, v18.7.5
+
+feature:
+- f0cb1bfa @putout/printer: BlockStatement: isCallInsideChain: simplify
+- 246851f5 @putout/printer: MemberExpression: simplify
+- 3fd6353a @putout/printer: MemberExpression: simplify
+- 2ddd2e69 @putout/printer: LogicalExpression: simplify
+
 2026.03.16, v18.7.4
 
 feature:
