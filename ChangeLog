@@ -1,3 +1,8 @@
+2026.03.16, v18.7.4
+
+feature:
+- a03e0d22 @putout/printer: type-checker: comparison
+
 2026.03.15, v18.7.3
 
 feature:
