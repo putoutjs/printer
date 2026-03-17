@@ -1,3 +1,8 @@
+2026.03.17, v18.7.7
+
+feature:
+- a257dabc @putout/printer: MemberExpression: isLooksLikeChain: simplify
+
 2026.03.17, v18.7.6
 
 feature:
