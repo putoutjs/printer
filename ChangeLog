@@ -1,3 +1,8 @@
+2026.03.17, v18.7.6
+
+feature:
+- 8166fbad @putout/printer: MemberExpression: simplify
+
 2026.03.16, v18.7.5
 
 feature:
