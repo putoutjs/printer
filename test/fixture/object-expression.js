@@ -17,7 +17,11 @@ __putout_processor_json({
             'runs-on': 'ubuntu-latest',
             'strategy': {
                 'matrix': {
-                    'node-version': ['16.x', '18.x', '19.x'],
+                    'node-version': [
+                        '16.x',
+                        '18.x',
+                        '19.x',
+                    ],
                 },
             },
         },
