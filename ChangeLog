@@ -1,3 +1,8 @@
+2026.03.18, v18.7.9
+
+feature:
+- 3e47d13f @putout/printer: ObjectPattern: comma: simplify
+
 2026.03.18, v18.7.8
 
 feature:
