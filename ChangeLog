@@ -1,3 +1,10 @@
+2026.03.18, v18.8.0
+
+feature:
+- cc719056 @putout/printer: ArrayExpression: newline
+- 53cdda91 @putout/printer: maxElementsInOneLine: 3
+- e5d67901 @putout/printer: ObjectPattern: isPrevAssignObject: simplify
+
 2026.03.18, v18.7.9
 
 feature:
