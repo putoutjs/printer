@@ -1,3 +1,9 @@
+2026.03.19, v18.8.2
+
+feature:
+- 62e8f395 @putout/printer: ObjectPattern: isIndentAfterNewline
+- 03b337f7 @putout/printer: ObjectPattern: isNewlineAfterComma: simplify
+
 2026.03.19, v18.8.1
 
 feature:
