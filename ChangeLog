@@ -1,3 +1,11 @@
+2026.03.20, v18.8.3
+
+feature:
+- 527b8425 @putout/printer: ObjectPattern: shouldAddNewline: simplify
+- 0332d176 @putout/printer: ObjectPattern: isFunctionParam
+- 3eadc072 @putout/printer: ObjectPattern: isLessThenMaxPropertiesInOneLine
+- 63c73f94 @putout/printer: ObjectPattern: hasAssignObject: simplify
+
 2026.03.19, v18.8.2
 
 feature:
