@@ -1,3 +1,8 @@
+2026.03.20, v18.8.6
+
+feature:
+- 9e0406e2 @putout/printer: type-checker: maybeCutOptions
+
 2026.03.20, v18.8.5
 
 feature:
