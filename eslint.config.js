@@ -1,5 +1,5 @@
 import {safeAlign} from 'eslint-plugin-putout';
-import {defineConfig} from 'eslint/config';
+import {defineConfig, globalIgnores} from 'eslint/config';
 import {matchToFlat} from '@putout/eslint-flat';
 
 export const match = {
@@ -10,10 +10,10 @@ export const match = {
 
 export default defineConfig([
     safeAlign,
+    globalIgnores(['**/fixture']),
     matchToFlat(match), {
         rules: {
             'n/no-unsupported-features/node-builtins': 'off',
         },
-        ignores: ['**/fixture'],
     },
 ]);
