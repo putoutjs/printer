@@ -14,6 +14,6 @@ export default defineConfig([
         rules: {
             'n/no-unsupported-features/node-builtins': 'off',
         },
-        ignorePatterns: ['**/fixture'],
+        ignores: ['**/fixture'],
     },
 ]);
