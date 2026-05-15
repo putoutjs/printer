@@ -81,7 +81,7 @@
     "@putout/eslint-flat": "^4.0.0",
     "@putout/plugin-minify": "^12.0.0",
     "@putout/plugin-printer": "^8.0.0",
-    "@putout/plugin-promises": "^19.0.0",
+    "@putout/plugin-promises": "^20.0.0",
     "@putout/plugin-react-hook-form": "^6.0.0",
     "@putout/plugin-react-hooks": "^9.0.0",
     "@supertape/operator-strip": "^1.0.0",
