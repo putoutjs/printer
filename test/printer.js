@@ -1,4 +1,4 @@
-import montag from 'montag';
+import {montag} from 'montag';
 import {parse, transform} from 'putout';
 import {parse as babelParse} from '@babel/parser';
 import {tryCatch} from 'try-catch';
