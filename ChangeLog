@@ -1,3 +1,8 @@
+2026.06.05, v18.14.0
+
+feature:
+- 84a01426 @putout/printer: MemberExpression: parens: improve support
+
 2026.05.22, v18.13.0
 
 feature:
