@@ -1,3 +1,8 @@
+2026.06.10, v18.18.0
+
+feature:
+- 8a72c279 @putout/printer: ArrayExpression: call: newline
+
 2026.06.05, v18.17.0
 
 feature:
