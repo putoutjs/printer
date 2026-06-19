@@ -1,3 +1,8 @@
+2026.06.20, v18.20.0
+
+feature:
+- b38b9939 @putout/printer: new line before leading Comment, after CallExpression
+
 2026.06.19, v18.19.0
 
 feature:
