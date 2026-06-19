@@ -120,7 +120,6 @@ print(ast, {
         },
     },
 });
-
 // returns
 'const {a/* [hello world] */= 5} = b;\n';
 ```
@@ -185,10 +184,6 @@ Options used to configure logic of output, similar to ESLint rules:
 - ✅ `maxPropertiesInOneLine` - count of `ObjectProperties` in one line.
 - ✅ `maxPropertiesLengthInOneLine` - maximum length of `Object Property`, when violated splits event if `maxPropertiesInOneLine` satisfies;
 - ✅ `roundBraces` to output braces or not
-  - `arrow`: In a  single argument arrow function expressions enabled: `(a) => {}`, disabled: `a => {}`;
-  - `sequence`: In sequence expressions: enabled: `for(let e of l) (a(), b())`, disabled: `for(let e of l) a(), b()`;
-  - `assign`: In assignment expressions: enabled: `(e.o=w(e.o)`, disabled: `e.o=w(e.o)`;
-  - `new`: In new expressions: enabled: `new Date()`, disabled: `new Date`;
 
 ## Visitors API
 

@@ -9,6 +9,7 @@ const {identifier} = types;
 
 // THROWS Expected 4 arguments, but got 1.
 maybeVisitor(1);
+
 // THROWS Argument of type 'number' is not assignable to parameter of type 'Visitor'
 maybeVisitor(1, 2, 3, 4);
 // THROWS Argument of type 'number' is not assignable to parameter of type 'Print'.
@@ -19,6 +20,7 @@ const b: string = a;
 
 // THROWS Argument of type 'number' is not assignable to parameter of type 'Node'
 print(1);
+
 // THROWS Type '1' has no properties in common with type 'Options'.
 print(identifier('hello'), 1);
 
