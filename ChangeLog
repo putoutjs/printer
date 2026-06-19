@@ -1,3 +1,9 @@
+2026.06.20, v18.20.2
+
+feature:
+- 69369b4e @putout/printer: isNextSimpleWithLeadingComments: type checker
+- b970af9c @putout/printer: binary-expression: newline
+
 2026.06.20, v18.20.1
 
 feature:
