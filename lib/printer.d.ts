@@ -39,7 +39,7 @@ export type MaybeTraverse = (condition: boolean, input: Node) => void;
 export interface Maybe {
     print: MaybePrint;
     traverse: MaybeTraverse;
-    indent: typeof MaybeIndent;
+    indent: MaybeIndent;
 }
 
 export interface Printer {
