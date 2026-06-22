@@ -1,6 +1,6 @@
 import {types} from '@putout/babel';
 
-interface Format {
+export interface Format {
     indent: string;
     newline: string;
     space: string;
@@ -8,7 +8,7 @@ interface Format {
     quote: string;
 }
 
-interface Semantics {
+export interface Semantics {
     roundBraces: boolean;
     comments: boolean;
     maxPropertiesInOneLine: number;
@@ -18,40 +18,41 @@ interface Semantics {
     trailingComma: boolean;
 }
 
-type Print = (input: string | types.Node) => void;
-type Indent = () => void;
-type Traverse = (input: types.Node) => void;
-type MaybeCondition = (condition: boolean) => void;
+export type Print = (input: string | types.Node) => void;
+export type Indent = () => void;
+export type Traverse = (input: types.Node) => void;
+export type MaybeCondition = (condition: boolean) => void;
 
-declare const MaybeIndent: {
+export type MaybeIndent = {
+    (condition: boolean): void;
     inc: MaybeCondition;
     dec: MaybeCondition;
 };
 
-declare function MaybeIndent(condition: boolean): void;
-type MaybePrint = (condition: boolean, input: string | types.Node) => void;
-type MaybeTraverse = (condition: boolean, input: types.Node) => void;
+export declare const MaybeIndent: MaybeIndent;
+export type MaybePrint = (condition: boolean, input: string | types.Node) => void;
+export type MaybeTraverse = (condition: boolean, input: types.Node) => void;
 
-interface Maybe {
+export interface Maybe {
     print: MaybePrint;
     traverse: MaybeTraverse;
     indent: typeof MaybeIndent;
 }
 
-interface Printer {
+export interface Printer {
     print: Print;
     maybe: Maybe;
     indent: Indent;
     traverse: Traverse;
 }
 
-type Visitor = (path: types.Node, printer: Printer, semantics?: Semantics) => void;
+export type Visitor = (path: types.Node, printer: Printer, semantics?: Semantics) => void;
 
-interface Visitors {
+export interface Visitors {
     [name: string]: Visitor;
 }
 
-interface Options {
+export interface Options {
     format?: Format;
     semantics?: Semantics;
     visitors?: Visitors;
@@ -59,5 +60,5 @@ interface Options {
 
 export function print(ast: types.Node, options?: Options): string;
 
-declare function maybeVisitor(plugin: Visitor, path: types.Path, printer: Print, semantics: Semantics): void;
-export const visitors = Visitors;
+export declare function maybeVisitor(plugin: Visitor, path: types.Node, printer: Print, semantics: Semantics): void;
+export const visitors: Visitors;
