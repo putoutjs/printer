@@ -1,3 +1,8 @@
+2026.06.22, v18.21.1
+
+fix:
+- 0569800a @putout/printer: dts: MaybeIndent
+
 2026.06.22, v18.21.0
 
 feature:
