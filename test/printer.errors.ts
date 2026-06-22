@@ -9,7 +9,7 @@ import {
     type Visitors,
     type Visitor,
     type Printer,
-} from '../lib/printer.js';
+} from '#printer';
 
 const {identifier} = types;
 
@@ -35,27 +35,18 @@ print(identifier('hello'), {
     abc: 'hello',
 });
 
-// Check Format type is exported as type
-// THROWS Type 'number' is not assignable to type 'Format'
-const format: Format = 1;
+// THROWS Type '{}' is missing the following properties from type 'Format': indent, newline, space, splitter, quote
+const format: Format = {};
 
-// Check Semantics type is exported as type
-// THROWS Type 'number' is not assignable to type 'Semantics'
-const semantics: Semantics = 1;
+// THROWS Type '{}' is missing the following properties from type 'Semantics': roundBraces, comments, maxPropertiesInOneLine, maxSpecifiersInOneLine, and 3 more.
+const semantics: Semantics = {};
 
-// Check Options type is exported as type
-// THROWS Type '1' has no properties in common with type 'Options'
-const opts: Options = 1;
+const opts: Options = {};
 
-// Check Visitor type is exported as type
-// THROWS Type 'number' is not assignable to type 'Visitor'
-const visitor: Visitor = 1;
+// THROWS Type '{}' is not assignable to type 'Visitor'
+const visitor: Visitor = {};
 
-// Check Printer type is exported as type
-// THROWS Type 'number' is not assignable to type 'Printer'
-const printer: Printer = 1;
+// THROWS Type '{}' is missing the following properties from type 'Printer': print, maybe, indent, traverse
+const printer: Printer = {};
 
-// Check Visitors type is exported as type
-// THROWS Type 'number' is not assignable to type 'Visitors'
-const vt: Visitors = 1;
-
+const vt: Visitors = {};

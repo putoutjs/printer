@@ -1,4 +1,4 @@
-import {types} from '@putout/babel';
+import {type Node} from '@putout/babel';
 
 export interface Format {
     indent: string;
@@ -18,9 +18,9 @@ export interface Semantics {
     trailingComma: boolean;
 }
 
-export type Print = (input: string | types.Node) => void;
+export type Print = (input: string | Node) => void;
 export type Indent = () => void;
-export type Traverse = (input: types.Node) => void;
+export type Traverse = (input: Node) => void;
 export type MaybeCondition = (condition: boolean) => void;
 
 export type MaybeIndent = {
@@ -29,9 +29,8 @@ export type MaybeIndent = {
     dec: MaybeCondition;
 };
 
-export declare const MaybeIndent: MaybeIndent;
-export type MaybePrint = (condition: boolean, input: string | types.Node) => void;
-export type MaybeTraverse = (condition: boolean, input: types.Node) => void;
+export type MaybePrint = (condition: boolean, input: string | Node) => void;
+export type MaybeTraverse = (condition: boolean, input: Node) => void;
 
 export interface Maybe {
     print: MaybePrint;
@@ -46,7 +45,7 @@ export interface Printer {
     traverse: Traverse;
 }
 
-export type Visitor = (path: types.Node, printer: Printer, semantics?: Semantics) => void;
+export type Visitor = (path: Node, printer: Printer, semantics?: Semantics) => void;
 
 export interface Visitors {
     [name: string]: Visitor;
@@ -58,7 +57,7 @@ export interface Options {
     visitors?: Visitors;
 }
 
-export function print(ast: types.Node, options?: Options): string;
+export function print(ast: Node, options?: Options): string;
 
-export declare function maybeVisitor(plugin: Visitor, path: types.Node, printer: Print, semantics: Semantics): void;
+export declare function maybeVisitor(plugin: Visitor, path: Node, printer: Print, semantics: Semantics): void;
 export const visitors: Visitors;
