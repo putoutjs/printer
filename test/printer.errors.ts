@@ -3,12 +3,12 @@ import {
     print,
     maybeVisitor,
     visitors,
-    type Format,
-    type Semantics,
-    type Options,
-    type Visitors,
-    type Visitor,
-    type Printer,
+    Format,
+    Semantics,
+    Options,
+    Visitors,
+    Visitor,
+    Printer,
 } from '#printer';
 
 const {identifier} = types;

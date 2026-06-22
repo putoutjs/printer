@@ -1,4 +1,4 @@
-import {type Node} from '@putout/babel';
+import {Node} from '@putout/babel';
 
 export interface Format {
     indent: string;
@@ -19,8 +19,11 @@ export interface Semantics {
 }
 
 export type Print = (input: string | Node) => void;
+
 export type Indent = () => void;
+
 export type Traverse = (input: Node) => void;
+
 export type MaybeCondition = (condition: boolean) => void;
 
 export type MaybeIndent = {
@@ -30,6 +33,7 @@ export type MaybeIndent = {
 };
 
 export type MaybePrint = (condition: boolean, input: string | Node) => void;
+
 export type MaybeTraverse = (condition: boolean, input: Node) => void;
 
 export interface Maybe {
