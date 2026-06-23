@@ -1,3 +1,8 @@
+2026.06.23, v18.22.0
+
+feature:
+- 527905d1 @putout/printer: TSModuleDeclaration: after: newline
+
 2026.06.22, v18.21.1
 
 fix:
