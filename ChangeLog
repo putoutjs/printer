@@ -1,3 +1,8 @@
+2026.06.27, v18.26.0
+
+feature:
+- 510702c0 @putout/printer: type-checker: improve handling of absent arrow
+
 2026.06.27, v18.25.0
 
 feature:
