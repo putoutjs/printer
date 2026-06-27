@@ -1,3 +1,10 @@
+2026.06.27, v18.25.0
+
+feature:
+- 5478906e @putout/printer: ExportDefaultDeclaration: needsSemicolon: simplify
+- 918525a4 @putout/printer: ExportDeclaration: isNewlineAfter: simplify
+- 9e1ea558 @putout/printer: ExportDefaultDeclaration: inside BlockStatement
+
 2026.06.27, v18.24.0
 
 feature:
