@@ -1,3 +1,8 @@
+2026.07.02, v18.27.0
+
+feature:
+- 45cb944d @putout/printer: type-checker: types
+
 2026.06.27, v18.26.0
 
 feature:
