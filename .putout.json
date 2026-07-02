@@ -17,6 +17,10 @@
             "variables/remove-unused": "off",
             "variables/remove-useless": "off"
         },
+        "test": {
+            "printer/check-type-passed-to-type-checker": "off",
+            "printer/check-if-success-possible-in-type-checke": "off"
+        },
         "*.ts": {
             "esm": "off"
         }

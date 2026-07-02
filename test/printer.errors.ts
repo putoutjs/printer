@@ -5,13 +5,12 @@ import {
     visitors,
     Format,
     Semantics,
-    Options,
-    Visitors,
     Visitor,
     Printer,
 } from '#printer';
 
 const {identifier} = types;
+const id = (a: unknown) => a;
 
 // THROWS Expected 4 arguments, but got 1.
 maybeVisitor(1);
@@ -23,6 +22,8 @@ const a = maybeVisitor(visitors.ArrayExpression, 2, 3, 4);
 
 // THROWS Type 'void' is not assignable to type 'string'
 const b: string = a;
+
+id(b);
 
 // THROWS Argument of type 'number' is not assignable to parameter of type 'Node'
 print(1);
@@ -38,15 +39,18 @@ print(identifier('hello'), {
 // THROWS Type '{}' is missing the following properties from type 'Format': indent, newline, space, splitter, quote
 const format: Format = {};
 
+id(format);
 // THROWS Type '{}' is missing the following properties from type 'Semantics': roundBraces, comments, maxPropertiesInOneLine, maxSpecifiersInOneLine, and 3 more.
 const semantics: Semantics = {};
 
-const opts: Options = {};
-
+id(semantics);
 // THROWS Type '{}' is not assignable to type 'Visitor'
 const visitor: Visitor = {};
 
-// THROWS Type '{}' is missing the following properties from type 'Printer': print, maybe, indent, traverse
-const printer: Printer = {};
+id(visitor);
 
-const vt: Visitors = {};
+const fn = (printer: Printer) => printer;
+const printer = {};
+
+// THROWS Argument of type '{}' is not assignable to parameter of type 'Printer'.
+fn(printer);

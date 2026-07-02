@@ -1,9 +1,0 @@
-{
-    "compilerOptions": {
-        "moduleResolution": "nodenext",
-        "module": "NodeNext",
-        "target": "es2015",
-        "skipLibCheck": true
-    },
-    "include": ["lib/printer.d.ts", "test/*.ts"]
-}
