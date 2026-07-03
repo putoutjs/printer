@@ -1,6 +1,6 @@
 {
   "name": "@putout/printer",
-  "version": "18.28.0",
+  "version": "18.29.0",
   "type": "module",
   "author": "coderaiser <mnemonic.enemy@gmail.com> (https://github.com/coderaiser)",
   "description": "Simplest possible opinionated Babel AST printer for 🐊Putout",

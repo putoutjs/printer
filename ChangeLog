@@ -1,3 +1,8 @@
+2026.07.03, v18.29.0
+
+feature:
+- 0c49f01b @putout/printer: AssignmentExpression inside ExpressionStatement: comments
+
 2026.07.03, v18.28.0
 
 feature:
