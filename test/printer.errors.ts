@@ -17,7 +17,6 @@ maybeVisitor(1);
 
 // THROWS Argument of type 'number' is not assignable to parameter of type 'Visitor'
 maybeVisitor(1, 2, 3, 4);
-
 // THROWS Argument of type 'number' is not assignable to parameter of type 'Node'
 const a = maybeVisitor(visitors.ArrayExpression, 2, 3, 4);
 
@@ -41,12 +40,10 @@ print(identifier('hello'), {
 const format: Format = {};
 
 id(format);
-
 // THROWS Type '{}' is missing the following properties from type 'Semantics': roundBraces, comments, maxPropertiesInOneLine, maxSpecifiersInOneLine, and 3 more.
 const semantics: Semantics = {};
 
 id(semantics);
-
 // THROWS Type '{}' is not assignable to type 'Visitor'
 const visitor: Visitor = {};
 
