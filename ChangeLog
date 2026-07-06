@@ -1,3 +1,8 @@
+2026.07.07, v18.31.0
+
+feature:
+- e626cdfd @putout/printer: WhileStatement: inside LabeledStatement
+
 2026.07.03, v18.30.0
 
 feature:
