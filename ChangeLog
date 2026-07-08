@@ -1,3 +1,8 @@
+2026.07.08, v18.32.0
+
+feature:
+- 77adbb66 @putout/printer: DoWhileStatement: inside LabeledStatement
+
 2026.07.07, v18.31.0
 
 feature:
