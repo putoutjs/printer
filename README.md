@@ -82,6 +82,7 @@ actually `traverse(path.get('right'))` shortened to simplify read and process.
 Here is how you can override `AssignmentPattern`:
 
 ```js
+const {print} = printer;
 const ast = parse('const {a = 5} = b');
 
 print(ast, {
@@ -222,6 +223,8 @@ Used in previous example `print` can be used for a couple purposes:
 - to write `node` when `string` started with `__`;
 
 ```js
+const {print} = printer;
+
 print(ast, {
     visitors: {
         AssignmentPattern(path, {print, maybe}) {
@@ -239,6 +242,8 @@ When you need some condition use `maybe`. For example, to add newline only when 
 can use `maybe.write.newline(condition)`:
 
 ```js
+const {print} = printer;
+
 print(ast, {
     visitors: {
         AssignmentPattern(path, {write, maybe}) {
@@ -255,6 +260,8 @@ print(ast, {
 When you going to output string you can use low-level function `write`:
 
 ```js
+const {print} = printer;
+
 print(ast, {
     visitors: {
         BlockStatement(path, {write}) {
@@ -270,6 +277,8 @@ When you need to add indentation use `indent`, for example when you output body,
 you need to increment indentation, and then decrement it back:
 
 ```js
+const {print} = printer;
+
 print(ast, {
     visitors: {
         BlockStatement(path, {write, indent}) {
@@ -289,6 +298,8 @@ print(ast, {
 When you need to traverse node path, you can use `traverse`:
 
 ```js
+const {print} = printer;
+
 print(ast, {
     visitors: {
         AssignmentExpression(path, {traverse}) {
