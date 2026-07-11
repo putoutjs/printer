@@ -1,3 +1,8 @@
+2026.07.12, v18.35.0
+
+feature:
+- 30405c11 @putout/printer: AssignmentExpression inside ExpressionStatement: trailing comment line
+
 2026.07.11, v18.34.0
 
 feature:
