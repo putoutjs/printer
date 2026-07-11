@@ -1,3 +1,11 @@
+2026.07.11, v18.33.0
+
+fix:
+- 1059d1f6 @putout/printer: ClassDeclaration: Decorator
+
+feature:
+- 7f0c9669 @putout/printer: ClassDeclaration: ClassAccessorProperty
+
 2026.07.08, v18.32.0
 
 feature:
