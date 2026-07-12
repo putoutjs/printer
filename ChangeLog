@@ -1,3 +1,8 @@
+2026.07.12, v18.37.0
+
+feature:
+- 960728cc @putout/printer: ImportSpecifier: importKind
+
 2026.07.12, v18.36.0
 
 feature:
