@@ -1,3 +1,8 @@
+2026.07.14, v18.37.1
+
+feature:
+- 696133f1 @putout/printer: MemberExpression: chain: __a.__b().__c: newline
+
 2026.07.12, v18.37.0
 
 feature:
