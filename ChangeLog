@@ -1,3 +1,8 @@
+2026.07.14, v18.37.2
+
+feature:
+- 47afbbf6 @putou/printer: member-expression: chain: simplify
+
 2026.07.14, v18.37.1
 
 feature:
