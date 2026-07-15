@@ -1,3 +1,8 @@
+2026.07.16, v18.38.1
+
+fix:
+- d0db3655 @putout/printer: jsx: CallExpression
+
 2026.07.15, v18.38.0
 
 feature:
