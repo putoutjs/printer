@@ -1,3 +1,8 @@
+2026.07.15, v18.38.0
+
+feature:
+- 9965a02b @putout/printer: jsx: inside call
+
 2026.07.14, v18.37.2
 
 feature:
