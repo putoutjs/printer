@@ -98,6 +98,7 @@ print(ast, {
         comments: true,
         maxSpecifiersInOneLine: 2,
         maxElementsInOneLine: 3,
+        maxArgsInOneLine: 100,
         maxElementLengthInOneLine: 15,
         maxLogicalsInOneLine: 3,
         maxVariablesInOneLine: 4,
