@@ -1,3 +1,8 @@
+2026.08.21, v18.40.0
+
+feature:
+- 0050ee83 @putout/printer: __putout_processor_sql: add support
+
 2026.08.21, v18.39.0
 
 feature:
