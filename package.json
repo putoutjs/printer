@@ -86,7 +86,6 @@
     "@putout/plugin-react-hooks": "^9.0.0",
     "@supertape/operator-strip": "^1.0.0",
     "acorn": "^8.8.2",
-    "chalk": "^5.6.2",
     "check-dts": "^1.0.0",
     "escover": "^6.0.0",
     "eslint": "^10.0.0",
