@@ -1,3 +1,8 @@
+2026.08.22, v18.40.2
+
+fix:
+- 8134ac8f @putout/printer: json, sql
+
 2026.08.21, v18.40.1
 
 feature:
