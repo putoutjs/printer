@@ -1,3 +1,8 @@
+2026.08.25, v18.41.0
+
+feature:
+- 7d4b662d @putout/printer: TSInstantiationExpression: parens
+
 2026.08.24, v18.40.3
 
 feature:
