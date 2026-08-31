@@ -18,12 +18,9 @@ export interface Semantics {
     trailingComma: boolean;
 }
 
-export type Print = (input: string | Node) => void;
-
+export type PrinterPrint = (input: string | Node) => void;
 export type Indent = () => void;
-
 export type Traverse = (input: Node) => void;
-
 export type MaybeCondition = (condition: boolean) => void;
 
 export type MaybeIndent = {
@@ -43,7 +40,7 @@ export interface Maybe {
 }
 
 export interface Printer {
-    print: Print;
+    print: PrinterPrint;
     maybe: Maybe;
     indent: Indent;
     traverse: Traverse;
@@ -61,7 +58,8 @@ export interface Options {
     visitors?: Visitors;
 }
 
-export function print(ast: Node, options?: Options): string;
+type Print = (ast: Node, options?: Options) => string;
+export const print: Print;
 
-export declare function maybeVisitor(plugin: Visitor, path: Node, printer: Print, semantics: Semantics): void;
+export declare function maybeVisitor(plugin: Visitor, path: Node, printer: Printer, semantics: Semantics): void;
 export const visitors: Visitors;

@@ -7,16 +7,23 @@ import {
     Semantics,
     Visitor,
     Printer,
+    Print,
 } from '#printer';
 
 const {identifier} = types;
 const id = (a: unknown) => a;
 
+// THROWS Type '(a: string) => string' is not assignable to type 'Print'.
+const printFn: Print = (a: string) => a;
+
+// THROWS Argument of type 'Print' is not assignable to parameter of type 'Node'.
+printFn(printFn);
+
 // THROWS Expected 4 arguments, but got 1.
 maybeVisitor(1);
 
 // THROWS Argument of type 'number' is not assignable to parameter of type 'Visitor'
-maybeVisitor(1, 2, 3, 4);
+maybeVisitor(1, 2, {} as Printer, 4);
 
 // THROWS Argument of type 'number' is not assignable to parameter of type 'Node'
 const a = maybeVisitor(visitors.ArrayExpression, 2, 3, 4);
