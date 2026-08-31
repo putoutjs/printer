@@ -1,3 +1,8 @@
+2026.08.31, v18.42.1
+
+fix:
+- 9ade0b23 @putout/printer: types: Printer
+
 2026.08.31, v18.42.0
 
 feature:
