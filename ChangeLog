@@ -1,3 +1,8 @@
+2026.09.02, v18.42.2
+
+feature:
+- 455bdcf0 @putout/printer: ConditionalExpression: consequent is ObjectExpression: no multiline
+
 2026.08.31, v18.42.1
 
 fix:
