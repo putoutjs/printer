@@ -1,3 +1,8 @@
+2026.09.02, v18.42.3
+
+fix:
+- 41c18081 @putout/printer: ConditionalExpression: inside CallExpression: not multiline
+
 2026.09.02, v18.42.2
 
 feature:
