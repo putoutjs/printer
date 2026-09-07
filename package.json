@@ -10,6 +10,7 @@
     ".": "./lib/printer.js",
     "./is": "./lib/tokenize/is.js",
     "./params": "./lib/tokenize/expressions/function/params.js",
+    "./return-type": "./lib/tokenize/expressions/function/return-type.js",
     "./type-checker": "./lib/tokenize/type-checker/type-checker.js",
     "./type-checker/instrument": "./lib/tokenize/type-checker/instrument.js",
     "./type-checker/report": "./lib/tokenize/type-checker/report.js",
