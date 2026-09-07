@@ -1,5 +1,5 @@
 import {parse} from '@putout/babel';
-import {print} from '../lib/printer.js';
+import {print} from '#printer';
 
 const ast = parse('const {a = 5} = b');
 
