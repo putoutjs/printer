@@ -19,8 +19,11 @@ export interface Semantics {
 }
 
 export type PrinterPrint = (input: string | Node) => void;
+
 export type Indent = () => void;
+
 export type Traverse = (input: Node) => void;
+
 export type MaybeCondition = (condition: boolean) => void;
 
 export type MaybeIndent = {
@@ -59,6 +62,7 @@ export interface Options {
 }
 
 type Print = (ast: Node, options?: Options) => string;
+
 export const print: Print;
 
 export declare function maybeVisitor(plugin: Visitor, path: Node, printer: Printer, semantics: Semantics): void;
