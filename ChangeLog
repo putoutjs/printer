@@ -1,3 +1,8 @@
+2026.09.10, v18.44.0
+
+feature:
+- 6428169a @putout/printer: CallExpression: with first argument chainend call expression: new lines
+
 2026.09.07, v18.43.0
 
 feature:
