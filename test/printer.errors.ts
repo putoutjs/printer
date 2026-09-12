@@ -62,5 +62,5 @@ id(visitor);
 const fn = (printer: Printer) => printer;
 const printer = {};
 
-// THROWS Argument of type '{}' is not assignable to parameter of type 'Printer'.
+// THROWS Type '{}' is missing the following properties from type 'Printer': print, maybe, indent, traverse
 fn(printer);

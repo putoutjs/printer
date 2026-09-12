@@ -89,8 +89,9 @@
     "@putout/plugin-react-hook-form": "^6.0.0",
     "@putout/plugin-react-hooks": "^9.0.0",
     "@supertape/operator-strip": "^1.0.0",
+    "@typescript/native": "npm:typescript@^7.0.2",
     "acorn": "^8.8.2",
-    "check-dts": "^1.0.0",
+    "check-dts": "^2.0.0",
     "escover": "^6.0.0",
     "eslint": "^10.0.0",
     "eslint-plugin-putout": "^31.0.0",
@@ -105,8 +106,7 @@
     "samadhi": "^4.0.2",
     "superc8": "^12.2.4",
     "supertape": "^13.2.0",
-    "try-catch": "^4.0.6",
-    "typescript": "^6.0.2"
+    "try-catch": "^4.0.6"
   },
   "license": "MIT",
   "engines": {
