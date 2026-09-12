@@ -1,3 +1,8 @@
+2026.09.12, v18.44.1
+
+fix:
+- 4b4e5037 comments: parse-trailing-comments: no loc
+
 2026.09.10, v18.44.0
 
 feature:
