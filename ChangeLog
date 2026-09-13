@@ -1,3 +1,8 @@
+2026.09.13, v18.45.0
+
+feature:
+- 96b799c3 @putout/printer: ClassDeclaration: definite
+
 2026.09.12, v18.44.1
 
 fix:
