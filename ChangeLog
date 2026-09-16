@@ -1,3 +1,8 @@
+2026.09.16, v18.46.0
+
+feature:
+- fd944e84 @putout/printer: TSMethodSignature: optional
+
 2026.09.13, v18.45.0
 
 feature:
