@@ -1,3 +1,10 @@
+2026.09.30, v18.47.0
+
+feature:
+- fda0e2f3 @putout/printer: ObjectPattern: hasCoupleProperties: apply type checker
+- 3301db7c @putout/printer: ObjectPattern: apply type checker
+- 805d58d3 @putout/printer: ObjectPattern: nested array pattern
+
 2026.09.16, v18.46.0
 
 feature:
