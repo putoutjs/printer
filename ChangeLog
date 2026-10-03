@@ -1,3 +1,9 @@
+2026.10.03, v18.47.4
+
+feature:
+- 4b751ba4 @putout/printer: CallExpression: isCommaAfterArg: merge
+- df951f4f @putout/printer: CallExpression: isBreaklineAfterAllArgs
+
 2026.10.03, v18.47.3
 
 feature:
