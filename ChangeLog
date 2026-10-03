@@ -1,3 +1,8 @@
+2026.10.03, v18.47.3
+
+feature:
+- 8be3bb39 @putout/printer: CallExpression: isCommaAfterArg
+
 2026.10.03, v18.47.2
 
 feature:
