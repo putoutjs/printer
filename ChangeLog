@@ -1,3 +1,9 @@
+2026.10.03, v18.47.2
+
+feature:
+- c3133393 @putout/printer: CallExpression: isBreaklineAfterArg
+- edd8d692 @putout/printer: CallExpression: apply type checker
+
 2026.10.01, v18.47.1
 
 feature:
