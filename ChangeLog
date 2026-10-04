@@ -1,3 +1,9 @@
+2026.10.04, v18.47.5
+
+feature:
+- 6c71fe95 @putout/printer: CallExpression: comment: interanl
+- f4265854 @putout/printer: CallExpression: filled array
+
 2026.10.03, v18.47.4
 
 feature:
