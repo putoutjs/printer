@@ -1,3 +1,8 @@
+2026.10.17, v18.48.0
+
+feature:
+- b8c5a8ef @putout/printer: jsx: indent: improve
+
 2026.10.04, v18.47.5
 
 feature:
