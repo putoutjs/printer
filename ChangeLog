@@ -1,3 +1,10 @@
+2026.11.03, v18.49.0
+
+feature:
+- 80d1224d @putout/printer: ExportDeclaration: defer (https://github.com/tc39/proposal-deferred-reexports)
+- d8ad8369 @putout/printer: ImportExpression: sync (https://github.com/tc39/proposal-import-sync)
+- cf513b78 @putout/printer: StructDeclaration (https://github.com/tc39/proposal-structs)
+
 2026.10.17, v18.48.0
 
 feature:
