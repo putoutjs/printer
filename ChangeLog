@@ -1,3 +1,8 @@
+2026.11.08, v18.49.2
+
+fix:
+- 669f5530 revert: jsx: " -> &quot - move to operator-jsx
+
 2026.11.07, v18.49.1
 
 fix:
