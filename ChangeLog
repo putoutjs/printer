@@ -1,3 +1,8 @@
+2026.11.09, v18.49.3
+
+feature:
+- 26765033 @putout/printer: isStatementNotExpression: apply type checker
+
 2026.11.08, v18.49.2
 
 fix:
