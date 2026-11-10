@@ -1,13 +1,14 @@
 {
     "plugins": ["printer"],
     "rules": {
+        "type-checker": "on",
         "github/convert-npm-to-bun": "off",
         "putout/apply-lowercase-to-node-builders": "on",
         "putout/remove-useless-source-argument": "on"
     },
     "match": {
         "type-checker.spec.js": {
-            "printer": "off"
+            "type-checker": "off"
         },
         "*.md": {
             "printer/remove-args": "off"
@@ -18,8 +19,8 @@
             "variables/remove-useless": "off"
         },
         "test": {
-            "printer/check-type-passed-to-type-checker": "off",
-            "printer/check-if-success-possible-in-type-checke": "off"
+            "type-checker/check-type-passed-to-type-checker": "off",
+            "type-checker/check-if-success-possible-in-type-checke": "off"
         },
         "*.ts": {
             "esm": "off"
