@@ -1,3 +1,9 @@
+2026.11.11, v18.50.0
+
+feature:
+- b1b2f37b @putout/printer: type-checker: !=
+- 7599dd31 @putout/printer: @putout/plugin-printer v9.0.0
+
 2026.11.09, v18.49.3
 
 feature:
