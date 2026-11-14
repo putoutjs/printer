@@ -484,3 +484,8 @@ test('putout: printer: while-statement', (t) => {
     t.print(fixture.whileStatement);
     t.end();
 });
+
+test('putout: printer: MetaProperty: new.target', (t) => {
+    t.print(fixture.metaPropertyNewTarget);
+    t.end();
+});
