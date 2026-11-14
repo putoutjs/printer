@@ -1,3 +1,8 @@
+2026.11.14, v18.50.1
+
+fix:
+- f509fd69 @putout/printer: CallExpression: member callee not first argument
+
 2026.11.11, v18.50.0
 
 feature:
