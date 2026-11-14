@@ -1,3 +1,11 @@
+2026.11.14, v18.50.4
+
+fix:
+- 0674b591 @putout/printer: MetaProperty: new.target printed as import.meta (#7)
+- 288335cb @putout/printer: ObjectPattern: crash on AssignmentPattern with pattern on the left (#7)
+- 31b5f48e @putout/printer: MemberExpression: parens lost around integer literal (#7)
+- 91630591 @putout/printer: ArrayExpression: trailing hole dropped (#7)
+
 2026.11.14, v18.50.3
 
 fix:
