@@ -1,3 +1,8 @@
+2026.11.17, v18.50.6
+
+fix:
+- 2b3dae97 ArrayPattern: comma after RestElement
+
 2026.11.14, v18.50.5
 
 fix:
