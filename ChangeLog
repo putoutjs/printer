@@ -1,3 +1,8 @@
+2026.11.21, v18.51.0
+
+feature:
+- 53e29be3 @putout/printer: type-checker: instrument: add stackIndex
+
 2026.11.17, v18.50.6
 
 fix:
