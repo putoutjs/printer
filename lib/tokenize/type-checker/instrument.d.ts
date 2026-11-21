@@ -10,6 +10,7 @@ type InstrumentOverride = {
     };
     coverage?: Map<string, CoverageEntry>;
     instrumentName?: string;
+    stackIndex?: number;
     [key: string]: unknown;
 };
 
