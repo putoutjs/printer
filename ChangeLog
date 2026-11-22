@@ -1,3 +1,8 @@
+2026.11.22, v18.52.4
+
+feature:
+- 63f30d8e @putout/printer: ClassProperty: comments: simplify
+
 2026.11.22, v18.52.3
 
 feature:
