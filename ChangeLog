@@ -1,3 +1,11 @@
+2026.11.22, v18.52.5
+
+feature:
+- d16fbe76 @putout/printer: TSEnumMember: comments: simplify
+- 9ef70bdd @putout/printer: Directive: comments: simplify
+- 4b778dcd @putout/printer: ClassMethod: comments: simplify
+- a7745403 @putout/printer: SwitchStatement: comments
+
 2026.11.22, v18.52.4
 
 feature:
