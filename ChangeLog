@@ -1,3 +1,10 @@
+2026.11.23, v18.54.0
+
+feature:
+- c1042a75 @putout/printer: Decorator: improve support
+- fd792b99 @putout/printer: CallExpression: comments: improve
+- da22ea1d @putout/printer: BinaryExpression: comments: improve
+
 2026.11.23, v18.53.0
 
 feature:
