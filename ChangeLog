@@ -1,3 +1,8 @@
+2026.11.23, v18.52.6
+
+fix:
+- 99e2d3ed @putout/printer: loops: inside Function
+
 2026.11.22, v18.52.5
 
 feature:
