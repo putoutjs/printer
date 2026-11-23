@@ -1,3 +1,8 @@
+2026.11.23, v18.52.7
+
+fix:
+- d0fb56b5 @putout/printer: ForInStatement: without block
+
 2026.11.23, v18.52.6
 
 fix:
