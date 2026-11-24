@@ -1,3 +1,12 @@
+2026.11.24, v18.55.0
+
+feature:
+- 7dd53f04 @putout/printer: comments: simplify
+- 37294ab5 @putout/printer: comments: type checker
+- dcc039da @putout/printer: ExpressionStatement: comments: improve
+- ef1fb2d4 @putout/printer: Statements: comments: simplify
+- f53f725c @putout/printer: CallExpression: comments: improve
+
 2026.11.23, v18.54.0
 
 feature:
